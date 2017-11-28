@@ -22,7 +22,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_User" id="EBFEB57A-6870-5D8F-774A-EA70A170402E">
+<Attribute name="User_SID" id="EBFEB57A-6870-5D8F-774A-EA70A170402E">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:50:45 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
