@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EABF8625-CC1A-A076-0173-9D348C36BF86" name="Kundenart">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-02 16:34:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_Kundenart" id="7D333F41-0D50-8839-80EF-6D130FEF33D6">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-02 16:34:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundenArt" id="36815FB2-733A-EF2E-F13E-281757B267D2">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-02 16:34:50 UTC</createdTime>
+<comment>Third Customer, ICC, ...</comment>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Load_ID" id="7B92D09B-700A-CBC0-F6BD-9E4AC48C6EAD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:21:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

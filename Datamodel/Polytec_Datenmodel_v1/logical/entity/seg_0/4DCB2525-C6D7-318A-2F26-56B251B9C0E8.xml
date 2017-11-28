@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DCB2525-C6D7-318A-2F26-56B251B9C0E8" name="ProfitCenter">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-17 15:38:20 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_ProfitCenter" id="4C4F0EA2-6BF8-A540-CCC2-30736D861F5E">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 15:21:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="ACB3534D-8DA0-B4AA-F277-A7CDDFE4E8DD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:05:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodeWerk" id="4D01DCBC-7048-DB2F-DE49-E7C8E10E8C99">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:48:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SID_Werk" id="93ABEA96-D59C-CD0F-A4A2-75C4CE4D2E07">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:04:02 UTC</createdTime>
+<comment>Werk1, Werk2</comment>
+<generatorID>7C7A8962-6C8D-0CDB-C4D7-5D0FB401188A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>34C0D74B-08F4-25C6-AEA3-C6721EB56C90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bezeichnung" id="22E951FC-870F-DC83-4202-B323FA2773AB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:06:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Load_ID" id="36F5525C-9D0D-C5F9-2385-C5CFDC7107BF">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:20:30 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A434FE88-BFD3-C5AF-81AF-C61DD8880674" name="ProfitCenter PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:05:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C4F0EA2-6BF8-A540-CCC2-30736D861F5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

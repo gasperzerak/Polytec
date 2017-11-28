@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Polytec_Datenmodel_v1" id="56900435-173A-625D-17F1-66D4AD2FF043" version="3.5">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-17 15:35:42 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>56900435-173A-625D-17F1-66D4AD2FF043</designId>
+</OSDM_Design>

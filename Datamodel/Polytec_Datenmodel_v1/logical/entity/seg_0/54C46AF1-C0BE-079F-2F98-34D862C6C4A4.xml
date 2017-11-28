@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54C46AF1-C0BE-079F-2F98-34D862C6C4A4" name="Data_Kunde_Gruppe">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 08:43:42 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_Data_Kunde_Gruppe" id="575AD5D4-EF28-E870-320D-C3BE51E46B43">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 14:58:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AD_GruppenName" id="987F794E-008A-AB1C-8937-0E9DCE7DE2D8">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 14:58:22 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VKORG" id="30CBFD8B-9F9B-D9D2-31CD-7441972B8293">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 14:58:30 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KAM" id="AF7F856C-4866-F090-D646-F1D19CF8CFD1">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 15:40:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kunde" id="E6E3DA2B-E5F1-DF49-C1AC-8C5F5CDE7399">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 15:41:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

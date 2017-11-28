@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D27AA9F9-517B-4258-16C8-1C151C992C1C" name="WerkzeugArt">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:26:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_WerkzeugArt" id="C71DAECE-0B2D-6C65-D714-1AF9EBCC41AC">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:27:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="CE9084F7-5C8F-7DFB-B61F-C55AA5094B3E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:05:51 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bezeichnung" id="A4C0B452-D9BC-5D58-371B-0FB4F27D03F2">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:06:00 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Load_ID" id="3CEAE609-F1B3-B9DD-FBC5-DA544FBE3311">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:24:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6D887ED-C438-6807-7009-59FAA9742ADA" name="WerkzeugArt PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:05:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C71DAECE-0B2D-6C65-D714-1AF9EBCC41AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

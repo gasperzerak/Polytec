@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84A0056D-C5BA-0E6D-7A1A-3C581AC37003" name="Gruppe">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 14:56:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_Gruppe" id="55555216-CDF0-CC61-092E-B83F48885CD4">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 14:57:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

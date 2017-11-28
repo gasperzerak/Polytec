@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7B7B9D01-7BA5-25FA-9CA9-D8FD74E6E9A4" mainViewID="619F6915-C760-6ADC-AC0A-B45A54D02E85">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-17 15:35:42 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

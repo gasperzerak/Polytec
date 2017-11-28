@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E90803E8-ED03-3931-355E-F382180BDB90" name="ArtikelGruppe1">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:14:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_Artikel" id="383F94A1-0330-EAA8-9B32-BEF919D6E2AE">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:14:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="C690D186-252E-BDDF-C420-8067D7933F73">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:23:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bezeichnung" id="52541966-B141-94CA-FFD7-5FF6B7425E6D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:23:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC6D5D30-813E-5D1D-8B02-FACAE0D3DFE3" name="ArtikelGruppe1 PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:23:29 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>383F94A1-0330-EAA8-9B32-BEF919D6E2AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C04C62BD-2782-B32A-6496-6938D0E9A97F" name="Land">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 10:56:48 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SID_Land" id="5B9B6770-D3CE-8200-6B44-39BAA18A4852">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 10:56:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="E0D19ECF-03F4-8173-A9BB-3CEF9DF8231F">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 10:56:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bezeichnung" id="06ECD465-11D5-E9DE-D198-728763CE5A89">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 11:53:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Load_ID" id="13D7C49C-40BB-B300-D7FE-268F70AE9249">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:20:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5AC14E0-F9B2-C5C6-74AC-9755B43A91AA" name="Land PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 11:53:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B9B6770-D3CE-8200-6B44-39BAA18A4852</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
