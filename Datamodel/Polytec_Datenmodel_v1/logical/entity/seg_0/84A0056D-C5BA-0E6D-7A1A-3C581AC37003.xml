@@ -26,7 +26,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 14:57:04 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -42,4 +41,15 @@
 <ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13C0FB68-F0F2-481E-0CBB-EB945F904C47" name="Gruppe PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 21:44:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55555216-CDF0-CC61-092E-B83F48885CD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

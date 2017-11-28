@@ -26,7 +26,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 12:37:25 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -150,4 +149,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26F6EB8F-8472-3408-119A-493047F36CC1" name="Kunde PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 21:41:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E140304-4886-E3B8-6898-B5439C5BE0A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

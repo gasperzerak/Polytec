@@ -3,9 +3,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 08:43:42 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 14:58:06 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -30,9 +24,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 14:58:22 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -41,9 +32,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 14:58:30 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -52,9 +40,6 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 15:40:54 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -63,10 +48,16 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 15:41:04 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SID_Gruppe" id="B8C3A736-7077-70F1-710C-290A78223689">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 21:44:38 UTC</createdTime>
+<generatorID>112CF076-9AD0-7939-E62E-DC75D85E0346</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>55555216-CDF0-CC61-092E-B83F48885CD4</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

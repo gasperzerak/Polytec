@@ -3,9 +3,7 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 14:59:18 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="8268EA70-2C3A-33A5-1D4E-CEA16C0CD2DF" value="true"/>
-</engineerTo>
+<sourcePk>13C0FB68-F0F2-481E-0CBB-EB945F904C47</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
