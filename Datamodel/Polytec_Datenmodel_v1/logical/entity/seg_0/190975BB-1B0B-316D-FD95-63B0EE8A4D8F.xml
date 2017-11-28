@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_BusinessType" id="171754AB-CD12-BC48-8EFE-8485F2AE4B56">
+<Attribute name="Load_ID" id="1EE4670D-1C3A-6504-0AA2-BFD8AA68FD3A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:21:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessTyp_SID" id="171754AB-CD12-BC48-8EFE-8485F2AE4B56">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 13:07:55 UTC</createdTime>
 <comment>Booked, Potential, ...</comment>
@@ -53,16 +63,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="1EE4670D-1C3A-6504-0AA2-BFD8AA68FD3A">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:21:25 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

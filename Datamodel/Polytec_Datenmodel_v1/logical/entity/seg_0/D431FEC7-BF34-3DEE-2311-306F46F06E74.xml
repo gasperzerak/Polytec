@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Artikel" id="FB2E0D1F-3929-8847-46FA-43BA3B70E4EC">
+<Attribute name="Load_ID" id="7E9E9C73-00C4-68F2-7512-2256EB130875">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 11:22:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtikelGruppe3_SID" id="FB2E0D1F-3929-8847-46FA-43BA3B70E4EC">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:13:24 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -21,12 +31,11 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Artikel1" id="2EA4C496-CB0B-C24C-B101-CCE59BDE541C">
+<Attribute name="ArtikelGruppe2_SID" id="57A90EBC-BE4A-44C4-A052-8A880EA48F82">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:24:19 UTC</createdTime>
-<generatorID>BF896041-5F58-7FE0-7857-247FEF1B67A6</generatorID>
+<createdTime>2017-11-27 12:28:13 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>EFBF43F0-30A9-5D85-60EA-396D4CF40121</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -42,6 +51,17 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ArtikelGruppe2_SID1" id="D0DD8416-690F-E6CE-85FB-7BEEECC6EB34">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:34:34 UTC</createdTime>
+<generatorID>8B84719C-2B44-DE87-3F41-884ED8CED8B8</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>EFBF43F0-30A9-5D85-60EA-396D4CF40121</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Bezeichnung" id="138C277D-01D8-A4FB-A77B-2D1A2167D8F0">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:29:11 UTC</createdTime>
@@ -52,17 +72,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CodeArtikelGruppe2" id="57A90EBC-BE4A-44C4-A052-8A880EA48F82">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:28:13 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

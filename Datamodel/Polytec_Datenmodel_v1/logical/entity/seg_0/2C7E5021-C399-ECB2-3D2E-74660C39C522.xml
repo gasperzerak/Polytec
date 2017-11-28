@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Artikel" id="EFBF43F0-30A9-5D85-60EA-396D4CF40121">
+<Attribute name="Load_ID" id="912DCD75-0AF3-5DAB-77F6-62541045E2AB">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 11:22:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtikelGruppe2_SID" id="EFBF43F0-30A9-5D85-60EA-396D4CF40121">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:13:53 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -20,6 +30,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtikelGruppe1_SID" id="5C2E05DF-6F99-5F36-611B-8055E307818F">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:13:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Code" id="8B4FD600-AB13-A797-2EEB-DE76A1FD4F31">
 <createdBy>aschweinberger</createdBy>
@@ -42,21 +63,10 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeArtikelGruppe1" id="5C2E05DF-6F99-5F36-611B-8055E307818F">
+<Attribute name="ArtikelGruppe1_SID1" id="0365C77E-5BC5-DE6C-E8B9-DDC5F607CF58">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 16:13:53 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SID_Artikel1" id="BB5ED9BA-C73E-B7DA-FF66-03DC008ECE22">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:23:30 UTC</createdTime>
-<generatorID>0224D6B0-60DF-16BE-64D4-598D1E7A9C98</generatorID>
+<createdTime>2017-11-28 12:35:29 UTC</createdTime>
+<generatorID>6B8FAB84-8B8B-9D3E-8DB9-CE1EC1CE4AC0</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>383F94A1-0330-EAA8-9B32-BEF919D6E2AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

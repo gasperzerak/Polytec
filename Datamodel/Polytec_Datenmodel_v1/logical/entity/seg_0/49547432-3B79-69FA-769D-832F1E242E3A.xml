@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_CostCenter" id="FC7BF0AB-96B8-BBA9-CAF9-381236AA1731">
+<Attribute name="Load_ID" id="B85ECECB-7597-578D-D7C2-4CB40149D3AA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:19:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CostCenter_SID" id="FC7BF0AB-96B8-BBA9-CAF9-381236AA1731">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 15:21:57 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -21,12 +31,11 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Waehrung" id="37AE6C7D-EA76-300A-A3AC-2E698727C587">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:01:38 UTC</createdTime>
-<generatorID>C86BB8FE-5763-D6B6-7031-FAC0090AC673</generatorID>
+<Attribute name="Waehrung_SID" id="44C2BDD4-E749-15CA-A609-798E1685A760">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:51:21 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -53,11 +62,12 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Load_ID" id="B85ECECB-7597-578D-D7C2-4CB40149D3AA">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:19:33 UTC</createdTime>
+<Attribute name="Waehrung_SID1" id="E8D066D2-EA2A-FA76-224A-137CF7931429">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:51:38 UTC</createdTime>
+<generatorID>C7C08CD1-FB23-5C4E-66CA-0CDF37835F05</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

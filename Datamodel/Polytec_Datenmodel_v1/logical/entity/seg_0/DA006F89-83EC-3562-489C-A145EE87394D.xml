@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Teilart" id="F670BE6A-D13C-8EF9-A9CC-88A1B14E6DBA">
+<Attribute name="Load_ID" id="C51CB820-24BF-4D3E-E7D5-369D4275259D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:23:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teilart_SID" id="F670BE6A-D13C-8EF9-A9CC-88A1B14E6DBA">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:23:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,16 +51,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="C51CB820-24BF-4D3E-E7D5-369D4275259D">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:23:40 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

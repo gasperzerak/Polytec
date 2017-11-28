@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Artikel" id="547905D9-E6AD-7394-BBD4-D034A0E0D290">
+<Attribute name="Load_ID" id="8C8382BE-38B3-2CC1-FAA2-8CB5F770A704">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 11:21:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtikelGruppe4_SID" id="547905D9-E6AD-7394-BBD4-D034A0E0D290">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:12:49 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -21,12 +31,11 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Artikel1" id="801ECF44-DC1D-53AD-2B84-CF341050EF75">
+<Attribute name="ArtikelGruppe3_SID" id="D9BE73D0-BF1D-4F97-F270-C46331C66EBD">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:27:47 UTC</createdTime>
-<generatorID>5419C375-A41B-B86F-269B-32D8C426AEFA</generatorID>
+<createdTime>2017-11-27 12:34:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>FB2E0D1F-3929-8847-46FA-43BA3B70E4EC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -53,16 +62,16 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeArtikelGruppe3" id="D9BE73D0-BF1D-4F97-F270-C46331C66EBD">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:34:47 UTC</createdTime>
+<Attribute name="ArtikelGruppe3_SID1" id="0EA8A949-E46A-590E-F919-E3DA72D24317">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:33:12 UTC</createdTime>
+<generatorID>3F4BE558-8498-A816-7D63-2982D7FF02E9</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB2E0D1F-3929-8847-46FA-43BA3B70E4EC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

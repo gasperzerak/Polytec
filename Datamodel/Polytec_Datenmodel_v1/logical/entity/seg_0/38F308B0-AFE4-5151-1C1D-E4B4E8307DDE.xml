@@ -12,10 +12,60 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Artikel" id="0FF17309-F279-EB3A-98A4-06F2C7EAE3B9">
+<Attribute name="Load_ID" id="DEFECE8A-37DA-1360-BF6B-32E390B267A3">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:23:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artikel_SID" id="0FF17309-F279-EB3A-98A4-06F2C7EAE3B9">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 12:42:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID" id="8E7689B0-1BBA-5479-ED8E-16628884036F">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:11:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ueberartikel_SID" id="886A0B1E-E227-84BC-994B-1A69D18D62C6">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:05:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teileart_SID" id="C0CFEE81-96C5-6B29-40B3-AD417B08E950">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:47:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtikelGruppe4_SID" id="62DD8361-AAF9-50F7-F406-ED385212ACF8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:49:13 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -31,29 +81,17 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeERPProjekt" id="8E7689B0-1BBA-5479-ED8E-16628884036F">
+<Attribute name="QuellSystem" id="EBAEA119-65F6-2A34-0EB5-3666A5CCA8B9">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 16:11:46 UTC</createdTime>
+<createdTime>2017-11-28 12:25:21 UTC</createdTime>
+<comment>Siemens, ERP, ...</comment>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeUeberartikel" id="886A0B1E-E227-84BC-994B-1A69D18D62C6">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 16:05:56 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ArtikelNameBezeichnung" id="48D8FE9B-9549-E75A-4684-63BD1BAFF72C">
+<Attribute name="ArtikelName" id="48D8FE9B-9549-E75A-4684-63BD1BAFF72C">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 12:43:00 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -64,42 +102,9 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeERP" id="C2BB470D-A996-D9B5-14DA-9DA2A87F4C44">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:38:56 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BezeichnungERP" id="92E32BD2-CCCF-CDDD-208C-E39513E0CBEE">
+<Attribute name="Bezeichnung" id="92E32BD2-CCCF-CDDD-208C-E39513E0CBEE">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:39:11 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CodeSiemensArtikel" id="A1A1CF0E-8C97-25DF-EC0A-36B8B791AC04">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:39:33 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BezeichnungSiemens" id="2E0840EB-F2DB-2FB1-14B1-AF6F1E20B41E">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:39:49 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -195,17 +200,6 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Teileart" id="C0CFEE81-96C5-6B29-40B3-AD417B08E950">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:47:24 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Materialart" id="E0A4AFE5-5B5E-2D3B-E07A-C314D8C5CB38">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:48:49 UTC</createdTime>
@@ -217,18 +211,7 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeArtikelGruppe4" id="62DD8361-AAF9-50F7-F406-ED385212ACF8">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:49:13 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SID_Teilart" id="4D716B32-B837-28B2-87BA-FC2F7726854B">
+<Attribute name="Teilart_SID" id="4D716B32-B837-28B2-87BA-FC2F7726854B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:06:45 UTC</createdTime>
 <generatorID>94E4DF91-8D48-39EB-F4CF-E223E8939756</generatorID>
@@ -239,7 +222,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Projekt" id="4FC39245-A09B-2340-D2A6-9EBC007844E3">
+<Attribute name="Projekt_SID1" id="4FC39245-A09B-2340-D2A6-9EBC007844E3">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:15:06 UTC</createdTime>
 <generatorID>592A3471-C480-5A24-6E86-BC6D9E685DD6</generatorID>
@@ -250,18 +233,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Artikel1" id="6CE7FECC-BC7E-EB4D-A01C-6723C21FBFD3">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 13:19:15 UTC</createdTime>
-<generatorID>A8313B83-FB19-BD53-EE8A-D09C8E68333B</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>547905D9-E6AD-7394-BBD4-D034A0E0D290</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SID_Ueberartikel" id="85E9884E-5676-4BF5-4294-DCAC5935D7FE">
+<Attribute name="Ueberartikel_SID1" id="85E9884E-5676-4BF5-4294-DCAC5935D7FE">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:36:56 UTC</createdTime>
 <generatorID>471392E4-280D-06BE-9369-7D225BEF66BE</generatorID>
@@ -272,11 +244,12 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Load_ID" id="DEFECE8A-37DA-1360-BF6B-32E390B267A3">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:23:31 UTC</createdTime>
+<Attribute name="ArtikelGruppe4_SID1" id="E7BD4A6E-DEE2-8DF5-0093-E32326241787">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:30:53 UTC</createdTime>
+<generatorID>5EBE6DDB-5582-F7DE-E009-56BCE9AE88F8</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>547905D9-E6AD-7394-BBD4-D034A0E0D290</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

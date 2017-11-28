@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Projekt" id="7CD178B8-9A45-4490-F792-4BA6B76610AC">
+<Attribute name="Load_ID" id="C459A6FF-CAE0-2F19-4C2F-BF1FB0ADFE6D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:22:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID" id="7CD178B8-9A45-4490-F792-4BA6B76610AC">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 13:59:57 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -21,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Konzernkunde" id="2076F042-907C-428D-E7A7-C67A30E76B7C">
+<Attribute name="KonzernKunde_SID" id="2076F042-907C-428D-E7A7-C67A30E76B7C">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:22:12 UTC</createdTime>
 <generatorID>0DD9909B-8324-97AE-A718-271C0218894A</generatorID>
@@ -109,7 +119,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Projektleiter" id="A433CD57-F300-FA2E-8C7E-47B00CD68065">
+<Attribute name="Projektleiter_SID" id="A433CD57-F300-FA2E-8C7E-47B00CD68065">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:36:08 UTC</createdTime>
 <generatorID>C212EA09-339B-D51D-11A1-32BDC73DDD04</generatorID>
@@ -120,23 +130,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_User" id="161F1ED6-4ADC-AD0E-E175-E27AD6C875A7">
+<Attribute name="KeyAccountManager_SID" id="161F1ED6-4ADC-AD0E-E175-E27AD6C875A7">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:43:39 UTC</createdTime>
 <comment> (KAM, Innendiestmitarbeiter, ...)</comment>
 <generatorID>4A890025-163D-0F0F-73F6-C35622B3D381</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>974545FA-16FB-4090-F257-A9678D70F709</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="C459A6FF-CAE0-2F19-4C2F-BF1FB0ADFE6D">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:22:39 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

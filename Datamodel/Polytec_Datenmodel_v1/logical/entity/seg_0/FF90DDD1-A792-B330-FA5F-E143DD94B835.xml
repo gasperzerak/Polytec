@@ -12,6 +12,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="F3B443E8-2585-97B8-412F-9F681F9E6CF9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:24:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="SID_User" id="EBFEB57A-6870-5D8F-774A-EA70A170402E">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:50:45 UTC</createdTime>
@@ -52,27 +62,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="F3B443E8-2585-97B8-412F-9F681F9E6CF9">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:24:28 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SID_UserGruppe" id="352576D4-4F80-D7B0-5D92-601CF811FBDE">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 15:00:57 UTC</createdTime>
-<generatorID>569D1566-5FFF-38DB-A4D0-F3DB162C3317</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>B60E356E-03C9-B654-2FC9-CA3944A5DF00</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

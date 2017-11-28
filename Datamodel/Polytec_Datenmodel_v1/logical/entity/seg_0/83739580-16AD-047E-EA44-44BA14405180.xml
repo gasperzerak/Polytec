@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_BusinessUnit" id="237FCEF5-931C-2274-50D6-A9D5C92A4321">
+<Attribute name="Load_ID" id="0BEC4390-968C-DE30-E589-839D1200221F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:20:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessUnit_SID" id="237FCEF5-931C-2274-50D6-A9D5C92A4321">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 12:57:29 UTC</createdTime>
 <comment>Plastic, Composits, Carstyling</comment>
@@ -42,16 +52,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="0BEC4390-968C-DE30-E589-839D1200221F">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:20:08 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

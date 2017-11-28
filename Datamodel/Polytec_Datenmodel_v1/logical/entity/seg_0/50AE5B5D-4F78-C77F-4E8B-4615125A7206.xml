@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_KundenGruppe2" id="F25919CB-E127-508C-EBC7-5C54B7797A18">
+<Attribute name="Load_ID" id="7F9A1B13-9517-3A1A-4F00-4EDCD83BAE1C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:22:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundenGruppe2_SID" id="F25919CB-E127-508C-EBC7-5C54B7797A18">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:05:40 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,28 +51,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SID_Sektor" id="41D410A7-1C9B-5D9C-A9CF-C6F6B3DBD643">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 11:00:24 UTC</createdTime>
-<comment>CAR, ...</comment>
-<generatorID>F94A64CC-33FE-B2FF-3F39-9BDDAB180C3E</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>35DA5EB6-6760-F5A4-B89C-958F55880FC4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="7F9A1B13-9517-3A1A-4F00-4EDCD83BAE1C">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:22:07 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Konzernkunde" id="9502D99A-626E-423D-C53F-4B266D2B130C">
+<Attribute name="Load_ID" id="E4E581AE-4BD0-7B3F-210C-06234F89729E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:21:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KonzernKunde_SID" id="9502D99A-626E-423D-C53F-4B266D2B130C">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 10:51:05 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -21,12 +31,11 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Kunde" id="0ED04AE0-6B8D-C0A3-0CC9-B227A7398E67">
+<Attribute name="EndKunde_SID" id="81442BA3-6F75-B148-E289-17C6D63DB681">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:33:19 UTC</createdTime>
-<generatorID>7C648BFD-2131-55C9-0BC6-694A122B423F</generatorID>
+<createdTime>2017-11-27 13:23:02 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -53,28 +62,6 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeEndKunde" id="81442BA3-6F75-B148-E289-17C6D63DB681">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 13:23:02 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Land" id="72194E7F-4EFE-B8A1-01CA-5F83D0EA4641">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 13:30:27 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="UIDNr" id="33C5F978-E9FD-EB97-61B3-7A13591782B4">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:30:39 UTC</createdTime>
@@ -86,11 +73,12 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Load_ID" id="E4E581AE-4BD0-7B3F-210C-06234F89729E">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:21:56 UTC</createdTime>
+<Attribute name="EndKunde_SID1" id="1C031D8A-2D06-C326-ECC9-D3957767945D">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:42:15 UTC</createdTime>
+<generatorID>4984F781-7235-F398-D4A4-DBF664BA8ADB</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

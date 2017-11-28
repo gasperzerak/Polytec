@@ -12,11 +12,41 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_KundenGruppe1" id="1711D5AD-2B7D-2B10-4AE2-0F5800F3A45C">
+<Attribute name="Load_ID" id="0C814025-65F4-37A3-23E5-FC75645B1BCB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:22:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundenGruppe2_SID" id="1711D5AD-2B7D-2B10-4AE2-0F5800F3A45C">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 15:05:02 UTC</createdTime>
 <comment>VW CAR</comment>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundenGruppe1_SID" id="E764FCA2-F0D3-0060-12F9-1914E0D15716">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 11:01:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sektor_SID" id="9704252D-CE7B-FE92-7183-1BA1418E0270">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 10:58:01 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -43,32 +73,10 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeKundenGruppe1" id="E764FCA2-F0D3-0060-12F9-1914E0D15716">
+<Attribute name="KundenGruppe2_SID1" id="E27E0FBB-1EF5-D75F-0DC5-955AB65F0355">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 11:01:27 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CodeSector" id="9704252D-CE7B-FE92-7183-1BA1418E0270">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 10:58:01 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SID_KundenGruppe2" id="F50BF554-1DF6-A1F6-C200-B8747A70A1C6">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:06:56 UTC</createdTime>
-<generatorID>BF4968BA-AE76-F4B6-A65E-4105AA05028C</generatorID>
+<createdTime>2017-11-28 12:40:52 UTC</createdTime>
+<generatorID>C7AD64A3-7810-F6C6-74FE-8FB5B3F7C535</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>F25919CB-E127-508C-EBC7-5C54B7797A18</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,11 +84,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Load_ID" id="0C814025-65F4-37A3-23E5-FC75645B1BCB">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:22:17 UTC</createdTime>
+<Attribute name="Sektor_SID1" id="FD7E8E0C-1D6C-D7A6-F7D4-7F75CF5F91AE">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:41:12 UTC</createdTime>
+<comment>CAR, ...</comment>
+<generatorID>9CEEC090-7222-0921-5DAA-889368DB0D0F</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>35DA5EB6-6760-F5A4-B89C-958F55880FC4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

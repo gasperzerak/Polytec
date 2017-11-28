@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Artikel" id="383F94A1-0330-EAA8-9B32-BEF919D6E2AE">
+<Attribute name="Load_ID" id="99A4942F-0AA2-05E6-1332-74FFCDA32E8D">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 11:22:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtikelGruppe1_SID" id="383F94A1-0330-EAA8-9B32-BEF919D6E2AE">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:14:46 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

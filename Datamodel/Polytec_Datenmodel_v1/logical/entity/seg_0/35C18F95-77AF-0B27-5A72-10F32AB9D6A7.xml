@@ -12,7 +12,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SID_Kunde" id="7A7A0CD8-83C3-7806-E5D0-B086EA989EA0">
+<Attribute name="Load_ID" id="7CE7C723-B418-40D1-7E72-A99FEA7E580C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:22:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndKunde_SID" id="7A7A0CD8-83C3-7806-E5D0-B086EA989EA0">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 10:51:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -53,23 +63,13 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_KundenGruppe1" id="33CD615F-5D2F-FEB7-845B-E67E88408408">
+<Attribute name="KundenGruppe2_SID" id="33CD615F-5D2F-FEB7-845B-E67E88408408">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 10:56:48 UTC</createdTime>
 <comment>VW CAR</comment>
 <generatorID>54786F7B-0D0D-995C-C7F9-1F9897C2211E</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>1711D5AD-2B7D-2B10-4AE2-0F5800F3A45C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Load_ID" id="7CE7C723-B418-40D1-7E72-A99FEA7E580C">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 14:22:28 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
