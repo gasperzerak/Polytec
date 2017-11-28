@@ -31,6 +31,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Code" id="BE0D5B8B-F0A8-D22B-C26C-8D910183C9B1">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 13:12:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="KundenArt" id="36815FB2-733A-EF2E-F13E-281757B267D2">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-02 16:34:50 UTC</createdTime>
