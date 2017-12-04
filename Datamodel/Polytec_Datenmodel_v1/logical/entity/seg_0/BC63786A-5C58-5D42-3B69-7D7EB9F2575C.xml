@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D540FC-E4D5-7ABE-3CC8-6186FBD7A192" name="TagetikKunde_Mapping">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC63786A-5C58-5D42-3B69-7D7EB9F2575C" name="Technologie">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:34:51 UTC</createdTime>
+<createdTime>2017-12-04 12:22:37 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,29 +12,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="KundeERP_Code" id="8D76E68A-5A47-0F05-C566-F00DBAE98DD1">
+<Attribute name="Load_ID" id="5B3996A9-37DF-6E95-B9CA-92DF459D233E">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:34:59 UTC</createdTime>
+<createdTime>2017-12-04 13:06:25 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="QuellSystem_Code" id="8A017E4A-A180-AD2A-FFB9-661D62D316DA">
+<Attribute name="Technologie_SID" id="4BED5562-1237-91FB-A780-DD480C0716A1">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 11:47:08 UTC</createdTime>
+<createdTime>2017-12-04 13:05:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KonzernKunde_Code" id="76CB32CA-3DC1-5E3D-37FC-D996E1BA9021">
+<Attribute name="Technologie_Bezeichnung" id="D1FB54F9-79D4-C4EB-C5E3-26C3E03E4503">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:35:46 UTC</createdTime>
+<createdTime>2017-12-04 13:06:05 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

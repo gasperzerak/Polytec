@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D540FC-E4D5-7ABE-3CC8-6186FBD7A192" name="TagetikKunde_Mapping">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88D6B86E-1325-1BFB-2BB2-B0E79CC57E47" name="Oberflaeche">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:34:51 UTC</createdTime>
+<createdTime>2017-12-04 12:21:43 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,25 +12,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="KundeERP_Code" id="8D76E68A-5A47-0F05-C566-F00DBAE98DD1">
+<Attribute name="Load_ID" id="5FB6AC94-13C3-FD30-B778-2EF1CF1DE92D">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:34:59 UTC</createdTime>
+<createdTime>2017-12-04 13:07:10 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="QuellSystem_Code" id="8A017E4A-A180-AD2A-FFB9-661D62D316DA">
+<Attribute name="Oberflaeche_SID" id="6CDBF5C5-2698-E639-792B-8FE242B84C77">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 11:47:08 UTC</createdTime>
+<createdTime>2017-12-04 12:22:08 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KonzernKunde_Code" id="76CB32CA-3DC1-5E3D-37FC-D996E1BA9021">
+<Attribute name="Oberflaeche_Bezeichnung" id="82C492E8-30D0-575C-B55E-74F8B491674C">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:35:46 UTC</createdTime>
+<createdTime>2017-12-04 12:22:15 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

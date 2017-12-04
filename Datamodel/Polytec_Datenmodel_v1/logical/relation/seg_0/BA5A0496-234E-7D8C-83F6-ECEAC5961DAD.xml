@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_64" directorySegmentName="seg_0" id="4A890025-163D-0F0F-73F6-C35622B3D381">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_48" directorySegmentName="seg_0" id="BA5A0496-234E-7D8C-83F6-ECEAC5961DAD">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 15:43:32 UTC</createdTime>
+<createdTime>2017-12-04 11:48:25 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<sourcePk>E6B830F1-81D6-74AB-C702-DB3D5CD9DFB2</sourcePk>
+<sourcePk>EF42D515-7D92-94DD-46DC-8089878A7EF2</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>CB3D6882-17DE-C79B-11A4-221AA2EF5307</sourceEntity>
+<sourceEntity>35C18F95-77AF-0B27-5A72-10F32AB9D6A7</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>45AC922A-EC32-5F53-2B4D-82976704ED66</targetEntity>
+<targetEntity>9B135050-0848-F9F7-03A2-C22AF30CF29B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

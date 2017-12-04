@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="5C1D00E2-DC7E-974B-6B32-E05A773416F7">
+<Attribute name="Projektleiter_Code" id="5C1D00E2-DC7E-974B-6B32-E05A773416F7">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:35:09 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="3C3BA0EC-625F-1ECF-AD80-DA6841A88FE3">
+<Attribute name="Projektleiter_Name" id="3C3BA0EC-625F-1ECF-AD80-DA6841A88FE3">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:35:31 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
