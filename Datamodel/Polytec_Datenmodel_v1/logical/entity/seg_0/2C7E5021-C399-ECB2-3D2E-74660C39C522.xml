@@ -42,7 +42,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="8B4FD600-AB13-A797-2EEB-DE76A1FD4F31">
+<Attribute name="ArtikelGrupp2_Code" id="8B4FD600-AB13-A797-2EEB-DE76A1FD4F31">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:32:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

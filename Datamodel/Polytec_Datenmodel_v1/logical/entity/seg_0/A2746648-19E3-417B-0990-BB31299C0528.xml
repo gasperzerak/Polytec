@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="CAF92CF3-EB17-A4B3-D5C9-C7D11C67EB0D">
+<Attribute name="ArtikelGruppe4_Code" id="CAF92CF3-EB17-A4B3-D5C9-C7D11C67EB0D">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:12:49 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
