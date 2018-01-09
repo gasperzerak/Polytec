@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB3D6882-17DE-C79B-11A4-221AA2EF5307" name="KAM">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB3D6882-17DE-C79B-11A4-221AA2EF5307" name="KeyAccountManager">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-17 15:37:27 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

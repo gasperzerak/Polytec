@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D499A892-0067-E7CA-1336-E7C3BA8F60E7" name="Abrufe">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC8D2B92-52B5-05DC-A851-E251C96BF0E1" name="ERPWerk">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 14:32:12 UTC</createdTime>
+<createdTime>2018-01-09 15:17:45 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,12 +12,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Kunde_SID" id="819168A9-99DE-2A21-185A-9061F1AFDCF8">
+<Attribute name="Werk_SID" id="4D53BD9A-6F85-4BEF-1F50-2C7875E09C88">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-01-09 17:18:09 UTC</createdTime>
-<generatorID>C5BC50DA-64D8-F909-16CB-1D54C4D249E3</generatorID>
+<createdTime>2018-01-09 15:18:48 UTC</createdTime>
+<comment>Werk1, Werk2</comment>
+<generatorID>9B9E31F5-EB9F-1E5C-2004-D0B752864253</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>3E140304-4886-E3B8-6898-B5439C5BE0A4</referedAttribute>
+<referedAttribute>34C0D74B-08F4-25C6-AEA3-C6721EB56C90</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

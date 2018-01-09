@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="940C6E86-E682-B31E-8B8F-EFEEE0ECD9CF" name="PlanwerteSiemens">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="EF31B3E5-EFB7-B519-758C-4625530ECBBF" name="PSPPlanwerte">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 14:33:23 UTC</createdTime>
+<createdTime>2018-01-09 16:51:33 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>

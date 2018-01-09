@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="105D18FD-575E-0409-FFEF-B5F99F36846E" name="ICMapping">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 15:25:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="56168351-FF28-F6E0-2771-097B785DB663">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 16:01:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERP_Werk_Code" id="D97ADB3C-2C5A-0EB6-C376-CDF0EE1084F6">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 16:01:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERP_Werk_K_Code" id="48254CE0-8DD6-4908-AC21-09B47BF1A1FE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 16:01:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_Code" id="8BC14BC7-399C-4478-DF79-FED2D98E46E5">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 16:01:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

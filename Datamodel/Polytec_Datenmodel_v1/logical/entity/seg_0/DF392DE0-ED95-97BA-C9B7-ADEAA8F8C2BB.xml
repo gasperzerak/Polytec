@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D499A892-0067-E7CA-1336-E7C3BA8F60E7" name="Abrufe">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF392DE0-ED95-97BA-C9B7-ADEAA8F8C2BB" name="PSPElementERP">
 <createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 14:32:12 UTC</createdTime>
+<createdTime>2018-01-09 16:02:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,12 +12,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Kunde_SID" id="819168A9-99DE-2A21-185A-9061F1AFDCF8">
+<Attribute name="Projekt_SID" id="9BA7CC58-B405-8735-22A7-E2D089B462CA">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-01-09 17:18:09 UTC</createdTime>
-<generatorID>C5BC50DA-64D8-F909-16CB-1D54C4D249E3</generatorID>
+<createdTime>2018-01-09 16:34:21 UTC</createdTime>
+<generatorID>756AFB17-8021-76E7-C06B-9CF6B28EBFAE</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>3E140304-4886-E3B8-6898-B5439C5BE0A4</referedAttribute>
+<referedAttribute>7CD178B8-9A45-4490-F792-4BA6B76610AC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
