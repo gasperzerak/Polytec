@@ -11,4 +11,38 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="7CE0A66A-2EE6-7213-9EBA-F2CF2AA07BC3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:17:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umsatzart_Code" id="E4C51404-A974-DBEC-7E05-74CB8B5CBB2F">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:17:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umsatzart_Bezeichnung_DE" id="A4A4C754-7583-579A-98F9-831D0BAFD571">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:17:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umsatzart_Bezeichnung_ENG" id="DB6EA7A0-4676-5393-4EE8-FCF87E88298A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:17:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

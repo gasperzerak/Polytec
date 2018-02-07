@@ -125,17 +125,6 @@
 <dataTypeSize>330</dataTypeSize>
 <ownDataTypeParameters>330,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kundenart_SID1" id="3458A5DD-0861-8E68-8D57-6018AB971A1B">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 12:46:19 UTC</createdTime>
-<generatorID>DBEFF9A4-65D8-2EC5-6A06-6090193B38E7</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>7D333F41-0D50-8839-80EF-6D130FEF33D6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Land_SID1" id="EE9A3BC1-3F0F-BED1-BE60-B696A7BB621B">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 13:04:21 UTC</createdTime>

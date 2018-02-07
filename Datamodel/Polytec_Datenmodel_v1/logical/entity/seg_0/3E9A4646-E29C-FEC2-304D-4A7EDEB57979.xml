@@ -73,15 +73,6 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SID_Gruppe" id="A9312425-9D2F-42C3-FBBA-DAD8B7690E68">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 21:44:38 UTC</createdTime>
-<generatorID>A4990339-B7F4-35DA-B2AF-ADE97D49CC08</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>55555216-CDF0-CC61-092E-B83F48885CD4</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="40DD3730-950A-F170-6890-19D46A0687F8" name="UserGruppe PK">

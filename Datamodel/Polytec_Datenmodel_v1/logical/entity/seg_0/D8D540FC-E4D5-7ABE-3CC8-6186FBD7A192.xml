@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D540FC-E4D5-7ABE-3CC8-6186FBD7A192" name="TagetikKunde_Mapping">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D540FC-E4D5-7ABE-3CC8-6186FBD7A192" name="KundeMapping">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 21:34:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -15,14 +15,6 @@
 <Attribute name="KundeERP_Code" id="8D76E68A-5A47-0F05-C566-F00DBAE98DD1">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 21:34:59 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="QuellSystem_Code" id="8A017E4A-A180-AD2A-FFB9-661D62D316DA">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 11:47:08 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

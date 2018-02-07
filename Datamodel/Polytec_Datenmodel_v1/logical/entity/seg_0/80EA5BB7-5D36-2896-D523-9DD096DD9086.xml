@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80EA5BB7-5D36-2896-D523-9DD096DD9086" name="ElementHierarchie4">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80EA5BB7-5D36-2896-D523-9DD096DD9086" name="VerkaufseinheitHierarchie4">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 16:38:06 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -11,4 +11,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="7B1AB67F-5E2A-7E64-735A-9B42D6C12D71">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:46:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_hierarchie4_Code" id="0C80171A-E810-277E-9166-D8002BCAA46A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:46:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_hierarchie4 _Bezeichnung_DE" id="174A1106-CB3C-F8BE-00F8-87987AEB3B43">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:46:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_hierarchie4 _Bezeichnung_ENG" id="1ABFDF42-7F39-0691-2325-0C88F965F5DB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:46:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_hierarchie3_Code" id="CC29C67D-A200-B2F5-5AA6-04DDFA1C90DE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:46:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

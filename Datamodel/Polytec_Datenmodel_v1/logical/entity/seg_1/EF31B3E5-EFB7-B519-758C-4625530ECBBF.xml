@@ -11,4 +11,39 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zeit_SID" id="3C8C330E-4CB0-7C4D-5E50-BF58F2F0F66F">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 23:21:31 UTC</createdTime>
+<generatorID>A0CF116A-D06A-3E7C-267F-A21C69F02E5C</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>6AFD1563-13A0-0D45-0AC0-485247046FA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID" id="47FE87F5-EE9F-2E0E-A728-C520073B3F90">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 23:29:09 UTC</createdTime>
+<generatorID>64313198-75F4-3E1F-1DB7-0B66B2A00942</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID1" id="F7B62C02-F754-765E-1149-47C550B2B214">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 23:29:18 UTC</createdTime>
+<generatorID>C154B4E7-7969-4F94-C7BF-A719618B5608</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

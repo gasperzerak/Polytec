@@ -11,4 +11,46 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="682BFBEC-440C-F584-9816-87450371934B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:15:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzernkonto_Code" id="FFB5DBB1-E827-57C5-12F1-62E92E6B9D9E">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:15:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzernkonto_Bezeichnung_DE" id="97D6978A-3311-8C8C-0898-9E23A2588234">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:15:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzernkonto_Bezeichnung_ENG" id="4F93F3DE-43F0-BED6-22D9-B4032A0F2816">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:16:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umsatzart_Code" id="CE5C1306-D42E-700A-8EF6-A79AB7941DA3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:16:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

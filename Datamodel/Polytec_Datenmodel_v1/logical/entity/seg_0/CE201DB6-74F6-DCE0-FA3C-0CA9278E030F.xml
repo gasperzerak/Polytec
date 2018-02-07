@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE201DB6-74F6-DCE0-FA3C-0CA9278E030F" name="KontenERP">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 15:19:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kunde_SID" id="4E1C3460-F673-80D2-69B8-F5A929299598">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 17:06:49 UTC</createdTime>
+<generatorID>56597551-63F6-51F8-C81D-3F68C82EA48E</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>3E140304-4886-E3B8-6898-B5439C5BE0A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zeit_SID" id="F6FF961B-C5C7-684F-70B4-4E5B0C165B38">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 22:19:12 UTC</createdTime>
+<generatorID>EDEC3CCB-3B8C-1129-E13D-54DE3F563FA2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>6AFD1563-13A0-0D45-0AC0-485247046FA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID" id="B63599C6-F9C1-D1AE-D9D9-A1B08305667C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 22:19:47 UTC</createdTime>
+<generatorID>E7F96C47-B80E-097C-92CF-DB0B8BC16F88</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_SID" id="3C90E663-0D7B-9681-BA6F-B909AC0DD6E7">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 22:20:01 UTC</createdTime>
+<generatorID>AF509614-C32B-F3D6-1BFF-F3AD20629F3D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>FB48578A-DCBB-7F35-2623-AF28FCB70317</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID1" id="69FD5B62-0648-E634-006A-FFB0F1E054FF">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 22:23:04 UTC</createdTime>
+<generatorID>165EACB4-A3F8-0FC7-1687-7ACAAE9370A6</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

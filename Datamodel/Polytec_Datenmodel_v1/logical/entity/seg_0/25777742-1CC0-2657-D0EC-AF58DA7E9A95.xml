@@ -41,6 +41,14 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Gesellschaftsart_SID" id="794B16C7-CDAB-EDAE-43B4-1CF8D3D34B9B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 15:31:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Waehrung_SID" id="34E06174-1664-D44D-DC0C-83E101E97B0F">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:32:07 UTC</createdTime>
