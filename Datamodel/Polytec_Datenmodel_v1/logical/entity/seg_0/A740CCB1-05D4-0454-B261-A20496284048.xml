@@ -11,4 +11,57 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="974EA9CF-7847-719F-3F66-6F0E82846A67">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:49:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Buchungskreis_SID" id="3453953E-9C74-5B94-AFB0-0AF7CF6CF6DA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:49:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Buchungskreis_Code" id="E16C9AB1-1F79-5FCD-E33D-0FB3BB2DE07C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:50:12 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Buchungskreis_Bezeichnung" id="CE98670D-8DA2-13AE-BDC3-5E83D6583F2F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:50:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96713D3F-8DC3-9881-E3B1-3EA223B517C9" name="Buchungskreis PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:50:09 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3453953E-9C74-5B94-AFB0-0AF7CF6CF6DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

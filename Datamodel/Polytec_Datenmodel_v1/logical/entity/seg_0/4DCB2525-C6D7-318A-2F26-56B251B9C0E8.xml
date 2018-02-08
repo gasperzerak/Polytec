@@ -31,17 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Werk_SID" id="4D01DCBC-7048-DB2F-DE49-E7C8E10E8C99">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 16:48:04 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Code" id="ACB3534D-8DA0-B4AA-F277-A7CDDFE4E8DD">
+<Attribute name="ProfitCenter_Code" id="ACB3534D-8DA0-B4AA-F277-A7CDDFE4E8DD">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:05:45 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -51,7 +41,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="22E951FC-870F-DC83-4202-B323FA2773AB">
+<Attribute name="ProfitCenter_Bezeichnung_ENG" id="22E951FC-870F-DC83-4202-B323FA2773AB">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:06:05 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -61,6 +51,39 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProfitCenter_Bezeichnung_DE" id="4D01DCBC-7048-DB2F-DE49-E7C8E10E8C99">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:48:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProfitCenterGruppe_Code" id="96B7F94E-3FCF-0128-812A-F7DE9F9EAE76">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 13:43:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProfitCenterGruppe_SID" id="6EEA9489-130D-F275-A755-7681844EE789">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 13:47:49 UTC</createdTime>
+<generatorID>EC31F858-0D53-6EDF-FD33-B32EB825CAA5</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>57802F06-CE95-E566-8638-05F0CBD01E55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

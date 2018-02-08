@@ -11,4 +11,55 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="5573EFB7-36D7-53BD-13B2-7139EDFD3BB2">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:05:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessTypeGruppe_SID" id="30AEE8C6-CC5B-4AA5-F544-A593B4456504">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:05:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessTypeGruppe_Code" id="3957127A-85C0-E40E-10D8-74A7338B0187">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:06:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessTypeGruppe_Bezeichnung" id="B7C6B397-01D3-501E-D114-28302B0934DF">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:06:29 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E9A1CB4-23D4-E096-0AAA-654A87C920BE" name="BusinessTypeGruppe PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:06:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30AEE8C6-CC5B-4AA5-F544-A593B4456504</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

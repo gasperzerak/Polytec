@@ -32,7 +32,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="279F3D97-3CDB-620C-06E8-077BAD0F1EE2">
+<Attribute name="DatenartSzenario_Code" id="279F3D97-3CDB-620C-06E8-077BAD0F1EE2">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:56:17 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -42,9 +42,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="649FE625-4953-A061-ADCA-FC0F0E61E69B">
+<Attribute name="DatenartSzenario_Bezeichnung_ENG" id="649FE625-4953-A061-ADCA-FC0F0E61E69B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:56:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatenartSzenario_Bezeichnung_DE" id="129EB5B6-21D6-24CB-EF26-B37E325DADEC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:04:19 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

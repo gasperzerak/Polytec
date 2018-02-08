@@ -12,6 +12,54 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="B648D435-78DA-BF00-C948-AB443D6C11B3">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:32:16 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_SID" id="4FD2BA3B-7100-C969-D5C2-37C72182FFE5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:32:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_Code" id="B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 14:45:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_Bezeichnung" id="5D9DD04B-29CB-AE39-8215-BA70279D2393">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 14:45:42 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MasterWerk_Code" id="6248F8EA-6E53-C014-6660-9D99472B40FC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:34:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="MasterWerk_SID1" id="4D53BD9A-6F85-4BEF-1F50-2C7875E09C88">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 15:18:48 UTC</createdTime>
@@ -24,21 +72,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Werk_Bezeichnung" id="B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-18 14:45:33 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="MasterWerk_SID" id="5D9DD04B-29CB-AE39-8215-BA70279D2393">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-18 14:45:42 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54765DA8-50D9-8AEE-0AA8-26111D8113A5" name="ERPWerk PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:33:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FD2BA3B-7100-C969-D5C2-37C72182FFE5</attributeRef>
+<attributeRef>B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

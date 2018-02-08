@@ -22,7 +22,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KundenGruppe2_SID" id="F25919CB-E127-508C-EBC7-5C54B7797A18">
+<Attribute name="KundenGruppe1_SID" id="F25919CB-E127-508C-EBC7-5C54B7797A18">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:05:40 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="94F92532-A749-7C3C-3852-E26DBC335A0F">
+<Attribute name="KundenGruppe1_Code" id="94F92532-A749-7C3C-3852-E26DBC335A0F">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:05:46 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="EBEA51AE-1B1D-B357-A83A-A1855FAECB22">
+<Attribute name="KundeGruppe1_Bezeichnung" id="EBEA51AE-1B1D-B357-A83A-A1855FAECB22">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:07:02 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -61,6 +61,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F25919CB-E127-508C-EBC7-5C54B7797A18</attributeRef>
+<attributeRef>94F92532-A749-7C3C-3852-E26DBC335A0F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

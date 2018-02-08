@@ -28,8 +28,9 @@
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="User_SID" id="E5D457B2-A26B-F666-4738-6E886AFCE9C8">
 <createdBy>gzerak</createdBy>
@@ -38,29 +39,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Code" id="3AFD2166-99AF-0A78-CBC5-2DD50A4C8EC9">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 13:52:33 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Bezeichnung" id="D2F00E08-1691-9C0B-D652-A9870686ED47">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 13:52:46 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="User_SID1" id="A0A3AB8D-73D0-C555-71D7-E031E4F0830E">
 <createdBy>gzerak</createdBy>

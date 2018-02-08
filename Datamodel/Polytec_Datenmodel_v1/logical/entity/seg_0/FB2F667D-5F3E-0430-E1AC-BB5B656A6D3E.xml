@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB2F667D-5F3E-0430-E1AC-BB5B656A6D3E" name="KonzernKonto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB2F667D-5F3E-0430-E1AC-BB5B656A6D3E" name="Konzernkonto">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 14:55:30 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -17,40 +17,99 @@
 <createdTime>2018-01-23 13:15:49 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzernkonto_SID" id="15D627B2-D5AE-1252-094C-D97A512D80F6">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 13:59:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Konzernkonto_Code" id="FFB5DBB1-E827-57C5-12F1-62E92E6B9D9E">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-23 13:15:53 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Konzernkonto_Bezeichnung_DE" id="97D6978A-3311-8C8C-0898-9E23A2588234">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-23 13:15:55 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Konzernkonto_Bezeichnung_ENG" id="4F93F3DE-43F0-BED6-22D9-B4032A0F2816">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-23 13:16:44 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Umsatzart_Code" id="CE5C1306-D42E-700A-8EF6-A79AB7941DA3">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-23 13:16:53 UTC</createdTime>
+<Attribute name="Umsatsart_Code" id="F7FFF974-FC93-46FC-55CE-DAA08DADC371">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:32:49 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umsatzart_SID" id="713DE0FB-D396-681B-1EED-EA8DC73FBFD5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:33:25 UTC</createdTime>
+<generatorID>CA7F7F54-497E-A948-8B56-BFB5C02AAF93</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>07A4D5EC-652C-9260-D54E-9A7AAE17C31F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Umsatzart_Code" id="8ADCEED3-66F8-C75F-7EF4-7D26E94E9548">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:35:39 UTC</createdTime>
+<generatorID>CA7F7F54-497E-A948-8B56-BFB5C02AAF93</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>E4C51404-A974-DBEC-7E05-74CB8B5CBB2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71A39E7C-C428-AB39-95AF-35184E6B20CC" name="KonzernKonto PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 13:59:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15D627B2-D5AE-1252-094C-D97A512D80F6</attributeRef>
+<attributeRef>713DE0FB-D396-681B-1EED-EA8DC73FBFD5</attributeRef>
+<attributeRef>8ADCEED3-66F8-C75F-7EF4-7D26E94E9548</attributeRef>
+<attributeRef>FFB5DBB1-E827-57C5-12F1-62E92E6B9D9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -32,7 +32,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="9F1AC66F-7B7A-F26B-E66C-7CFF5C25E42E">
+<Attribute name="BusinessUnit_Code" id="9F1AC66F-7B7A-F26B-E66C-7CFF5C25E42E">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:57:36 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -42,9 +42,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="732E1FB7-C301-D79A-7146-E99B86D1ED08">
+<Attribute name="BusinessUnit_Bezeichnung" id="732E1FB7-C301-D79A-7146-E99B86D1ED08">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:57:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessUnit_Kurzbezeichnung" id="FDCA1AF7-67AD-C434-B602-4F8BA33057E4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:57:57 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

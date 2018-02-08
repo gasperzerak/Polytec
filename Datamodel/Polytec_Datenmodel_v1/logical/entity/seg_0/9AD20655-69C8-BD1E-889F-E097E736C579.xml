@@ -22,7 +22,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Projektleiter_SID" id="E88C7681-E6D2-5734-17C7-233FE002073B">
+<Attribute name="Projekmanager_SID" id="E88C7681-E6D2-5734-17C7-233FE002073B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:34:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Projektleiter_Code" id="5C1D00E2-DC7E-974B-6B32-E05A773416F7">
+<Attribute name="Projekmanager_Code" id="5C1D00E2-DC7E-974B-6B32-E05A773416F7">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:35:09 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,9 +41,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Projektleiter_Name" id="3C3BA0EC-625F-1ECF-AD80-DA6841A88FE3">
+<Attribute name="Projekmanager_Bezeichnung" id="3C3BA0EC-625F-1ECF-AD80-DA6841A88FE3">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:35:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Code" id="97AE950D-9EBA-8A81-DBD2-9DBAAB9C28F3">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:08:27 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

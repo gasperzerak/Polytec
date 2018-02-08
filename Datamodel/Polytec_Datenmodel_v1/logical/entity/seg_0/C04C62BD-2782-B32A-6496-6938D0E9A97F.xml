@@ -41,7 +41,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Land_Bezeichnung" id="06ECD465-11D5-E9DE-D198-728763CE5A89">
+<Attribute name="Land_Bezeichnung_ENG" id="06ECD465-11D5-E9DE-D198-728763CE5A89">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:53:54 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -51,6 +51,14 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land_Bezeichnung_DE" id="701F8126-5325-75ED-532B-0920240ECA65">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:31:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

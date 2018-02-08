@@ -12,21 +12,58 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="856AA7DA-CC92-9BBC-37E6-0E7815DBE684">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 09:16:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kunde_Mapping_SID" id="4B10AE00-1C60-51EB-FA82-FA07E3F2A1AA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 09:16:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="KundeERP_Code" id="8D76E68A-5A47-0F05-C566-F00DBAE98DD1">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 21:34:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KonzernKunde_Code" id="76CB32CA-3DC1-5E3D-37FC-D996E1BA9021">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 21:35:46 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2031BA94-A9C3-C35B-B4C4-2ABD65FC0575" name="KundeMapping PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 09:17:16 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B10AE00-1C60-51EB-FA82-FA07E3F2A1AA</attributeRef>
+<attributeRef>8D76E68A-5A47-0F05-C566-F00DBAE98DD1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

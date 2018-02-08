@@ -17,7 +17,9 @@
 <createdTime>2018-01-09 16:01:10 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MasterWerk_Code" id="D97ADB3C-2C5A-0EB6-C376-CDF0EE1084F6">
@@ -25,26 +27,46 @@
 <createdTime>2018-01-09 16:01:14 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MasterWerk_K_Code" id="48254CE0-8DD6-4908-AC21-09B47BF1A1FE">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 16:01:27 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundeERP_Code" id="8BC14BC7-399C-4478-DF79-FED2D98E46E5">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 16:01:39 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kunde_SID" id="6B535476-FC34-EE77-F49C-F8AEC0874163">
+<Attribute name="Kundenart" id="7BB2E6D8-8230-47FA-0AF7-397C348ABF69">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 15:15:22 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_SID" id="6B535476-FC34-EE77-F49C-F8AEC0874163">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-10 22:48:58 UTC</createdTime>
 <generatorID>3E9FCB3B-D6A9-EA0F-1DD1-BF1C36AF169F</generatorID>
@@ -67,14 +89,6 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kundenart" id="7BB2E6D8-8230-47FA-0AF7-397C348ABF69">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-18 15:15:22 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="MasterWerk_SID1" id="A9D17A1A-71F0-1019-53D3-9212E5BD2831">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-18 15:15:40 UTC</createdTime>
@@ -85,6 +99,30 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_Code2" id="1A45C9E8-3ED0-CFE9-B6D3-CF74A21E140C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:40:24 UTC</createdTime>
+<generatorID>3E9FCB3B-D6A9-EA0F-1DD1-BF1C36AF169F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>9879B59E-BD8A-84B6-264A-5D9E071129A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rolle_Code" id="E1E615B5-292C-ABA1-078C-B962550413C2">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:43:46 UTC</createdTime>
+<generatorID>3E9FCB3B-D6A9-EA0F-1DD1-BF1C36AF169F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>E4C914D2-3DCF-ED45-9486-6C450741CE5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

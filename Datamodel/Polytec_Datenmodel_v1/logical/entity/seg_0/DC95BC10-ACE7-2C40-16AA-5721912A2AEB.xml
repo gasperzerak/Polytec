@@ -30,7 +30,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="C50633EF-1EAC-ABEE-BA84-8798DD1C28B5">
+<Attribute name="Sektor_Code" id="C50633EF-1EAC-ABEE-BA84-8798DD1C28B5">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:07:09 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -40,9 +40,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="21B67579-AB24-4BB4-C2FA-3922EBEF6143">
+<Attribute name="Sektor_Bezeichnung_ENG" id="21B67579-AB24-4BB4-C2FA-3922EBEF6143">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:00:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sektor_Bezeichnung_DE" id="67D1A7F6-7F45-998A-2ECE-829E11E2716B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 09:52:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,6 +71,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>35DA5EB6-6760-F5A4-B89C-958F55880FC4</attributeRef>
+<attributeRef>C50633EF-1EAC-ABEE-BA84-8798DD1C28B5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

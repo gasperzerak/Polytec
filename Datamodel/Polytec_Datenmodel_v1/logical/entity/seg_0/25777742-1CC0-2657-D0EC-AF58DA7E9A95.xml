@@ -31,35 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BusinessUnit_SID" id="59AAF275-C1C7-E626-1DED-4F88232D51ED">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 16:32:03 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Gesellschaftsart_SID" id="794B16C7-CDAB-EDAE-43B4-1CF8D3D34B9B">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-18 15:31:59 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Waehrung_SID" id="34E06174-1664-D44D-DC0C-83E101E97B0F">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-20 16:32:07 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Code" id="59999391-7C93-A22F-9583-9A4589995A9B">
+<Attribute name="Gesellschaft_Code" id="59999391-7C93-A22F-9583-9A4589995A9B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 11:59:46 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -69,7 +41,29 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="5DAE4DBC-F882-CC0A-9182-BDAB04A13E78">
+<Attribute name="BusinessUnit_Code" id="59AAF275-C1C7-E626-1DED-4F88232D51ED">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:32:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_Code" id="34E06174-1664-D44D-DC0C-83E101E97B0F">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:32:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaft_Bezeichnung" id="5DAE4DBC-F882-CC0A-9182-BDAB04A13E78">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:00:17 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -80,9 +74,20 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BezeichnungKurz" id="3F1C1F57-957C-8507-EACE-F93BFBC8B483">
+<Attribute name="Gesellschaft_Kurzbezeichnung" id="3F1C1F57-957C-8507-EACE-F93BFBC8B483">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:00:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaftsart_Code" id="794B16C7-CDAB-EDAE-43B4-1CF8D3D34B9B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 15:31:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -109,6 +114,17 @@
 <generatorID>EECB40E5-1A49-3076-803B-7A7B8AA9B762</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>237FCEF5-931C-2274-50D6-A9D5C92A4321</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaftsart_SID" id="1990BF7B-C9AD-2A3D-B4ED-8ECEF9458A88">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 13:40:42 UTC</createdTime>
+<generatorID>9EB494BD-17EF-571A-BA95-454B8089FB4D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>CF2E6C9A-021F-9130-E511-DB4E4A8BEF04</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

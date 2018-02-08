@@ -56,5 +56,49 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ERPWerk_SID" id="5BCB9CDF-6500-6094-FA32-BD985CC177C1">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:33:06 UTC</createdTime>
+<generatorID>012E157C-6ACC-05EB-13B0-5D2C0EBDE81A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>4FD2BA3B-7100-C969-D5C2-37C72182FFE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_SID1" id="FEF3D2FE-96F9-2FCF-6C2B-3663CE3634AD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:33:06 UTC</createdTime>
+<generatorID>3C3D02A5-68E6-7AC1-C667-144E15E6C217</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>4FD2BA3B-7100-C969-D5C2-37C72182FFE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_Code" id="A5616FA9-B3D1-5918-908C-DEBD7FC86F8D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:33:39 UTC</createdTime>
+<generatorID>012E157C-6ACC-05EB-13B0-5D2C0EBDE81A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_Code1" id="1E51C6CB-8A30-115C-E4BD-8F39A0C2B54E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 10:33:39 UTC</createdTime>
+<generatorID>3C3D02A5-68E6-7AC1-C667-144E15E6C217</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>
