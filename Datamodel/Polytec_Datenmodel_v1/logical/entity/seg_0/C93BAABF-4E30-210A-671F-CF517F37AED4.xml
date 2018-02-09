@@ -90,10 +90,11 @@
 <generatorID>3E07CE7A-68C1-5C36-1AD1-6F91210B369F</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>F656567D-8CDB-F1C3-C887-8115D9C7357E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Masterkonto_SID" id="2AECCED2-E7FC-8EF1-5E8C-311F8EEC3355">
 <createdBy>aschweinberger</createdBy>

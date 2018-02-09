@@ -45,5 +45,16 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PSPElement_SID" id="260A5657-F92D-C51F-10CA-883EF70C8694">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:49:05 UTC</createdTime>
+<generatorID>AAC5805F-D3A4-DFF0-308C-8A4B66F4B7ED</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

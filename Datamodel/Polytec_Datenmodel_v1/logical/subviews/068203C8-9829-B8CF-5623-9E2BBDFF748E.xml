@@ -71,6 +71,15 @@
 <foType>Kommentare</foType>
 <colorRGB>-12566464</colorRGB>
 </FontObject>
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
 </fonts>
 </OView>
 </objectViews>

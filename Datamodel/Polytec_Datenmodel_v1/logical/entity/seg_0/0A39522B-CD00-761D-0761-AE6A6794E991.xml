@@ -11,4 +11,68 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="8B3666CA-D2FB-BE6F-AD70-3A5A37689207">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:14:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AufbauOberflaeche_SID" id="69A8DFEA-4786-3084-5700-50129E1998A4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:14:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AufbauOberflaeche_Code" id="73949F3D-2EBD-DAC1-F2A5-37B0B2714A16">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:14:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AufbauOberflaeche_Bezeichnung_ENG" id="F8150C15-E8DB-54B0-7099-205C235D10FF">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:15:12 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AufbauOberflaeche_Bezeichnung_DE" id="B07BBAAC-7CD8-2C48-7AF5-97F5C03ED1A8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:15:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3ACAA349-22CB-2F92-9E8B-04FCB518A8C9" name="AufbauOberfläche PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:14:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69A8DFEA-4786-3084-5700-50129E1998A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

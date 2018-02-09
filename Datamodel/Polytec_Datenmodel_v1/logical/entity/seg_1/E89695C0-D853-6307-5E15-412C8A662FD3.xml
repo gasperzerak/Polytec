@@ -11,4 +11,68 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="659CE62C-4FB3-782D-9BDF-BB710E02CD3F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:36:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSP-Elementart_SID" id="2FB49E53-237B-5A25-B199-C91E1968AC29">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:36:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSP-Elementart_Code " id="456A65F5-54F9-5E34-BDD8-D911DA006766">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:37:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSP-Elementart_Bezeichnung_ENG " id="9A7CE547-CAF5-34D1-C1FD-DAB8F2CC1C5D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:37:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSP-Elementart_Bezeichnung_DE" id="A9DFBEB1-D196-21F6-D722-E466289895B0">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:37:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53727CE3-1AEA-5FBE-2FBA-B574D3F090AB" name="PSP-ElementArt PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:37:12 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FB49E53-237B-5A25-B199-C91E1968AC29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
