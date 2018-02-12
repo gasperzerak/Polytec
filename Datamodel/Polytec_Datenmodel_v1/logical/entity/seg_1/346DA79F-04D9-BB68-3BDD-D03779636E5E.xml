@@ -11,4 +11,90 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="EDE7B999-5F1D-7F0B-DAB0-C5F8B820467C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:13:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kostenart_SID" id="BDAF6A44-B631-7B8C-0E3A-E39F4782F9C9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:14:09 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kostenart_Code " id="35CA66E2-263D-5278-44A9-A99052C68609">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:14:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zuordnung_Code " id="ABF19A17-F59B-7417-973B-BC038867C114">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:14:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kostenart_Bezeichnung_ENG " id="FDF91968-8BFD-D977-94A3-DBA399F5DE52">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:14:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kostenart_Bezeichnung_DE" id="72C9A825-DC3C-22C0-F5A3-221013841E01">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:14:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zuordnung_SID" id="234B5AD7-AA92-183C-697F-E8E216A6FCB2">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:15:45 UTC</createdTime>
+<generatorID>7C992FB4-71DA-E95B-0F88-703BD64E7A2E</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>78DF96D3-FE9D-1D4C-33C6-46C6CC9C1B85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E13D13D9-5897-3094-30FE-25E1DD5AB5BA" name="KostenArt PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:14:19 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDAF6A44-B631-7B8C-0E3A-E39F4782F9C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

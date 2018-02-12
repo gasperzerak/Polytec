@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="1C901F35-0E14-842B-B008-39F01F9D9364">
+<Attribute name="User_Code" id="1C901F35-0E14-842B-B008-39F01F9D9364">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:50:55 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="D8C7B001-7B09-0FF9-C60D-76A1295B4934">
+<Attribute name="User_Bezeichnung" id="D8C7B001-7B09-0FF9-C60D-76A1295B4934">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:51:08 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -51,17 +51,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CodeUserGruppe" id="7A7236BF-0863-9D26-012E-6895EF39425A">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 13:51:18 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="26B8A307-C178-DD9C-ADD9-FDD123292B02">
+<Attribute name="Mengeneinheit_Code " id="26B8A307-C178-DD9C-ADD9-FDD123292B02">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:02:40 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,9 +41,9 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="30FE7CCE-E03B-96EB-C659-F912E001BDEE">
+<Attribute name="Mengeneinheit_Bezeichnung_ENG " id="6AC170ED-F21C-3767-4BC5-1FB95D3CF86E">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:02:51 UTC</createdTime>
+<createdTime>2018-02-12 10:18:44 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -51,6 +51,39 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Kurzbezeichnung_ENG" id="E51A53E8-C2E1-5D27-A757-5D50CB27B020">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:18:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Bezeichnung_DE" id="E8979366-1FAB-12C3-4337-945FEE03F19D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:19:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Kurzbezeichnung_DE" id="85A39852-D6C2-2552-A01F-4310014E0AEB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:19:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

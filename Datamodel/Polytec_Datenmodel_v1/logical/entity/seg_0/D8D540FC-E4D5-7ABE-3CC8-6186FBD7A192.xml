@@ -22,15 +22,14 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kunde_Mapping_SID" id="4B10AE00-1C60-51EB-FA82-FA07E3F2A1AA">
+<Attribute name="KundeMapping_SID" id="4B10AE00-1C60-51EB-FA82-FA07E3F2A1AA">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 09:16:50 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundeERP_Code" id="8D76E68A-5A47-0F05-C566-F00DBAE98DD1">
 <createdBy>gzerak</createdBy>

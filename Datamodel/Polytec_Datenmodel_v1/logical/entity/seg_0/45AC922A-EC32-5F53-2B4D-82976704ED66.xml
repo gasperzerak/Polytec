@@ -128,7 +128,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Währung_Code" id="A90A6912-5811-B117-567D-5D02AE4B1DFB">
+<Attribute name="Waehrung_Code" id="A90A6912-5811-B117-567D-5D02AE4B1DFB">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:16:45 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

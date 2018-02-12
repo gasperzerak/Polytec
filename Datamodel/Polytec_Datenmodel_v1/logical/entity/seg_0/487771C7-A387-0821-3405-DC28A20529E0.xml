@@ -63,7 +63,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Sektor_Code" id="9704252D-CE7B-FE92-7183-1BA1418E0270">
+<Attribute name="SektorCode" id="9704252D-CE7B-FE92-7183-1BA1418E0270">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 10:58:01 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

@@ -33,7 +33,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MasterWerk_K_Code" id="48254CE0-8DD6-4908-AC21-09B47BF1A1FE">
+<Attribute name="MasterWerkK_Code" id="48254CE0-8DD6-4908-AC21-09B47BF1A1FE">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 16:01:27 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

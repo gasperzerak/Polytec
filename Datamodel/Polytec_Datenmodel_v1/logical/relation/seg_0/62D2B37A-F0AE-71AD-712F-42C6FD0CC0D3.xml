@@ -4,7 +4,7 @@
 <createdTime>2018-01-23 21:29:01 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <sourcePk>0A7DCC5B-5E00-36D7-85E4-7D5E33C34E69</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

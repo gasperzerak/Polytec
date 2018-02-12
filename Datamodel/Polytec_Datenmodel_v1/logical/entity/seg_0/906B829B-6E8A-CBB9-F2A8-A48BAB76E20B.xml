@@ -138,7 +138,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kunde_Mapping_SID" id="496BA7AB-AB95-E968-14DF-5434D6C23798">
+<Attribute name="KundeMapping_SID" id="496BA7AB-AB95-E968-14DF-5434D6C23798">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 09:17:29 UTC</createdTime>
 <generatorID>F78AD648-221C-BE10-F873-1AA6CE751562</generatorID>
@@ -146,7 +146,7 @@
 <referedAttribute>4B10AE00-1C60-51EB-FA82-FA07E3F2A1AA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>

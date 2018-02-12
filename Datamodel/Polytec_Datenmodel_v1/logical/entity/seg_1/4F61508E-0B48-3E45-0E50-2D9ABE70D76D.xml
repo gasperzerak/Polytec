@@ -12,6 +12,125 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="D2956CAE-CB9A-0A82-60E6-464DCED769EE">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:17:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSPElement_SID" id="3E074E3B-CD21-858D-A87F-1F2234B4A094">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:49:05 UTC</createdTime>
+<generatorID>5B37A655-92DB-92DE-1C44-88E84F924752</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSPElement_Code " id="6FE0CC5C-29AF-ED41-7524-1EBCF670C140">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:18:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WertMitSteuernAnzahlungen " id="EA1840AF-0B7A-D6A4-082E-1A2FEEAB1A01">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:18:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Steuerkennzeichen " id="C80BF44C-20BA-4B7B-E6C2-901F441F17D6">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:19:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_Code " id="38FC23B3-59A8-48CD-E304-989144AF019B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:20:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Buchungsdatum " id="7F2F4B0A-2F80-D634-C799-E25B2E46179A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:20:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FunktionalWertMitSteuernAnzahlungen " id="DDFF9B42-3354-82C5-9A9D-FF1B579AB0C7">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:20:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FunktionalWaehrung_Code " id="B0B2792C-54A8-175A-A941-575399C4AA82">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:20:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konto " id="EB81CBD3-DA46-DC90-809F-801280AE1960">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:21:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datapackage_ID " id="33CC2257-2992-4B8B-E3E8-587FB33DD677">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:21:19 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Waehrung_SID" id="A1387A4C-34A3-1929-DFFD-B99844351D2B">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-23 23:17:47 UTC</createdTime>
@@ -45,16 +164,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PSPElement_SID" id="3E074E3B-CD21-858D-A87F-1F2234B4A094">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:49:05 UTC</createdTime>
-<generatorID>5B37A655-92DB-92DE-1C44-88E84F924752</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F86262C-C202-8F34-3034-A335391D8F00" name="PSPAnzahlungen PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 09:18:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E074E3B-CD21-858D-A87F-1F2234B4A094</attributeRef>
+<attributeRef>3E074E3B-CD21-858D-A87F-1F2234B4A094</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

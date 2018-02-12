@@ -291,7 +291,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PSP-Elementart_SID" id="BA162E45-BA05-3407-DC09-0F59B5B75679">
+<Attribute name="PSPElementart_SID" id="BA162E45-BA05-3407-DC09-0F59B5B75679">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 13:37:13 UTC</createdTime>
 <generatorID>D8E89145-12C2-0EDE-4677-D9E0A5F03C67</generatorID>

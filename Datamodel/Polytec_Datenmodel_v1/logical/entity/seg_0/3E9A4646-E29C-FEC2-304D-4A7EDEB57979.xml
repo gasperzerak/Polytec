@@ -28,13 +28,23 @@
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Code" id="E5D457B2-A26B-F666-4738-6E886AFCE9C8">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 13:06:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="User_SID" id="E5D457B2-A26B-F666-4738-6E886AFCE9C8">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-11-28 13:06:15 UTC</createdTime>
+<Attribute name="Usergruppe_Code " id="19461BF3-BAD2-109F-0D6F-430B55965378">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:23:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

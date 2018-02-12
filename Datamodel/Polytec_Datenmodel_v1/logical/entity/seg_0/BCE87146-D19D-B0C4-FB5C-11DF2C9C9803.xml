@@ -172,7 +172,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AufbauOberfläche_Code" id="B06D4054-6BE9-206F-45B5-3648B2BE6606">
+<Attribute name="AufbauOberflaeche_Code" id="B06D4054-6BE9-206F-45B5-3648B2BE6606">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:25:54 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -260,7 +260,7 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Endkunde_Code_1" id="D5C827EB-F197-B277-0654-13AE382C86AB">
+<Attribute name="Endkunde_Code" id="D5C827EB-F197-B277-0654-13AE382C86AB">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:28:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -293,7 +293,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EndKunde_Code" id="FD7854BC-953E-2E54-97E3-FE8740C91586">
+<Attribute name="EndKunde_Code1" id="FD7854BC-953E-2E54-97E3-FE8740C91586">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 09:32:08 UTC</createdTime>
 <generatorID>E18A9F2A-6842-92F5-6C7C-2D93DBC8AEBB</generatorID>
@@ -303,7 +303,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Verkaufseinheit_SID" id="D2F0D8A2-30ED-6678-EBC1-44F2F84FF272">
 <createdBy>aschweinberger</createdBy>

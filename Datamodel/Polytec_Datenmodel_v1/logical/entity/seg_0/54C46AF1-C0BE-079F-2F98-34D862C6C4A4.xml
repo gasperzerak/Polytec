@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54C46AF1-C0BE-079F-2F98-34D862C6C4A4" name="Gruppe_Projekt">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54C46AF1-C0BE-079F-2F98-34D862C6C4A4" name="GruppeProjekt">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 08:43:42 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -17,15 +17,19 @@
 <createdTime>2018-01-23 21:27:40 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Projekt_Code" id="3E5D6D1A-32A0-99FC-55C2-B2A7D3D90236">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-23 21:27:46 UTC</createdTime>
+<Attribute name="GruppeProjekt_SID" id="E5AA239A-BE86-CEDF-E013-D49C0FDCD1D9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:20:24 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="UserGruppe_Code" id="B7EE74DE-37BD-C149-75B6-3A5C4B14F32F">
@@ -33,8 +37,22 @@
 <createdTime>2018-01-23 21:28:17 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_Code" id="3E5D6D1A-32A0-99FC-55C2-B2A7D3D90236">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 21:27:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Projekt_SID" id="47C682E5-923F-BF18-07EA-F778ACE1E6FF">
 <createdBy>gzerak</createdBy>
@@ -55,9 +73,20 @@
 <referedAttribute>B60E356E-03C9-B654-2FC9-CA3944A5DF00</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25CE563A-57FC-8109-1E41-52EB70A6DCB5" name="Gruppe_Projekt PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:20:13 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47C682E5-923F-BF18-07EA-F778ACE1E6FF</attributeRef>
+<attributeRef>47C682E5-923F-BF18-07EA-F778ACE1E6FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

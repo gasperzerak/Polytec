@@ -42,7 +42,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Rechnungsempfänger_Code " id="19611707-F32C-FE82-FC76-F01EA830063E">
+<Attribute name="Rechnungsempfaenger_Code " id="19611707-F32C-FE82-FC76-F01EA830063E">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:19:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -64,7 +64,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Warenempfänger_Code " id="DFBA3605-246E-FB13-C251-26AB57884CC8">
+<Attribute name="Warenempfaenger_Code " id="DFBA3605-246E-FB13-C251-26AB57884CC8">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:19:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -85,7 +85,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Buchungskreis_Code " id="C3EE6AC3-970D-DC19-D39B-812607B44C40">
 <createdBy>aschweinberger</createdBy>
@@ -130,7 +130,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Währung_Code " id="07FD988B-A19E-3F20-B6CF-B719E72C8216">
+<Attribute name="Waehrung_Code " id="07FD988B-A19E-3F20-B6CF-B719E72C8216">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:24:15 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -189,13 +189,12 @@
 <createdTime>2018-02-09 15:29:04 UTC</createdTime>
 <generatorID>14DA7E3E-4E42-C715-67FA-F20FC707162E</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Umsatz_fakturiert " id="B29B5FF3-51C7-9C48-0223-02BC4AC41CA2">
+<Attribute name="UmsatzFakturiert " id="B29B5FF3-51C7-9C48-0223-02BC4AC41CA2">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:26:10 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -649,7 +648,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code3" id="FF77A175-13AC-4458-E1F4-D325232F7B65">
 <createdBy>aschweinberger</createdBy>

@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="05D781B5-C05E-F8CB-4E32-D4E2F323B2A8">
+<Attribute name="Waehrung_Code " id="05D781B5-C05E-F8CB-4E32-D4E2F323B2A8">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:01:42 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,9 +41,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Bezeichnung" id="6929BB17-3626-F696-7189-2E9B412E728F">
+<Attribute name="Waehrung_Bezeichnung_ENG " id="6929BB17-3626-F696-7189-2E9B412E728F">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:01:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_Bezeichnung_DE" id="96C92DC2-2C0B-D78F-9524-45C23483ED84">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:18:04 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
