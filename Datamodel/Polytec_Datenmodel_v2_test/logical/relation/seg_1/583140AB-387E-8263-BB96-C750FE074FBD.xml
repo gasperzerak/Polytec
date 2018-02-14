@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AufbauOberflaeche" directorySegmentName="seg_1" id="583140AB-387E-8263-BB96-C750FE074FBD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:30:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>3ACAA349-22CB-2F92-9E8B-04FCB518A8C9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A39522B-CD00-761D-0761-AE6A6794E991</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C9CD4FA-239B-94A3-35A5-1C25B5015898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

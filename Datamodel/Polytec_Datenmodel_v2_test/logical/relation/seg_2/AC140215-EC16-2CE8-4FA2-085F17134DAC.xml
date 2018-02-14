@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Motormodellv2" directorySegmentName="seg_2" id="AC140215-EC16-2CE8-4FA2-085F17134DAC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 15:12:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>69C8A7BA-05E1-D427-7C84-2CABAF2613EC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DDC25C79-EBA5-A427-14CD-AD93D55722F8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCE87146-D19D-B0C4-FB5C-11DF2C9C9803</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

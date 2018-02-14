@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProfitCenter" directorySegmentName="seg_0" id="E193277B-6C3B-3531-904E-A9B1F03F3D3B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-14 13:04:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>A434FE88-BFD3-C5AF-81AF-C61DD8880674</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DCB2525-C6D7-318A-2F26-56B251B9C0E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C046988-888C-3A2D-767C-B4C500A4772A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="FE4340EF-E8B5-7494-FD6A-F332DE0D434A" name="Daten_für_Tagetik">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 14:31:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<userDefined>false</userDefined>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+</EntityView>

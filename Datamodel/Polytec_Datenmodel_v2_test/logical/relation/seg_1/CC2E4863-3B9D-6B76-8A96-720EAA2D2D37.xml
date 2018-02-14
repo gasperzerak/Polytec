@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Buchungskreisv2" directorySegmentName="seg_1" id="CC2E4863-3B9D-6B76-8A96-720EAA2D2D37">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 15:52:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>96713D3F-8DC3-9881-E3B1-3EA223B517C9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A740CCB1-05D4-0454-B261-A20496284048</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C499831D-8175-8FB0-A113-FCFBC3122CC1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

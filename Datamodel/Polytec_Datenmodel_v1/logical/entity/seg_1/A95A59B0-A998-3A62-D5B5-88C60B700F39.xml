@@ -31,16 +31,14 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Auftraggeber_Code " id="654E74A8-5A42-B7F7-AF74-BE3407A7A8C2">
+<Attribute name="Auftraggeber_SID" id="654E74A8-5A42-B7F7-AF74-BE3407A7A8C2">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:02:52 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rechnungsempfaenger_Code " id="19611707-F32C-FE82-FC76-F01EA830063E">
 <createdBy>aschweinberger</createdBy>
@@ -85,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Buchungskreis_Code " id="C3EE6AC3-970D-DC19-D39B-812607B44C40">
 <createdBy>aschweinberger</createdBy>
@@ -576,7 +574,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundeERP_Code4" id="6EA5E7B0-8568-5A30-1A54-0587E5F0371B">
 <createdBy>aschweinberger</createdBy>
@@ -600,7 +598,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundeERP_Code2" id="8BC3DAF3-D209-7326-58B7-E56D86D49519">
 <createdBy>aschweinberger</createdBy>
@@ -612,7 +610,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code" id="3C2F29AB-441A-5627-0E5C-81B8A1621649">
 <createdBy>aschweinberger</createdBy>
@@ -624,7 +622,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code1" id="95432D9C-97EE-8E95-F34C-DCDAFA4062B9">
 <createdBy>aschweinberger</createdBy>
@@ -636,7 +634,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code2" id="FCEE172F-5875-5CD4-335D-F8A7AC800210">
 <createdBy>aschweinberger</createdBy>
@@ -648,7 +646,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code3" id="FF77A175-13AC-4458-E1F4-D325232F7B65">
 <createdBy>aschweinberger</createdBy>
@@ -660,7 +658,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SachKonto_SID" id="034FDA60-EDE1-29A6-390D-3C02B247F8E8">
 <createdBy>aschweinberger</createdBy>
@@ -723,6 +721,17 @@
 <generatorID>56E454AB-7EA0-26B6-B77E-2D0CDDCD2116</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>538C6EEB-C8F4-FCC6-2FEF-B141774BD8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plattform_SID" id="5367EA75-AEDF-2F1F-E054-CD3D2F9AF5B4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:53:00 UTC</createdTime>
+<generatorID>56E454AB-7EA0-26B6-B77E-2D0CDDCD2116</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

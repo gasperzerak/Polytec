@@ -26,7 +26,6 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 13:43:24 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -65,4 +64,15 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBDE9493-9B39-6BDE-5159-AB1C29E7B671" name="Plattform PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:52:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85E6530F-FED0-9307-E226-D9217B3ED597</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D540FC-E4D5-7ABE-3CC8-6186FBD7A192" name="KundeMapping">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 21:34:51 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="856AA7DA-CC92-9BBC-37E6-0E7815DBE684">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 09:16:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_SID" id="8D76E68A-5A47-0F05-C566-F00DBAE98DD1">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 21:34:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KonzernKunde_SID" id="76CB32CA-3DC1-5E3D-37FC-D996E1BA9021">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 21:35:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KonzernKunde_SID1" id="02618394-F205-B1D1-6BF9-ADD80B2182FC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 13:59:31 UTC</createdTime>
+<generatorID>410387A0-CB0A-C44D-7FD2-FF0B3CA01C92</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>9502D99A-626E-423D-C53F-4B266D2B130C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_SID1" id="1C816FF7-30C2-88C5-186E-8C834C962312">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:00:54 UTC</createdTime>
+<generatorID>0CFCE15C-34A0-EAC5-3A7B-4CEB13AB0EF9</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>3E140304-4886-E3B8-6898-B5439C5BE0A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

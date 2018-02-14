@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PSPElementv2" directorySegmentName="seg_2" id="DEFE8C96-5478-921B-86B3-7AE9ECE044DE">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 15:25:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>26CA7896-0DE3-B772-032A-F6113F042D96</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF392DE0-ED95-97BA-C9B7-ADEAA8F8C2BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F61508E-0B48-3E45-0E50-2D9ABE70D76D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

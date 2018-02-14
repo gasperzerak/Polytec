@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oberflaeche" directorySegmentName="seg_2" id="8F6850BB-30F6-1D7A-EB89-AD8DEEEC99B7">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:29:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>AA270B75-55FA-B248-E125-3B845AD0664F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88D6B86E-1325-1BFB-2BB2-B0E79CC57E47</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C9CD4FA-239B-94A3-35A5-1C25B5015898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -375,5 +375,16 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Plattform_SID" id="F6227AAA-65D7-8098-5FF1-4B0764175490">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:53:00 UTC</createdTime>
+<generatorID>66A858DB-CDD0-72B6-CF8B-E2A0856E1632</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

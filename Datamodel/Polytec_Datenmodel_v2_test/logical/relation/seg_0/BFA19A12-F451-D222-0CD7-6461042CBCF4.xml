@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zuordnung" directorySegmentName="seg_0" id="BFA19A12-F451-D222-0CD7-6461042CBCF4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-14 13:03:20 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>ED02EF5F-0154-3DF6-4274-132E6044D3DB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0E67864-FB53-2CFC-F99A-CAB4D3A9A095</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>346DA79F-04D9-BB68-3BDD-D03779636E5E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

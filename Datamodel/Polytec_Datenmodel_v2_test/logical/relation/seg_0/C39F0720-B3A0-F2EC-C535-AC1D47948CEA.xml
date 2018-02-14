@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MasterWerkv1" directorySegmentName="seg_0" id="C39F0720-B3A0-F2EC-C535-AC1D47948CEA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-14 13:05:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>C7071FB4-3312-9A09-0770-E1F4C72DBAAE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>61BE664B-B481-1A24-C20A-E91BF3B83479</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>105D18FD-575E-0409-FFEF-B5F99F36846E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

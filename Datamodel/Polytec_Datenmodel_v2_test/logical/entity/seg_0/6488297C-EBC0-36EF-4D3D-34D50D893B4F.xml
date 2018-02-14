@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6488297C-EBC0-36EF-4D3D-34D50D893B4F" name="Zeit">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 14:13:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="DF0218BA-8007-339E-D2B8-C60B0ED6FE8C">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 11:23:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zeit_SID" id="6AFD1563-13A0-0D45-0AC0-485247046FA3">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 15:28:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="330A940D-FC89-4079-15B2-AD2E7B216F8A">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:48:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TagNummer" id="3AC079D3-9763-F105-DA8A-53B1586952AE">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:49:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MonatNummer" id="E64ADC8C-A652-0B67-ACF3-EE9289B39729">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:49:51 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JahrNummer" id="652A4523-8BD5-E03C-BA3B-374FAF975F38">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:50:01 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TagName" id="901D67BB-8BBD-AA88-9DC4-C633153E09E6">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:50:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MonatName" id="0E1AFA8D-87D0-B962-645A-9F831A5F1BE5">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:50:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21F36B90-690E-7349-ED7A-D288FBAB8A19" name="Zeit PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-28 12:10:16 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AFD1563-13A0-0D45-0AC0-485247046FA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="520AF8F0-56DC-AAA3-C09B-2DE9D34F6474" name="Mengeneinheit">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-13 23:05:51 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="95A95B9A-1067-FBD9-F5FE-E20A2DDCFCFC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:21:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_SID" id="FB48578A-DCBB-7F35-2623-AF28FCB70317">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:32:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Code " id="26B8A307-C178-DD9C-ADD9-FDD123292B02">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:02:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Bezeichnung_ENG " id="6AC170ED-F21C-3767-4BC5-1FB95D3CF86E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:18:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Kurzbezeichnung_ENG" id="E51A53E8-C2E1-5D27-A757-5D50CB27B020">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:18:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Bezeichnung_DE" id="E8979366-1FAB-12C3-4337-945FEE03F19D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:19:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Kurzbezeichnung_DE" id="85A39852-D6C2-2552-A01F-4310014E0AEB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 10:19:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC10AF20-B144-AAD5-D7F9-D6ACECE44924" name="Mengeneinheit PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:02:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB48578A-DCBB-7F35-2623-AF28FCB70317</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF90DDD1-A792-B330-FA5F-E143DD94B835" name="User">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:50:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="F3B443E8-2585-97B8-412F-9F681F9E6CF9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:24:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_SID" id="EBFEB57A-6870-5D8F-774A-EA70A170402E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:50:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Code" id="1C901F35-0E14-842B-B008-39F01F9D9364">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:50:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_Bezeichnung" id="D8C7B001-7B09-0FF9-C60D-76A1295B4934">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:51:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FB6B23D-4338-5259-7409-66A7EDDD0622" name="User PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:50:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBFEB57A-6870-5D8F-774A-EA70A170402E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

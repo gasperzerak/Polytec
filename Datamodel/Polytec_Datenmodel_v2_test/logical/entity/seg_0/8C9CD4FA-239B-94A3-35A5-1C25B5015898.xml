@@ -1,0 +1,359 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C9CD4FA-239B-94A3-35A5-1C25B5015898" name="Verkaufseinheit">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 16:02:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="5944C534-CE55-8725-15FF-F01E1CFAD087">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:08:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_SID" id="D91EE000-0A8E-E5C3-1663-E7BDB9D198CA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:08:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_Code " id="97B6E18B-0BA1-79BF-D11D-012BB22F5FFB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:08:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_Bezeichnung_ENG" id="0C1D9032-0391-AD88-C420-D8FFE1D01536">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:09:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_Bezeichnung_DE" id="24B40637-B184-DEF9-E9F4-3E87E55F451B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:09:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID" id="57FDB0C5-139D-3BAE-B3AF-D7ABA442197E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:09:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Technologie_SID" id="A1D2886A-ED82-7EBC-35B3-7E548C506686">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:17:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oberflaeche_SID" id="60560996-54B8-8B50-BEE9-B216448BEF1F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:18:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitKategorie_SID" id="DA219650-AE6A-D16C-C717-44FC4143B4A7">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:18:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie4_SID" id="8B6A9614-EF14-B7C6-4402-B5317F822527">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:18:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AufbauOberflaeche_SID" id="66F01382-34F7-9008-E96E-8B0223B206F9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:18:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plattform_SID" id="221083E5-0BC7-8F85-1BE2-9382D36E1E63">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:20:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Programm_SID" id="AC1464C2-F030-E389-3747-E00D8ED6DBDF">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:20:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fahrzeugmodell_SID" id="5302952C-2F92-8B13-0884-9819C11C6323">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:20:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motormodell_SID" id="A5AA8373-3010-EF42-ACD7-8BFFB39952E4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 12:21:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Antriebsart_SID" id="704B9D54-B2D3-5AB9-C2C6-11482FA82B81">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:33:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sonderserie " id="9C27C263-EA8C-0D2E-07B4-84EB6230E396">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:34:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endkunde_SID" id="EA35B510-738C-609E-7E9A-A0C383EF921C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:34:22 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datapackage_ID " id="CA29C98B-3E5A-2924-D6CF-51020A414D07">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:34:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gate_SID" id="BB4449DA-8E46-D8A4-2E58-925E23C7C84F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:34:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preis" id="02FC3DFE-5546-7593-9826-2208B8CB8709">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:35:01 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID1" id="98EEC85A-7F58-F576-6EDF-FF71900025B0">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:27:33 UTC</createdTime>
+<generatorID>AFC33101-568D-FFE9-CDAF-78C39B9BA65D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>7CD178B8-9A45-4490-F792-4BA6B76610AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Technologie_SID1" id="DC5AD727-BECB-7985-7EFE-CD0600EF284E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:28:19 UTC</createdTime>
+<generatorID>D96C12A1-F2B8-161B-8A9A-A518A52FA1A0</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>4BED5562-1237-91FB-A780-DD480C0716A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oberflaeche_SID1" id="AF89FD4D-17C5-E297-0801-F9ECE15D30C5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:29:06 UTC</createdTime>
+<generatorID>8F6850BB-30F6-1D7A-EB89-AD8DEEEC99B7</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>6CDBF5C5-2698-E639-792B-8FE242B84C77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitKategorie_SID1" id="EC3C0FB1-B81A-5EC1-2AD2-BBA84E4458EA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:29:25 UTC</createdTime>
+<generatorID>F5C8155E-F6BB-AF4B-BE2D-B16E22CFBA5A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>9E83C8E3-E82F-3F6B-72EA-AD7E9B1557B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie4_SID1" id="20F0F2CB-FEFE-AB60-6105-2976F4E5D617">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:30:00 UTC</createdTime>
+<generatorID>C5903D99-4131-EF7B-17E1-8B288E4004A0</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>D339CAFC-6C4E-D4A1-6CA2-57713DFD8B70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AufbauOberflaeche_SID1" id="5AC1C205-0FF5-D2CE-9D1D-188D242CFF65">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:30:55 UTC</createdTime>
+<generatorID>583140AB-387E-8263-BB96-C750FE074FBD</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>69A8DFEA-4786-3084-5700-50129E1998A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plattform_SID1" id="5229995C-2CFE-0BB7-26A0-41EACD08D31A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:32:16 UTC</createdTime>
+<generatorID>35033AB8-702A-36E2-C8B3-7D3E788C12DE</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>85E6530F-FED0-9307-E226-D9217B3ED597</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Programm_Code " id="CF819576-C458-A956-8982-6157F6E00FAE">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:34:15 UTC</createdTime>
+<generatorID>457A1E2B-AA6F-779D-107E-B481CF55C368</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>A082C03F-5C23-86FB-2E32-966B165E39EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fahrzeugmodell_SID1" id="31A3E847-748A-C7B2-8C37-F3FEBA912EF2">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:36:31 UTC</createdTime>
+<generatorID>D490AE0C-4049-130B-DB3B-442B2D4FFC9E</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>E0AEFCEF-A7D4-A964-6787-C4BC656EADD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Antriebsart_SID1" id="C0873FA0-464A-A4C5-78E0-3ECBBDDE36AB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:38:47 UTC</createdTime>
+<generatorID>20E3BC69-0E58-C8D5-DDD2-3BAEFA289814</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>4D0591D3-4809-E47B-41B3-9912C96F937B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motormodell_SID1" id="7E1591E5-503A-21DA-787F-FB56AA1A1601">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:39:08 UTC</createdTime>
+<generatorID>3D77ABDF-799E-AD55-8329-2E7ACD4462BC</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>506A965A-9FFF-E0CB-9D97-82B1CC217B94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndKunde_SID1" id="5930A553-E724-D9CB-55E7-B6B83D5C1602">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:39:17 UTC</createdTime>
+<generatorID>811C5A5A-4EB6-A8AA-97AE-CBD8994890B7</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6EB6FBC-47BD-D4C2-4436-735B0F934453" name="Verkaufseinheit PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 15:08:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D91EE000-0A8E-E5C3-1663-E7BDB9D198CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

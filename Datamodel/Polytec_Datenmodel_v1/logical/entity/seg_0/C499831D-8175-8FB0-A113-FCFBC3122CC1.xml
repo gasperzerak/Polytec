@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C499831D-8175-8FB0-A113-FCFBC3122CC1" name="Abrufe">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 09:58:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="CF309CD0-2A22-9836-CF53-1BC0CC9C314A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 09:58:30 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_SID" id="569EA8A2-3F98-F02A-836D-B3EF6AF67A60">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 09:58:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERP_Werk_SID" id="807C5BF6-D101-9623-99CB-6B23E826933B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 09:59:00 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Buchungskreis_SID" id="07D54275-69F4-E663-883F-B01F4BFD07F9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:00:13 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MaterialERP_Code " id="875C020B-695B-AD4D-D251-1CE0AF2758DA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:00:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum " id="4759C060-4B23-AEB3-53FF-B292FA3352A8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:00:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID" id="71E2FBD0-FD96-E5CB-F414-1204C24A6417">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:00:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FunktionalWaehrung_SID " id="EE1FAFA2-46E6-E087-7265-3F95A3D429BA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:00:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_SID" id="C22F3D45-0315-1ED1-F2FB-0BE66BC7FA6C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:01:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UmsatzAbgerufen " id="C616E719-B706-46BB-9B26-DB22277C0DFD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:01:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FunktionalUmsatzAbgerufen " id="376DFE8D-0AF2-C965-B942-4CF4920651AD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:01:51 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Abrufmenge " id="871464E6-A62B-86A4-BDB2-F8798E132BD5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:02:11 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ladedatum " id="C957B99D-2EB3-391C-3A6E-31B36F638A87">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:02:20 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datapackage_ID " id="2A35F636-AC98-E632-CA80-E4A1795C0F4D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 10:02:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

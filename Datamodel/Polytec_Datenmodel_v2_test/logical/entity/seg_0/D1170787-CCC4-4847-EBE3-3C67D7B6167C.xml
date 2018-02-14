@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1170787-CCC4-4847-EBE3-3C67D7B6167C" name="FahrzeugModell">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 12:23:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="E1D66A95-FC5C-93A7-9A45-73E48ABC06BE">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:49:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fahrzeugmodell_SID" id="E0AEFCEF-A7D4-A964-6787-C4BC656EADD8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:49:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fahrzeugmodell_Code " id="BEFF94EA-54D0-7776-278D-55D89623F680">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:49:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fahrzeugmodell_Bezeichnung_ENG " id="5354ECB4-7B12-D1EF-FC1A-726501531343">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:50:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fahrzeugmodell_Bezeichnung_DE " id="EFE63763-51E3-793A-4D50-8C5F85BCC0DC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:50:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AF20099-4639-6FAF-74CA-1886E0D87D53" name="FahrzeugModell PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:49:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0AEFCEF-A7D4-A964-6787-C4BC656EADD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

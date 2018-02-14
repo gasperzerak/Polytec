@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="B18D662B-299C-59F5-3869-5FAC86C52EF9" name="Belegarten">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 17:05:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="A25523B6-E7EB-FB11-BA23-77D1917BACEA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 07:24:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegart_SID" id="65BD9BD1-784C-7FC8-3A3B-0E6C4F7ED22D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 07:39:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegart_Code " id="87EB7F73-DCFF-A15C-FA71-D4DFE17FAD2E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 07:39:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegart_Bezeichnung_ENG " id="6DD28099-279A-06B4-3035-33C2E15B1222">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 07:39:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegart_Bezeichnung_DE" id="E184F39F-11F5-A88C-11A7-26363003E5BC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 07:40:09 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4D9EC80-A58F-A213-33FB-EBAA01DF76B2" name="Belegarten PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-12 07:39:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65BD9BD1-784C-7FC8-3A3B-0E6C4F7ED22D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

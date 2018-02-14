@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25777742-1CC0-2657-D0EC-AF58DA7E9A95" name="Gesellschaft">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-17 15:38:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="9CD9833C-E635-8FA2-D6EB-0A5C10804D9D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:20:20 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaft_SID" id="B6E55ED1-1BFF-97B3-445B-FA8D768A6799">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 15:27:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaft_Code" id="59999391-7C93-A22F-9583-9A4589995A9B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 11:59:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessUnit_SID" id="59AAF275-C1C7-E626-1DED-4F88232D51ED">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:32:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID" id="34E06174-1664-D44D-DC0C-83E101E97B0F">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 16:32:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaft_Bezeichnung" id="5DAE4DBC-F882-CC0A-9182-BDAB04A13E78">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:00:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaft_Kurzbezeichnung" id="3F1C1F57-957C-8507-EACE-F93BFBC8B483">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 12:00:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaftsart_SID" id="794B16C7-CDAB-EDAE-43B4-1CF8D3D34B9B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 15:31:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID1" id="B2FBB707-AA03-9C05-B627-84CF35F60E99">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-14 13:08:51 UTC</createdTime>
+<generatorID>3516C43D-6914-E367-0ABD-2036E8162F2F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gesellschaftsart_SID1" id="4CCB5642-2E06-EB9D-90F2-C74848ECEC46">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-14 13:10:46 UTC</createdTime>
+<generatorID>ECD58611-A55A-39A3-DE90-A635C7B3676E</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>CF2E6C9A-021F-9130-E511-DB4E4A8BEF04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A9780D2-F4A6-4CAC-5F70-F3A85D3A1B86" name="Gesellschaft PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 11:58:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6E55ED1-1BFF-97B3-445B-FA8D768A6799</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -267,7 +267,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code" id="AE58595E-8D59-A87F-14D1-6A333792F33F">
 <createdBy>aschweinberger</createdBy>
@@ -279,7 +279,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SachKonto_SID" id="BEA3EA4E-BD14-02F0-E9CE-23424CBCB151">
 <createdBy>aschweinberger</createdBy>
@@ -357,6 +357,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plattform_SID" id="3B5A3F5A-CEDB-A4FA-0247-737EF2C1DA8A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:53:00 UTC</createdTime>
+<generatorID>698E521D-7408-AAFD-355D-60A8C6CA50DD</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

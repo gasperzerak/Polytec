@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A9CB3F9-2F83-4AD8-C16C-EF2C718D419F" name="Masterkonto">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-18 14:36:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="4D6DB9B5-A9C7-7B5C-6A0D-10B2B9452D42">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Masterkonto_SID" id="707A6F4B-0C39-C8F6-EFD4-0E27D5D093AB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:08:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Masterkonto_Code" id="F656567D-8CDB-F1C3-C887-8115D9C7357E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:11:42 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Masterkonto_Bezeichnung_DE" id="EE4D6F3A-5806-A3B2-8079-ACD4735C5443">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:08:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Masterkonto_Bezeichnung_ENG" id="B4BF150D-3096-D507-2E59-A261E0C46B42">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:10:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzernkonto_SID" id="04532B59-A8C2-B81D-2491-0EAC0D72E82B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:11:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzernkonto_SID1" id="2838E836-161F-FF7B-652A-E27779398C16">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 13:53:05 UTC</createdTime>
+<generatorID>D4980A27-AA27-B0D5-FEF6-33C3341EB1FA</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>15D627B2-D5AE-1252-094C-D97A512D80F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D7236C2-1F6B-3B7B-B754-9969B5796ACE" name="Masterkonto PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 13:52:22 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>707A6F4B-0C39-C8F6-EFD4-0E27D5D093AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

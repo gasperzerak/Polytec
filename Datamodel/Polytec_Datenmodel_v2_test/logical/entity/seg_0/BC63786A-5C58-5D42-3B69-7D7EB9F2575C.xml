@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC63786A-5C58-5D42-3B69-7D7EB9F2575C" name="Technologie">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 12:22:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="5B3996A9-37DF-6E95-B9CA-92DF459D233E">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 13:06:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Technologie_SID" id="4BED5562-1237-91FB-A780-DD480C0716A1">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 13:05:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Technologie_Code" id="86211EDD-AA06-B195-FBDF-F8C7E07D46AC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:12:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Technologie_Bezeichnung_ENG" id="D1FB54F9-79D4-C4EB-C5E3-26C3E03E4503">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 13:06:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Technologie_Bezeichnung_DE" id="B9DC0883-C4CF-FFFE-25FE-50D84B2867F8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:13:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CCF312E-A072-A08B-398B-41A625A0006E" name="Technologie PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:12:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BED5562-1237-91FB-A780-DD480C0716A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

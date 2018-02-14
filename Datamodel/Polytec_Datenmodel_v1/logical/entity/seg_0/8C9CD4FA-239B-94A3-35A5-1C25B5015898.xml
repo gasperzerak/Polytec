@@ -326,6 +326,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Plattform_SID" id="CFAB9FF1-D240-A03F-AF68-3DDD2FF8FFFE">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:53:00 UTC</createdTime>
+<generatorID>C4C7CF81-D5C6-F520-CA86-3C88330782D4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>85E6530F-FED0-9307-E226-D9217B3ED597</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B6EB6FBC-47BD-D4C2-4436-735B0F934453" name="Verkaufseinheit PK">

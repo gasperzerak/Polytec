@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KonzernKonto" directorySegmentName="seg_0" id="D4980A27-AA27-B0D5-FEF6-33C3341EB1FA">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 13:53:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>71A39E7C-C428-AB39-95AF-35184E6B20CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB2F667D-5F3E-0430-E1AC-BB5B656A6D3E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A9CB3F9-2F83-4AD8-C16C-EF2C718D419F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

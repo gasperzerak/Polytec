@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDC25C79-EBA5-A427-14CD-AD93D55722F8" name="Motormodell">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 12:23:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="C9F06E65-298E-0892-ADB9-93EA43E913B8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:51:09 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motormodell_SID" id="506A965A-9FFF-E0CB-9D97-82B1CC217B94">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:51:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motormodell_Code " id="737F40BB-B1D8-7C86-6ACE-8CCC9D756C99">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:52:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motormodell_Bezeichnung_ENG " id="BB68E452-CEB1-C606-77BB-9C821042F529">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:52:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motormodell_Bezeichnung_DE" id="D8C585DF-AD3E-0B9C-2AAB-4180795535FB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:52:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69C8A7BA-05E1-D427-7C84-2CABAF2613EC" name="Motormodell PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 13:52:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>506A965A-9FFF-E0CB-9D97-82B1CC217B94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

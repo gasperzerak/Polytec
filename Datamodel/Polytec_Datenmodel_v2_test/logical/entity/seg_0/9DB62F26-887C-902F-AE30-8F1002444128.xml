@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DB62F26-887C-902F-AE30-8F1002444128" name="VerkaufseinheitHierarchie2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 16:44:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="B4087880-9839-1EAC-6D98-5BA687085F3D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:43:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie2_SID" id="92BFC6AB-8A83-181F-179F-9CAB8C663B10">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:23:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie2_Code" id="63B576FE-3034-BBC1-4F1D-A2404E25D14B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:43:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie2_Bezeichnung_ENG" id="FC17BAF0-A348-BB73-A245-4A161C058AD8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:44:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie2_Bezeichnung_DE" id="5AF43DAB-19E8-443F-C703-06313D2679C5">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:44:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie1_SID" id="FFFCA30E-A5E6-4826-E441-B41AC751DD83">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 14:44:42 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VerkaufseinheitHierarchie1_SID1" id="E4E33ADC-DA33-B044-D32F-598D357BAD5C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:40:37 UTC</createdTime>
+<generatorID>8D38BBA7-0B09-777A-A51A-FC926A7D3591</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>8B9B8DC3-CB2E-4903-6A44-FCC3D2D12561</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C38CF086-0D3E-656C-2E8D-EB7CEC8271DE" name="VerkaufseinheitHierarchie2 PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:23:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92BFC6AB-8A83-181F-179F-9CAB8C663B10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

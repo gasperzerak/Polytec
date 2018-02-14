@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F3771589-87FD-DECE-1A5F-9A63BE769D70">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-17 15:35:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Umsatzart" directorySegmentName="seg_1" id="596A13C7-79D7-033A-C730-0468152DC835">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 13:54:13 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>D3D6E915-DB19-B9F2-B1CD-4444823763E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12606C2A-9CFA-9942-5C40-6D789F3014CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB2F667D-5F3E-0430-E1AC-BB5B656A6D3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

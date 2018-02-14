@@ -346,6 +346,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Plattform_SID" id="81B6BF66-4CDE-BC05-429B-3EC9108D17DD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:53:00 UTC</createdTime>
+<generatorID>013F7370-90DF-904D-C97E-0421AD7710B4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>85E6530F-FED0-9307-E226-D9217B3ED597</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="26CA7896-0DE3-B772-032A-F6113F042D96" name="PSPElementERP PK">

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="190975BB-1B0B-316D-FD95-63B0EE8A4D8F" name="BusinessType">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-17 15:37:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="1EE4670D-1C3A-6504-0AA2-BFD8AA68FD3A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 14:21:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessType_SID" id="171754AB-CD12-BC48-8EFE-8485F2AE4B56">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-10-24 13:07:55 UTC</createdTime>
+<comment>Booked, Potential, ...</comment>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessType_Code" id="4D14B731-07F3-00B5-10CA-5B6AC95ADC14">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-11-20 11:22:09 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessType_Bezeichnung" id="F5A6C562-173F-BFB9-446A-8A883D142EEB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:41:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusinessTypeGruppe_SID" id="83C6A8CE-6F70-1805-3EEE-55B32E799170">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:41:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98199FC2-7F4D-3A40-5304-30E2083F65D3" name="BusinessTyp PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2017-11-27 13:40:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>171754AB-CD12-BC48-8EFE-8485F2AE4B56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

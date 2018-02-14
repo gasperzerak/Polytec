@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C93BAABF-4E30-210A-671F-CF517F37AED4" name="Sachkonto">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-09 14:55:22 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="68A487B1-1E31-5D17-DDA0-68A71E1F59C9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:01:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SachKonto_SID" id="A8C05386-578B-910B-192C-672538DA6C73">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:02:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sachkonto_Code" id="F6ECF466-2226-3913-AB60-66940C72EB3D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 14:10:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sachkonto_Bezeichnung_DE" id="93D6A3CE-1022-C2BE-64DE-9D4BEA794F4D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:04:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sachkonto_Bezeichnung_ENG" id="BF669AAA-FE80-1324-D264-9958C5EC967C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:04:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Masterkonto_SID" id="9304E78F-18F0-679D-21CB-98AA94354F54">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:05:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Is_IC" id="45712455-389C-BFC4-5835-30692FDB1EEA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-01-23 13:08:16 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Masterkonto_SID1" id="F9902C24-EC53-7147-1553-CF63524F6976">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 13:52:11 UTC</createdTime>
+<generatorID>63C72897-7551-4D77-6E16-7CFC5BB087DF</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<referedAttribute>707A6F4B-0C39-C8F6-EFD4-0E27D5D093AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6988066D-F90F-9539-99AF-5F9D4FD6F290" name="Sachkonto PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-07 13:49:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8C05386-578B-910B-192C-672538DA6C73</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

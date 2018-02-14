@@ -303,7 +303,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Verkaufseinheit_SID" id="D2F0D8A2-30ED-6678-EBC1-44F2F84FF272">
 <createdBy>aschweinberger</createdBy>
@@ -404,6 +404,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Plattform_SID" id="F28823BC-9A4E-CCE3-267B-D8109A29C81A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 08:53:00 UTC</createdTime>
+<generatorID>78045FA0-7B66-D01B-C1DB-DB881E27B40A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>85E6530F-FED0-9307-E226-D9217B3ED597</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8FEEDEFF-A59E-274E-035E-C2D10AC0D8CF" name="MaterialERP PK">
@@ -413,6 +424,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>538C6EEB-C8F4-FCC6-2FEF-B141774BD8FA</attributeRef>
+<attributeRef>F28823BC-9A4E-CCE3-267B-D8109A29C81A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

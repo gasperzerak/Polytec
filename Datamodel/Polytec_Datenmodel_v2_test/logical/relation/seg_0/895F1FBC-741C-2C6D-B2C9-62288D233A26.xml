@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Landv2" directorySegmentName="seg_0" id="895F1FBC-741C-2C6D-B2C9-62288D233A26">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-13 14:00:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<sourcePk>E5AC14E0-F9B2-C5C6-74AC-9755B43A91AA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C04C62BD-2782-B32A-6496-6938D0E9A97F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B135050-0848-F9F7-03A2-C22AF30CF29B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

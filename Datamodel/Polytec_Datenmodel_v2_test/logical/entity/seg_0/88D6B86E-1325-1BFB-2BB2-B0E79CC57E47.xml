@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88D6B86E-1325-1BFB-2BB2-B0E79CC57E47" name="Oberflaeche">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 12:21:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="5FB6AC94-13C3-FD30-B778-2EF1CF1DE92D">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 13:07:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oberflaeche_SID" id="6CDBF5C5-2698-E639-792B-8FE242B84C77">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 12:22:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oberflaeche_Code" id="F1D6A71C-1FEB-9B8D-0B81-478E00DAE1C5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:13:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oberflaeche_Bezeichnung_ENG" id="82C492E8-30D0-575C-B55E-74F8B491674C">
+<createdBy>gzerak</createdBy>
+<createdTime>2017-12-04 12:22:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oberflaeche_Bezeichnung_DE" id="61508D6E-BD54-96BE-EDF9-AC4BF50F2E9F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:14:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA270B75-55FA-B248-E125-3B845AD0664F" name="Oberflaeche PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 14:13:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v2_test</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CDBF5C5-2698-E639-792B-8FE242B84C77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
