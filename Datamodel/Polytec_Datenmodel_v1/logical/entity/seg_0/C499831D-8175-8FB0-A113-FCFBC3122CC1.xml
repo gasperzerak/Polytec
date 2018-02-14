@@ -151,5 +151,129 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="KundeERP_SID1" id="30AA80C4-9DDF-F401-8DEC-3722CD2330D3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:33:09 UTC</createdTime>
+<generatorID>2423B99E-28FA-50D4-A23E-26F07E9DCD64</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>3E140304-4886-E3B8-6898-B5439C5BE0A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_Code" id="F8AF0787-2A2D-0A81-BC24-5E6E8119143C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:33:09 UTC</createdTime>
+<generatorID>2423B99E-28FA-50D4-A23E-26F07E9DCD64</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>9879B59E-BD8A-84B6-264A-5D9E071129A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rolle_Code" id="392ED44E-A6E7-0FC6-1A38-CE045E156905">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:33:09 UTC</createdTime>
+<generatorID>2423B99E-28FA-50D4-A23E-26F07E9DCD64</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>E4C914D2-3DCF-ED45-9486-6C450741CE5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_SID" id="AF8AA144-4F29-EB5B-9DF9-CE73CC7C0C18">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:33:53 UTC</createdTime>
+<generatorID>AD3828FE-75EE-1E7F-74F1-285350CFBD13</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>4FD2BA3B-7100-C969-D5C2-37C72182FFE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_Code" id="89CBE3BC-661F-DDA0-1EA5-3097BBDC1EB9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:33:53 UTC</createdTime>
+<generatorID>AD3828FE-75EE-1E7F-74F1-285350CFBD13</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Buchungskreis_SID1" id="97790530-1EA8-38E5-5B8C-1EB677C6E52B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:34:03 UTC</createdTime>
+<generatorID>D0F84DBA-5883-5FBE-FF20-9ED333B127A2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>3453953E-9C74-5B94-AFB0-0AF7CF6CF6DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID1" id="AD8E806D-09C3-2D6A-6607-AB1DE5D0D17A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:34:08 UTC</createdTime>
+<generatorID>78B903A0-B0BA-E5B4-4815-6E3655240F4D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MaterialERP_SID" id="D59035C4-AACF-6D43-4CB6-084049800FAB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:34:51 UTC</createdTime>
+<generatorID>C10ACA83-32DF-2419-04D4-6EF5A90F46B4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>538C6EEB-C8F4-FCC6-2FEF-B141774BD8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plattform_SID" id="CBC31945-BB0C-5704-9D64-77FCA47268DF">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:34:51 UTC</createdTime>
+<generatorID>C10ACA83-32DF-2419-04D4-6EF5A90F46B4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_SID1" id="C5BCB46B-A356-D4AF-2E50-683428F0A6C2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:35:23 UTC</createdTime>
+<generatorID>A6EF82BC-39FB-49DB-A15A-A1C61ACAD9F0</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>FB48578A-DCBB-7F35-2623-AF28FCB70317</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zeit_SID" id="74834F1D-2273-4D86-7544-489084EC74F2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:35:45 UTC</createdTime>
+<generatorID>8E8CB752-4294-C275-A97D-6C08CFF168E6</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>6AFD1563-13A0-0D45-0AC0-485247046FA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

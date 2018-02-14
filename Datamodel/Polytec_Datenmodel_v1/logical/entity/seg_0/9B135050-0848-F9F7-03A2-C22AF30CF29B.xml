@@ -31,6 +31,16 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Zwischenkunde_SID" id="20C548E8-E379-872F-3AC1-3ACD166ED213">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 15:07:22 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Konzernkunde_Code" id="F79731CD-8774-BD13-A2A7-ECD7BBFC3351">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 10:51:17 UTC</createdTime>
@@ -96,17 +106,6 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EndKunde_SID1" id="AE634399-F398-6C24-882C-A77A6645D0C6">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 11:48:25 UTC</createdTime>
-<generatorID>BA5A0496-234E-7D8C-83F6-ECEAC5961DAD</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Land_SID1" id="015255B0-E40D-D355-B523-BE302088C7A6">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-12-04 11:50:49 UTC</createdTime>
@@ -141,16 +140,15 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EndKunde_Code" id="7F9EEAEA-62C7-92EB-6DD1-CA9D706E0868">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 09:32:07 UTC</createdTime>
-<generatorID>BA5A0496-234E-7D8C-83F6-ECEAC5961DAD</generatorID>
+<Attribute name="Zwischenkunde_SID1" id="FD13C83F-B7FF-1341-0077-D1434D239DFD">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 15:07:43 UTC</createdTime>
+<generatorID>3840607E-33D3-1B81-A6A0-28556B9BC671</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>26A24110-9C16-076B-7863-265EEF15D7B9</referedAttribute>
+<referedAttribute>6E4F08E5-A4A6-31B8-2ABA-24BC9B666760</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

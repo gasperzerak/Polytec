@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_208" directorySegmentName="seg_0" id="AD3828FE-75EE-1E7F-74F1-285350CFBD13">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:33:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<sourcePk>54765DA8-50D9-8AEE-0AA8-26111D8113A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FC8D2B92-52B5-05DC-A851-E251C96BF0E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C499831D-8175-8FB0-A113-FCFBC3122CC1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

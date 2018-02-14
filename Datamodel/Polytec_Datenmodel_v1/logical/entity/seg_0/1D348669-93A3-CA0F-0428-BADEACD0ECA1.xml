@@ -41,6 +41,16 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="KundeERP_SID" id="490D9DFC-A960-B087-A6DF-DCA0338652F4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:48:55 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Waehrung_Code " id="7D4EE480-A0A8-8D5D-0367-2A9898A7FF61">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-12 09:44:56 UTC</createdTime>
@@ -384,6 +394,41 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_SID1" id="C428E854-274C-9B9F-4F2B-D509D9D64CD4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:49:49 UTC</createdTime>
+<generatorID>CB53CE56-1508-5676-31B5-F8B306D3936A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>3E140304-4886-E3B8-6898-B5439C5BE0A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundeERP_Code" id="0E77FB0C-CC7C-8223-929F-02F931F38BE3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:49:49 UTC</createdTime>
+<generatorID>CB53CE56-1508-5676-31B5-F8B306D3936A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>9879B59E-BD8A-84B6-264A-5D9E071129A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rolle_Code" id="50D214FE-CD12-4978-CB15-1BC330B3357C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-14 17:49:49 UTC</createdTime>
+<generatorID>CB53CE56-1508-5676-31B5-F8B306D3936A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>E4C914D2-3DCF-ED45-9486-6C450741CE5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

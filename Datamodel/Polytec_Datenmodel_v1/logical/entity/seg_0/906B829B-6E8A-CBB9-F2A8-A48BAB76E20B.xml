@@ -127,17 +127,6 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KonzernKunde_SID" id="C59BCD19-86E4-D799-BB94-C1A2EA064460">
-<createdBy>gzerak</createdBy>
-<createdTime>2017-12-04 11:45:31 UTC</createdTime>
-<generatorID>5CF95E86-D7F7-CEA4-791D-87F211C71FEB</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>9502D99A-626E-423D-C53F-4B266D2B130C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="KundeMapping_SID" id="496BA7AB-AB95-E968-14DF-5434D6C23798">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 09:17:29 UTC</createdTime>

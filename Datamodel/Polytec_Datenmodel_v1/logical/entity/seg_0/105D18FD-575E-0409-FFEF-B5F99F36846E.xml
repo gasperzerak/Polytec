@@ -111,7 +111,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code" id="E1E615B5-292C-ABA1-078C-B962550413C2">
 <createdBy>aschweinberger</createdBy>
@@ -123,7 +123,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
