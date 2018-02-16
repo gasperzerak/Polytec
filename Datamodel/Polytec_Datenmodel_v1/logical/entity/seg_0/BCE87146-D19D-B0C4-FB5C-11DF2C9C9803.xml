@@ -31,6 +31,16 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Endkunde_SID" id="D5C827EB-F197-B277-0654-13AE382C86AB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:28:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="MaterialERP_Code" id="79389403-3DB2-E585-704F-7B9A96EF4280">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:21:02 UTC</createdTime>
@@ -41,9 +51,9 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MaterialERP_Bezeichnung_DE" id="74A3C917-B2EA-59C7-D775-134D1ABBA9E8">
+<Attribute name="MaterialERP_Bezeichnung_ENG" id="6C540F82-827A-6E87-752A-812AF1816EAC">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:21:51 UTC</createdTime>
+<createdTime>2018-02-08 14:22:16 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,9 +62,9 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MaterialERP_Bezeichnung_ENG" id="6C540F82-827A-6E87-752A-812AF1816EAC">
+<Attribute name="MaterialERP_Bezeichnung_DE" id="74A3C917-B2EA-59C7-D775-134D1ABBA9E8">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:22:16 UTC</createdTime>
+<createdTime>2018-02-08 14:21:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -260,28 +270,6 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Endkunde_Code" id="D5C827EB-F197-B277-0654-13AE382C86AB">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:28:47 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EndKunde_SID" id="9E65B1AE-DF1B-6075-5478-C6CF282632B6">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-09 16:03:25 UTC</createdTime>
-<generatorID>E18A9F2A-6842-92F5-6C7C-2D93DBC8AEBB</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Projekt_SID" id="210029AA-027B-4FA1-E993-83222904A12A">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-09 16:04:27 UTC</createdTime>
@@ -292,18 +280,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EndKunde_Code1" id="FD7854BC-953E-2E54-97E3-FE8740C91586">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 09:32:08 UTC</createdTime>
-<generatorID>E18A9F2A-6842-92F5-6C7C-2D93DBC8AEBB</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>26A24110-9C16-076B-7863-265EEF15D7B9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Verkaufseinheit_SID" id="D2F0D8A2-30ED-6678-EBC1-44F2F84FF272">
 <createdBy>aschweinberger</createdBy>
@@ -410,6 +386,17 @@
 <generatorID>78045FA0-7B66-D01B-C1DB-DB881E27B40A</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>85E6530F-FED0-9307-E226-D9217B3ED597</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndKunde_SID1" id="B1611575-1E54-CA7B-D6CC-1ED38C931CE8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-16 11:07:38 UTC</createdTime>
+<generatorID>110B372F-E090-93BD-E413-995C9D7B68BF</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
