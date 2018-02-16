@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="B18D662B-299C-59F5-3869-5FAC86C52EF9" name="Belegarten">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="B18D662B-299C-59F5-3869-5FAC86C52EF9" name="Belegart">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-18 17:05:35 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

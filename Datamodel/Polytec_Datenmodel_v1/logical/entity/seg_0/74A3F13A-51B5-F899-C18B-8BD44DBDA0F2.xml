@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74A3F13A-51B5-F899-C18B-8BD44DBDA0F2" name="ICPlanung">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:39:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="07D3EDEB-CD89-E158-04C7-B8379CB831AF">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:39:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teil_Kunde_SID" id="5BB80B58-4A31-2538-4DEB-7AC8AD0D5731">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:39:35 UTC</createdTime>
+<comment>kann sowohl Siemens als auch MaterialERP_Code  oder PSP-Element_Code sein</comment>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MasterWerk_IC_Kunde_SID" id="C558B66A-3014-38D7-D185-3C033F1866BB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:39:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MasterWerk_IC_Lieferant_SID" id="2D8B02C7-0792-FF48-21DE-B92A1CC309F4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:39:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teil_Lieferant_SID" id="CB0A7F08-ED52-ED83-52FA-38FD3BEF8C35">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:39:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verbauungsmenge" id="0425FF9F-483A-FB22-8A1E-B1381BD0D242">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:41:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSPElement_SID" id="A6396A15-D81F-EF7B-8A0B-F905C301F25F">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:42:51 UTC</createdTime>
+<generatorID>2830D949-113E-6DE8-A426-E772DE3B00F5</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MaterialERP_SID" id="F4F71B17-C98E-0ACD-9C51-332ED010B8BB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:43:00 UTC</createdTime>
+<generatorID>DEACF98E-4CE4-3053-A4F4-AA7B7C14BB4F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>538C6EEB-C8F4-FCC6-2FEF-B141774BD8FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plattform_SID" id="5C17403D-125C-1BCD-F384-666DECF83588">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:43:00 UTC</createdTime>
+<generatorID>DEACF98E-4CE4-3053-A4F4-AA7B7C14BB4F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MasterWerk_SID" id="91FAFF2D-58A1-0BCA-1702-F72DCD53A3AB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:44:28 UTC</createdTime>
+<comment>Werk1, Werk2</comment>
+<generatorID>EF4A10C7-192A-C627-4F3D-F50C3EAD33C2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>34C0D74B-08F4-25C6-AEA3-C6721EB56C90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MasterWerk_SID1" id="5A04A275-7569-8AEB-5203-7CEDB759F20F">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 11:44:32 UTC</createdTime>
+<comment>Werk1, Werk2</comment>
+<generatorID>443B0056-5CC1-5EA6-3AA3-6FC02E667895</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>34C0D74B-08F4-25C6-AEA3-C6721EB56C90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

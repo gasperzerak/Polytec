@@ -26,6 +26,7 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 16:32:26 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -92,9 +93,6 @@
 <createdTime>2017-11-27 12:02:35 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>FB48578A-DCBB-7F35-2623-AF28FCB70317</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

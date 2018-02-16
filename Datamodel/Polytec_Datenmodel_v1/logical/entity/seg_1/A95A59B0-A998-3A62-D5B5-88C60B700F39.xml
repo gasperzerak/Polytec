@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Rechnungsempfaenger_Code " id="19611707-F32C-FE82-FC76-F01EA830063E">
+<Attribute name="Rechnungsempfaenger_SID" id="19611707-F32C-FE82-FC76-F01EA830063E">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:19:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -51,7 +51,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Regulierer_Code " id="FD9B2481-7C30-2C3F-8992-768AEF16294B">
+<Attribute name="Regulierer_SID" id="FD9B2481-7C30-2C3F-8992-768AEF16294B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:19:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -62,7 +62,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Warenempfaenger_Code " id="DFBA3605-246E-FB13-C251-26AB57884CC8">
+<Attribute name="Warenempfaenger_SID" id="DFBA3605-246E-FB13-C251-26AB57884CC8">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:19:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -73,21 +73,29 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ERPWerk_Code" id="D869CFE1-9B30-5861-56FA-DD80D7AD8FB6">
+<Attribute name="FunktionalWaehrung_SID" id="693F71D6-BE48-F41F-3C75-3C59585CEACA">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 10:33:39 UTC</createdTime>
-<generatorID>CDB89724-D46F-5E7A-6173-660C7414D54E</generatorID>
+<createdTime>2018-02-09 15:34:30 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>B33F0851-2EF1-0E3B-2CDB-5A82B0E77DD0</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Buchungskreis_Code " id="C3EE6AC3-970D-DC19-D39B-812607B44C40">
+<Attribute name="Buchungskreis_SID" id="C3EE6AC3-970D-DC19-D39B-812607B44C40">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:21:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID" id="07FD988B-A19E-3F20-B6CF-B719E72C8216">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 15:24:15 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,7 +104,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MatierialERP_Code " id="8DBDA027-578E-613A-146C-E0A068D76BE4">
+<Attribute name="MatierialERP_SID" id="8DBDA027-578E-613A-146C-E0A068D76BE4">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:22:03 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -107,9 +115,40 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PSPElement_Code " id="A241198B-9B25-C954-8ABD-72D3B36B113B">
+<Attribute name="PSPElement_SID" id="A241198B-9B25-C954-8ABD-72D3B36B113B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-09 15:22:24 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_SID" id="B9D3D8B1-77F4-1647-8ED6-9C53BFD07A01">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 15:24:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegart_SID" id="9EF74C61-9983-C783-06F9-C71D0BAA4265">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 15:25:10 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegnummer " id="6D61A449-2031-20CD-5B2C-A039D14A3E04">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-09 15:25:24 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -127,50 +166,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Waehrung_Code " id="07FD988B-A19E-3F20-B6CF-B719E72C8216">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 15:24:15 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Mengeneinheit_Code " id="B9D3D8B1-77F4-1647-8ED6-9C53BFD07A01">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 15:24:39 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Belegart_Code " id="9EF74C61-9983-C783-06F9-C71D0BAA4265">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 15:25:10 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Belegnummer " id="6D61A449-2031-20CD-5B2C-A039D14A3E04">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 15:25:24 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Belegposition " id="CC8602A3-E01B-7EAB-55BC-19DBC22C0498">
 <createdBy>aschweinberger</createdBy>
@@ -299,16 +294,6 @@
 <dataTypePrecision>18</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,18,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="FunktionalWaehrung_Code " id="693F71D6-BE48-F41F-3C75-3C59585CEACA">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 15:34:30 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FunktionalUmsatzFakturiert " id="B858967B-34B5-E068-6ED0-72372FC94FB2">
 <createdBy>aschweinberger</createdBy>
@@ -531,28 +516,6 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Waehrung_SID" id="DA5A416D-49AA-7DCF-58FE-788046589925">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-23 22:02:14 UTC</createdTime>
-<generatorID>03958650-37A6-0641-3C9F-FAC94C6C289E</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Mengeneinheit_SID" id="E757AB17-2624-9451-0F88-9552849747F0">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-23 22:02:31 UTC</createdTime>
-<generatorID>D69A7117-AF37-AF9D-2DEA-C25F70DB1061</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>FB48578A-DCBB-7F35-2623-AF28FCB70317</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Zeit_SID" id="A900795C-F4A4-2247-0DB4-25EE48D656C0">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-01-23 23:21:14 UTC</createdTime>
@@ -586,7 +549,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundeERP_Code1" id="D325FB23-AC74-D264-3120-6A2C543F3592">
 <createdBy>aschweinberger</createdBy>
@@ -646,7 +609,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code3" id="FF77A175-13AC-4458-E1F4-D325232F7B65">
 <createdBy>aschweinberger</createdBy>
@@ -682,10 +645,10 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Buchungskreis_SID" id="63E0865F-D074-6EBC-ABE0-34902C4FE8B7">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 10:50:09 UTC</createdTime>
-<generatorID>5DF7D65E-97A9-3DF2-6C36-0C1580B9715D</generatorID>
+<Attribute name="Buchungskreis_SID1" id="3457CDE1-C827-D577-2346-968FFFBC45D3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 14:26:51 UTC</createdTime>
+<generatorID>61B281A2-686B-2268-0DE0-4057B3662F35</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>3453953E-9C74-5B94-AFB0-0AF7CF6CF6DA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -693,32 +656,10 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PSPElement_SID" id="C8DE80A3-937A-DC1C-8B56-DC65F2D77BBA">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:49:05 UTC</createdTime>
-<generatorID>C25817E3-2035-D2C1-1D2E-49143DA14DA4</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Verkaufseinheit_SID" id="D62F7A8E-05C6-289E-4988-AB1D7869357A">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 15:08:54 UTC</createdTime>
-<generatorID>95196BFF-844D-8066-DF01-A8493CF81BBE</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>D91EE000-0A8E-E5C3-1663-E7BDB9D198CA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="MaterialERP_SID" id="0AFD7DE8-F0D0-F6B3-0054-3F71764D8D77">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 12:00:51 UTC</createdTime>
-<generatorID>56E454AB-7EA0-26B6-B77E-2D0CDDCD2116</generatorID>
+<Attribute name="MaterialERP_SID" id="00836656-0880-D728-E8F7-D43F0C5C7719">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 14:31:08 UTC</createdTime>
+<generatorID>F6FA729E-4A33-6F98-DA0E-0B6B891BE166</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>538C6EEB-C8F4-FCC6-2FEF-B141774BD8FA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -726,12 +667,45 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Plattform_SID" id="5367EA75-AEDF-2F1F-E054-CD3D2F9AF5B4">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-13 08:53:00 UTC</createdTime>
-<generatorID>56E454AB-7EA0-26B6-B77E-2D0CDDCD2116</generatorID>
+<Attribute name="Plattform_SID" id="A42D46D8-FA6C-6DEE-EF26-0FF09085A30D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 14:31:08 UTC</createdTime>
+<generatorID>F6FA729E-4A33-6F98-DA0E-0B6B891BE166</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSPElement_SID1" id="166A95E8-98AD-A6F1-8505-D37171CA283A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 14:31:46 UTC</createdTime>
+<generatorID>BC99E492-25C0-43F3-501E-FF90059781D9</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID1" id="A6DC3F04-C07A-0F95-971F-57A2421F3083">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 14:32:09 UTC</createdTime>
+<generatorID>2E79BA57-B9E8-29F8-450F-AC0249FF7F3D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Belegart_SID1" id="871A4544-DF7C-76DB-9030-9BC06382F149">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-15 14:33:40 UTC</createdTime>
+<generatorID>3770ECA5-B841-CE49-504C-F71E793E95C2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>65BD9BD1-784C-7FC8-3A3B-0E6C4F7ED22D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
