@@ -42,6 +42,16 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Waehrung_SID" id="A90A6912-5811-B117-567D-5D02AE4B1DFB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:16:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Projekt_Bezeichnung_ENG" id="FA05B16D-AE0B-ABA9-C995-695097CF4664">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:12:40 UTC</createdTime>
@@ -120,17 +130,6 @@
 <Attribute name="Projektleiter_Code" id="E3F7346F-2512-0AC4-F5E6-F12104C30B15">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 13:33:51 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Waehrung_Code" id="A90A6912-5811-B117-567D-5D02AE4B1DFB">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:16:45 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

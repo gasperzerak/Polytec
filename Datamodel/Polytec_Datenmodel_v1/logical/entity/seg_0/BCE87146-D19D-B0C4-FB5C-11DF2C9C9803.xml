@@ -41,6 +41,17 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Projekt_SID" id="62E99C16-4484-04EC-40D6-6D9749BFE373">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:22:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="MaterialERP_Code" id="79389403-3DB2-E585-704F-7B9A96EF4280">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:21:02 UTC</createdTime>
@@ -72,17 +83,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Projekt_Code" id="62E99C16-4484-04EC-40D6-6D9749BFE373">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:22:37 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Planuebermaterial_Code" id="A9827073-857D-78C8-5BE9-34A5499A92C9">
 <createdBy>aschweinberger</createdBy>
@@ -270,17 +270,6 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Projekt_SID" id="210029AA-027B-4FA1-E993-83222904A12A">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-09 16:04:27 UTC</createdTime>
-<generatorID>88957DD9-53ED-6EBB-3F3F-D72CFF7337D9</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>7CD178B8-9A45-4490-F792-4BA6B76610AC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Verkaufseinheit_SID" id="D2F0D8A2-30ED-6678-EBC1-44F2F84FF272">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 15:08:54 UTC</createdTime>
@@ -397,6 +386,17 @@
 <generatorID>110B372F-E090-93BD-E413-995C9D7B68BF</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID1" id="BD651AC4-D077-6C91-C777-38CEFC15EBAA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-16 11:49:01 UTC</createdTime>
+<generatorID>BFFFE518-16FA-BB3A-5A7E-B4CDAE22A8BA</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>7CD178B8-9A45-4490-F792-4BA6B76610AC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

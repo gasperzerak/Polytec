@@ -12,17 +12,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Projekt_SID" id="9BA7CC58-B405-8735-22A7-E2D089B462CA">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-01-09 16:34:21 UTC</createdTime>
-<generatorID>756AFB17-8021-76E7-C06B-9CF6B28EBFAE</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<referedAttribute>7CD178B8-9A45-4490-F792-4BA6B76610AC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Load_ID" id="36CB39DF-6414-0000-ADD0-828C2BFD6156">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:48:04 UTC</createdTime>
@@ -37,6 +26,16 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:48:50 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID" id="CAFB0BE9-58D7-FD50-C97A-C2D68452D17B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-02-08 14:50:37 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -83,17 +82,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Projekt_Code " id="CAFB0BE9-58D7-FD50-C97A-C2D68452D17B">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-08 14:50:37 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Verkaufseinheit_Code " id="6D01F6A8-B274-292A-C059-AED152768B30">
 <createdBy>aschweinberger</createdBy>
@@ -362,6 +350,17 @@
 <generatorID>D445B43D-BD66-39B7-3310-A44B2ABCB28C</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <referedAttribute>7A7A0CD8-83C3-7806-E5D0-B086EA989EA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Projekt_SID1" id="69304E6D-F0F1-A40C-C988-22FA08702AEC">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-02-16 11:48:36 UTC</createdTime>
+<generatorID>A9666AD2-0FEF-960B-6E7E-3C8265B8989D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referedAttribute>7CD178B8-9A45-4490-F792-4BA6B76610AC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
