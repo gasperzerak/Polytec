@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="805EFCCC-F8DB-E26A-1250-3F881F88BB78" name="Konten">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>C93BAABF-4E30-210A-671F-CF517F37AED4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>sachkonto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="7AC82E01-1B8B-058F-B401-031A6194912E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>68A487B1-1E31-5D17-DDA0-68A71E1F59C9</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SachKonto_SID" id="D62F1492-00DD-052A-753D-941342B0CC50">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>A8C05386-578B-910B-192C-672538DA6C73</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sachkonto_Code" id="F74904E5-8866-C19D-7AA0-92634D8F55B5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>F6ECF466-2226-3913-AB60-66940C72EB3D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sachkonto_Bezeichnung_DE" id="0FDEBC09-7225-99AC-610C-09164F77922F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>93D6A3CE-1022-C2BE-64DE-9D4BEA794F4D</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sachkonto_Bezeichnung_ENG" id="AA628449-B2B0-E13B-C817-DEB026285973">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>BF669AAA-FE80-1324-D264-9958C5EC967C</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Is_IC" id="F14A8874-8F8B-9465-830E-DD28575EDBAB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>45712455-389C-BFC4-5835-30692FDB1EEA</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masterkonto_Masterkonto_Code" id="A19D876B-13DE-7684-A6D0-DD9566C9B240">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>81879206-D393-B7F4-4199-0A6945210E61</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masterkonto_Masterkonto_SID" id="F3C9FFB1-1E1A-348F-BE46-A6349C18BBE8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>2AECCED2-E7FC-8EF1-5E8C-311F8EEC3355</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Umsatzart_Code" id="B05B89D1-8171-61AD-9F2F-0FC73726E12E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:15:19 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usatzart_Bezeichnung_ENG" id="23272023-F7B3-EE4D-33B8-E37A6837A60C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:15:19 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usatzart_Bezeichnung_DE" id="B445F20C-385B-1703-BDBF-D2D8B0A3CE11">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:15:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzernkonto_Code" id="EA9A831E-156A-5E8A-9146-D6B9B1796675">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:16:00 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzernkonto_Bezeichnung_ENG" id="54D99D46-2244-FC2C-8416-286412C08652">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:16:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzernkonto_Bezeichnung_DE" id="50EA2DAA-AF49-71C7-708F-16A7A7713E0E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:16:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masterkonto_Code" id="12D4266F-44D6-13E7-061C-591671DAE861">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>9304E78F-18F0-679D-21CB-98AA94354F54</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masterkonto_Bezeichnung_ENG" id="06FD42CD-7C0E-98B1-65A1-F0717D9C6582">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:17:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masterkonto_Bezeichnung_DE" id="F2DF21EE-D07F-DAF3-451B-7A6B65D424FB">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 13:17:16 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FD37796-0EC7-93A3-AF38-15D7AA1152FF" name="Sachkonto_PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>6988066D-F90F-9539-99AF-5F9D4FD6F290</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F74904E5-8866-C19D-7AA0-92634D8F55B5"/>
+<colUsage columnID="D62F1492-00DD-052A-753D-941342B0CC50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F444426A-A172-DB0E-050A-0F68325E6C43" containerWithKeyObject="3EB1840B-9DE3-AAD0-5CDD-81FAECC0BC33" localFKIndex="121AE919-56D0-763C-69B5-934C7F56678D" name="PSPAnzahlungen_PSPElementERP_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>51AFC436-F0BC-1DB1-9DAB-1BA0F338DB66</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>PSPElementERP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47DE05EE-2C60-30E9-1561-7463478DBBF3</referredTableID>
+<keyObject>147F01CF-9F04-2A12-407B-FF1B78E342AF</keyObject>
+<referredKeyID>147F01CF-9F04-2A12-407B-FF1B78E342AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PSPElement_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D344224F-7F30-06AA-D0C7-32D81536E2CE" containerWithKeyObject="6EFB7982-0C53-A278-0F5C-BC7830ABD71B" localFKIndex="AE1D0A9C-510B-2595-8AD2-568E14AA52EF" name="Abrufe_Buchungskreis_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>D0F84DBA-5883-5FBE-FF20-9ED333B127A2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Buchungskreis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64BE363F-F922-7D05-5ED5-0BFDD2304105</referredTableID>
+<keyObject>01C0EBBC-C1CF-7016-CB2D-71E89E61DDA6</keyObject>
+<referredKeyID>01C0EBBC-C1CF-7016-CB2D-71E89E61DDA6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Buchungskreis_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

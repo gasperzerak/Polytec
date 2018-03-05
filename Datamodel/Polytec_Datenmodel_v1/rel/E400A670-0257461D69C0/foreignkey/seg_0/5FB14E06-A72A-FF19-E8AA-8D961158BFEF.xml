@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FB14E06-A72A-FF19-E8AA-8D961158BFEF" containerWithKeyObject="47DE05EE-2C60-30E9-1561-7463478DBBF3" localFKIndex="C76F5D04-8A89-C761-F24E-0B44057A59F9" name="PSPElementERP_Verkaufseinheit_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>F8AAB9FA-7BCD-9D8D-6A90-9520E522526E</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Verkaufseinheit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C0CD45DE-8E38-8F93-56EB-BCB55EFB6422</referredTableID>
+<keyObject>617AF535-C70F-3695-7CD3-BAA285887C1C</keyObject>
+<referredKeyID>617AF535-C70F-3695-7CD3-BAA285887C1C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Verkaufseinheit_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

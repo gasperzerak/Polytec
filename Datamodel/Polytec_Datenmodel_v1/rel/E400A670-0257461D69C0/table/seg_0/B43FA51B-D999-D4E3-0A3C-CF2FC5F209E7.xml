@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B43FA51B-D999-D4E3-0A3C-CF2FC5F209E7" name="GruppeProjekt">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>54C46AF1-C0BE-079F-2F98-34D862C6C4A4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="98BDE84C-85C5-EBE3-38E4-9490B2EA285C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>7604DFEE-CA78-238C-AA9F-97E353285348</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GruppeProjekt_SID" id="F0216B25-E8D4-DFF9-F547-96599B9AE107">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>E5AA239A-BE86-CEDF-E013-D49C0FDCD1D9</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserGruppe_Code" id="909C7762-B38A-54BD-C3BF-ADD07FCC913B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>B7EE74DE-37BD-C149-75B6-3A5C4B14F32F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projekt_Code" id="28B2C9A4-6D61-66C4-4F71-F03B488411A8">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>3E5D6D1A-32A0-99FC-55C2-B2A7D3D90236</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projekt_Projekt_SID" id="859FABA3-4B58-8BB9-DE96-5C6F74D59D4C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>47C682E5-923F-BF18-07EA-F778ACE1E6FF</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51367E7D-D1B0-7DAA-501D-9D4E3922285C" referredColumn="85E5F864-FBE0-17AD-FE42-A9812F012847"/>
+</associations>
+</Column>
+<Column name="UserGruppe_UserGruppe_SID" id="D684EF8D-006E-D68C-061A-854189F8299C">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>591C646A-5E46-9498-1E05-D478F31F9D1F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D630611-8A10-63AC-2864-E6F5A598CBCE" referredColumn="8969A1ED-2504-1E04-39A7-76CB8B4F74B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E833A43-AEC7-AA1A-BD6F-1AD46A8A1FEA" name="GruppeProjekt_PK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>25CE563A-57FC-8109-1E41-52EB70A6DCB5</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="859FABA3-4B58-8BB9-DE96-5C6F74D59D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEB749A3-3DC6-4C2C-FF8A-5C10F012CFF2" name="GruppeProjekt_Projekt_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>62D2B37A-F0AE-71AD-712F-42C6FD0CC0D3</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="859FABA3-4B58-8BB9-DE96-5C6F74D59D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8EA1F36-D4A4-3680-ACB3-43C918BA33DB" name="GruppeProjekt_UserGruppe_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>85BC4B14-6259-3CEB-0C57-23013ECAAF85</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D684EF8D-006E-D68C-061A-854189F8299C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

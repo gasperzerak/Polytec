@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B606881-E1A5-F00C-5968-7FA3A19539E3" name="ICPlanung">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>74A3F13A-51B5-F899-C18B-8BD44DBDA0F2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="F9E96203-26AF-FF53-6E16-F7B5716BE130">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>07D3EDEB-CD89-E158-04C7-B8379CB831AF</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teil_Kunde_SID" id="415F703B-5390-4BC6-9F39-D0C6843F41B4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<comment>kann sowohl Siemens als auch MaterialERP_Code  oder PSP-Element_Code sein</comment>
+<generatorID>5BB80B58-4A31-2538-4DEB-7AC8AD0D5731</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MasterWerk_IC_Kunde_SID" id="F2B9216C-983B-23D1-BC92-18DDD9BA8D54">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>C558B66A-3014-38D7-D185-3C033F1866BB</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MasterWerk_IC_Lieferant_SID" id="E2B008D3-2A1F-A803-53F5-495D850F5107">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>2D8B02C7-0792-FF48-21DE-B92A1CC309F4</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teil_Lieferant_SID" id="4CE9BB00-3C79-80C3-3709-EF2ECDA86D96">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>CB0A7F08-ED52-ED83-52FA-38FD3BEF8C35</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verbauungsmenge" id="D2D35FD8-75AC-9A73-A260-E0EC002A296A">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>0425FF9F-483A-FB22-8A1E-B1381BD0D242</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSPElementERP_PSPElement_SID" id="4A183F3B-B611-7063-433D-0EB9FE9BEC41">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>A6396A15-D81F-EF7B-8A0B-F905C301F25F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="786E90AA-39CF-9957-8082-DBCAFBEE1B0D" referredColumn="7E20E6EB-9D0D-2AED-F74E-F4BD29FD14CD"/>
+</associations>
+</Column>
+<Column name="MaterialERP_MaterialERP_SID" id="E1F10A33-34F7-7A54-5982-D5CF39BF62FD">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>F4F71B17-C98E-0ACD-9C51-332ED010B8BB</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FA28BB7-F6FC-4967-23B7-0974C993DCA2" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
+</associations>
+</Column>
+<Column name="MasterWerk_MasterWerk_SID" id="524C9BBE-DC6F-0984-4B5B-97A8E70BEF0F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<comment>Werk1, Werk2</comment>
+<generatorID>91FAFF2D-58A1-0BCA-1702-F72DCD53A3AB</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E51A585-6ECE-632A-13D9-9D115163D931" referredColumn="C6E0E44A-8174-0111-B41C-5F1A522AA187"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="038BF0FD-A05A-5585-CFDF-FFB77742EFF6" name="ICPlanung_PSPElementERP_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>2830D949-113E-6DE8-A426-E772DE3B00F5</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A183F3B-B611-7063-433D-0EB9FE9BEC41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D6F12CA-A1BA-F53A-250B-8BBA061551F5" name="ICPlanung_MaterialERP_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>DEACF98E-4CE4-3053-A4F4-AA7B7C14BB4F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1F10A33-34F7-7A54-5982-D5CF39BF62FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7635FA8-BB00-0283-A88C-A669972493CE" name="ICPlanung_MasterWerk_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>EF4A10C7-192A-C627-4F3D-F50C3EAD33C2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="524C9BBE-DC6F-0984-4B5B-97A8E70BEF0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

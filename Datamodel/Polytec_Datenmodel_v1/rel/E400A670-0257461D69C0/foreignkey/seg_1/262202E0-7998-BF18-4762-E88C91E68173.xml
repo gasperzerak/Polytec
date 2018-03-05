@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="262202E0-7998-BF18-4762-E88C91E68173" containerWithKeyObject="6EFB7982-0C53-A278-0F5C-BC7830ABD71B" localFKIndex="47B21236-D70B-F971-A5B4-FFFB861C0039" name="Abrufe_MasterWerk_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-02 10:32:00 UTC</createdTime>
+<generatorID>C7071FB4-3312-9A09-0770-E1F4C72DBAAE</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>MasterWerk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B8554F1-63AF-2D92-F84C-932DB5362DDD</referredTableID>
+<keyObject>869057EE-F71F-E8BF-81A8-14E00318CF65</keyObject>
+<referredKeyID>869057EE-F71F-E8BF-81A8-14E00318CF65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MasterWerk_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

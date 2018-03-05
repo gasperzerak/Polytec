@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="303DB7D8-62EF-E948-B0AF-EC295AA58D14" containerWithKeyObject="CD799CCB-66FC-90D8-A949-130B6DE63830" localFKIndex="30C31C2E-178E-ED9F-4AEC-CA5E11A37B56" name="Konditionen_Mengeneinheit_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>949848E9-0589-CF7F-4372-90426306043F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Mengeneinheit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CE93716-47C4-45F2-35DC-45733ABFE9F3</referredTableID>
+<keyObject>2B87BC08-34B0-7AA3-BD06-683F6275B7BE</keyObject>
+<referredKeyID>2B87BC08-34B0-7AA3-BD06-683F6275B7BE</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

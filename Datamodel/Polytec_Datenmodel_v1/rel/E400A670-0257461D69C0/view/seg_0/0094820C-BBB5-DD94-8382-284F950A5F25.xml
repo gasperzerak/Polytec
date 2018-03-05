@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="0094820C-BBB5-DD94-8382-284F950A5F25" name="Daten_für_Tagetik">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>FE4340EF-E8B5-7494-FD6A-F332DE0D434A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<userDefined>false</userDefined>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+</TableView>

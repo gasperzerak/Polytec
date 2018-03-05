@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E47575F-A5C5-CB06-E476-9B1472B5C2D5" containerWithKeyObject="9BD2D89C-A1B0-DF95-B3EB-30624ECBBD7B" localFKIndex="3677893E-5B3A-D3AE-5352-2545093AADD5" name="PSPEinzelpostenIST_KostenArt_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>EEF5F728-2FBF-3837-CBA7-1073C356E863</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Kosten</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0997D77-A296-6C00-355A-81FC62831198</referredTableID>
+<keyObject>00AC2E7E-6389-07B7-8405-E3967297C233</keyObject>
+<referredKeyID>00AC2E7E-6389-07B7-8405-E3967297C233</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Kostenart_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

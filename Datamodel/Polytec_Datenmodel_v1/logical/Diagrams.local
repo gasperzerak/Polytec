@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="619F6915-C760-6ADC-AC0A-B45A54D02E85" name="Logical" visible="true"/>
-   <object objectType="sub_view" objectID="9A05009C-DE33-2220-42C7-764326C90FBB" name="Abrufe" visible="true"/>
-   <object objectType="sub_view" objectID="5B8153CC-D2FA-87E2-5944-B81B1071427A" name="FakturaElementeERP" visible="true"/>
-   <object objectType="sub_view" objectID="E146C3CF-F850-33D9-F4ED-5872644E9DFB" name="ICPlanung" visible="true"/>
-   <object objectType="sub_view" objectID="A1CC9582-E18B-B558-3016-19BC174E58CD" name="Konditionen" visible="true"/>
-   <object objectType="sub_view" objectID="23330E4C-A39B-EC0A-305D-891F01C7C683" name="KontenERP" visible="true"/>
-   <object objectType="sub_view" objectID="D71078C0-DDC7-6E20-1FF3-84FC8FBA2DB6" name="PSPAnzahlungen" visible="true"/>
-   <object objectType="sub_view" objectID="15ACD486-3D45-B2EA-9347-F66F179A0864" name="PSP-Einzelposten IST" visible="true"/>
-   <object objectType="sub_view" objectID="068203C8-9829-B8CF-5623-9E2BBDFF748E" name="PSPPlanwerte" visible="true"/>
-   <object objectType="sub_view" objectID="11B806B4-1EC0-C83C-4276-810B8F3E77C2" name="Sicherheit" visible="true"/>
+   <object objectType="sub_view" objectID="9A05009C-DE33-2220-42C7-764326C90FBB" name="Abrufe" visible="false"/>
+   <object objectType="sub_view" objectID="5B8153CC-D2FA-87E2-5944-B81B1071427A" name="FakturaElementeERP" visible="false"/>
+   <object objectType="sub_view" objectID="E146C3CF-F850-33D9-F4ED-5872644E9DFB" name="ICPlanung" visible="false"/>
+   <object objectType="sub_view" objectID="A1CC9582-E18B-B558-3016-19BC174E58CD" name="Konditionen" visible="false"/>
+   <object objectType="sub_view" objectID="23330E4C-A39B-EC0A-305D-891F01C7C683" name="KontenERP" visible="false"/>
+   <object objectType="sub_view" objectID="D71078C0-DDC7-6E20-1FF3-84FC8FBA2DB6" name="PSPAnzahlungen" visible="false"/>
+   <object objectType="sub_view" objectID="15ACD486-3D45-B2EA-9347-F66F179A0864" name="PSP-Einzelposten IST" visible="false"/>
+   <object objectType="sub_view" objectID="068203C8-9829-B8CF-5623-9E2BBDFF748E" name="PSPPlanwerte" visible="false"/>
+   <object objectType="sub_view" objectID="11B806B4-1EC0-C83C-4276-810B8F3E77C2" name="Sicherheit" visible="false"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

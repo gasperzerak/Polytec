@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FA28BB7-F6FC-4967-23B7-0974C993DCA2" containerWithKeyObject="5B606881-E1A5-F00C-5968-7FA3A19539E3" localFKIndex="0D6F12CA-A1BA-F53A-250B-8BBA061551F5" name="ICPlanung_MaterialERP_FK">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:11 UTC</createdTime>
+<generatorID>DEACF98E-4CE4-3053-A4F4-AA7B7C14BB4F</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>MaterialERP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7BA8DCF-2618-67D7-9573-C8589F1F12BF</referredTableID>
+<keyObject>E9A01D6D-9B45-483B-76FA-3F8DAEB4AF5F</keyObject>
+<referredKeyID>E9A01D6D-9B45-483B-76FA-3F8DAEB4AF5F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MaterialERP_SID,Plattform_Plattform_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
