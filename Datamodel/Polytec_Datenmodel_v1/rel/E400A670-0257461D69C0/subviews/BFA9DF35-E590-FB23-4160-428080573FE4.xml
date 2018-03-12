@@ -39,6 +39,49 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="39" y="170" width="195" height="360"/>
 <generatorID>F5CEA444-19E2-5867-E2DF-57E394FDBD37</generatorID>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-3342388</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Titel</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Spalte</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datentyp</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK-Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK-Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK-Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Nicht null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Schlüssel</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Kommentare</foType>
+<colorRGB>-12566464</colorRGB>
+</FontObject>
+</fonts>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="58745D82-317A-52BE-9046-22ED551482A0" otype="Table" vid="D5053F1D-2223-3A52-B8FC-36584E57BAFC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -143,6 +186,10 @@
 <point x="229" y="778"/>
 <point x="234" y="530"/>
 </points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="75B5EC1E-A462-13EC-0110-F146A456247D" otype="FKIndexAssociation" vid_source="8C3CE9F0-F575-B9FC-6670-B489AF3C31D4" vid_target="D5053F1D-2223-3A52-B8FC-36584E57BAFC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7BBE623E-7BC0-7366-0253-48FDE4AED291" otype="FKIndexAssociation" vid_source="76290454-F6F5-E2EB-1A08-AA74C2E551B1" vid_target="BEDC1315-6EA3-E3EC-93D3-3AD4DFD3E782">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
