@@ -1,0 +1,455 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="485AED22-188D-9386-7F66-6A617336022C" name="FakturaPSPElementeERP">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 13:59:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="A9E570DF-BC91-C357-8581-05D6BC311AE0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FakturaPSPElementeERP_SID" id="EABF0D83-8FA0-40FF-AF76-33AFDDC5ADE9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Auftraggeber_SID" id="3AE06813-7BD9-35BB-AC45-7D830737E56F">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rechnungsempfaenger_SID" id="0283D4E4-8B70-AB7D-6CF1-97E4EE4A7D51">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regulierer_SID" id="06B315DD-45C9-0E39-9F6E-61FF1309961C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Warenempfaenger_SID" id="C56CBB97-AC10-258D-D4E3-92A599544EF9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funktional_Waehrung_SID" id="CDEFCECF-7DAB-9FAB-8188-D40EA95FC975">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Buchungskreis_SID" id="DC608902-B6A4-DD4F-B01E-CA11F7C59F21">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BusinessType_SID" id="0A5E76CC-6D7B-6728-2ACA-04B44F25B2FD">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:11:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Waehrung_SID" id="9D51E2E5-BD3B-18DB-F256-5C4EE07985B4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSPElementERP_SID" id="D6B65049-B971-AC61-4F80-2352AE3BBCE5">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konto_SID" id="F62C09A8-1F85-29C7-A38C-910ADE07160F">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mengeneinheit_SID" id="8B0B80CD-4C68-B660-49DF-CE2C7C4B957C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Belegart_SID" id="F7D1973B-032D-BD40-6ECB-FA1AD5A0B51B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Belegnummer" id="024DAEB6-4B54-050E-5F41-898D4376EBBE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FakturaDatum_SID" id="F07899F7-D8FF-F75B-5FD3-90DBABB9B125">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BelegPosition" id="DD65E4FF-3262-7B25-F521-64273215AA25">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UmsatzFakturiert" id="EFEE8C83-A330-B024-5446-06DE3D71FD8E">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:08:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KonzernKunde_KonzernKunde_SID1" id="CE3B673C-CDAB-62DD-910F-AAB4AD803D3A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:15:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90A71FF6-35A9-B05E-849C-2911B717A8FA" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
+</associations>
+</Column>
+<Column name="BusinessType_BusinessType_SID" id="C8F0C727-D1B1-4437-F7D0-CD0C65B41656">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:15:30 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F319C4AF-D719-28BC-416D-0BA1C02C831B" referredColumn="DA91EE09-0F38-EDE2-08F6-5A6643EF91F9"/>
+</associations>
+</Column>
+<Column name="Mengeneinheit_Mengeneinheit_SID" id="2D179A30-7503-0092-7C96-BD6E87E30021">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:15:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84F199DE-CEF0-CF19-BDC2-82F8ECC20522" referredColumn="0B4C1B5F-D8BD-FE9A-1939-E17A77901A46"/>
+</associations>
+</Column>
+<Column name="Buchungskreis_Buchungskreis_SID" id="0BD82087-9CF5-54D0-16C8-7B5DB8CE1506">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:16:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C892795-023E-939A-A41C-F633C8B1428A" referredColumn="BDF033E3-B521-F738-41C6-DEBE4CF754B8"/>
+</associations>
+</Column>
+<Column name="Waehrung_Waehrung_SID" id="458051DF-CEBE-A35F-453A-34FAEBBBE1F8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:16:13 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81F9E93-013E-F144-08B7-C3DD123147BF" referredColumn="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07"/>
+</associations>
+</Column>
+<Column name="Zeit_Zeit_SID" id="B6CA3303-6487-2BF0-E071-086CF0B635DA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:17:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A95CEC4C-2D3C-757E-3AFB-56EE73D19A09" referredColumn="B2F9CEE1-6BC8-B464-2225-95C5DA41A8B8"/>
+</associations>
+</Column>
+<Column name="Belegart_Belegart_SID" id="FFC9F34F-D6A2-4B60-3054-394A19A367E4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:17:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95FD2FCA-4BAD-BF09-CAF1-B43CF444C308" referredColumn="67D3890C-F695-1FDC-D11C-E5A0CF9DFA10"/>
+</associations>
+</Column>
+<Column name="Konten_Sachkonto_Code" id="7AA191BB-D011-AA0D-270F-E6EE3BBA232A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:19:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CFE7679-0AA3-B938-C5B1-3DDBDBA9E0DF" referredColumn="F74904E5-8866-C19D-7AA0-92634D8F55B5"/>
+</associations>
+</Column>
+<Column name="Konten_SachKonto_SID" id="7E2FD50F-DC60-7893-B769-905DA1A1937B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:19:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CFE7679-0AA3-B938-C5B1-3DDBDBA9E0DF" referredColumn="D62F1492-00DD-052A-753D-941342B0CC50"/>
+</associations>
+</Column>
+<Column name="PSPElementERP_PSPElement_SID" id="A916B4F1-9813-43AD-A24D-489128E0F884">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:46:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E4B5024-13E4-2B0E-1A7B-33AE3BC3BD8A" referredColumn="7E20E6EB-9D0D-2AED-F74E-F4BD29FD14CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13F14130-F8DE-1E3A-D260-FB65FAD3A306" name="FakturaPSPElementeERP_KonzernKunde_FKv2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:15:04 UTC</createdTime>
+<generatorID>53FD4407-22BF-1B83-C8E9-F011EFC8E480</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE3B673C-CDAB-62DD-910F-AAB4AD803D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A012BE7-38A9-DB2F-6675-FC8F85F0E7E9" name="FakturaPSPElementeERP_BusinessType_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:15:30 UTC</createdTime>
+<generatorID>98199FC2-7F4D-3A40-5304-30E2083F65D3</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F0C727-D1B1-4437-F7D0-CD0C65B41656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9899841B-C831-1F92-9E56-C68D07DB119D" name="FakturaPSPElementeERP_Mengeneinheit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:15:43 UTC</createdTime>
+<generatorID>AC10AF20-B144-AAD5-D7F9-D6ACECE44924</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D179A30-7503-0092-7C96-BD6E87E30021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D187ADB8-4DAC-1965-5ECA-51A1449CAA5F" name="FakturaPSPElementeERP_Buchungskreis_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:16:02 UTC</createdTime>
+<generatorID>96713D3F-8DC3-9881-E3B1-3EA223B517C9</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD82087-9CF5-54D0-16C8-7B5DB8CE1506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A64307F-2A59-F287-CE77-D42D101196B0" name="FakturaPSPElementeERP_Waehrung_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:16:13 UTC</createdTime>
+<generatorID>621F1207-C0E4-3CB5-E48D-ADB82CEB8379</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="458051DF-CEBE-A35F-453A-34FAEBBBE1F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="686D8CE7-1E78-1719-88ED-8FDBF7F24E75" name="FakturaPSPElementeERP_Zeit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:17:05 UTC</createdTime>
+<generatorID>21F36B90-690E-7349-ED7A-D288FBAB8A19</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CA3303-6487-2BF0-E071-086CF0B635DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A89C20E9-F082-FFDD-3FA9-F38D30F495C2" name="FakturaPSPElementeERP_Belegart_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:17:28 UTC</createdTime>
+<generatorID>A4D9EC80-A58F-A213-33FB-EBAA01DF76B2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFC9F34F-D6A2-4B60-3054-394A19A367E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F792ED4B-278F-788F-E0C0-AEFDA159C88A" name="FakturaPSPElementeERP_Konten_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:19:32 UTC</createdTime>
+<generatorID>6988066D-F90F-9539-99AF-5F9D4FD6F290</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AA191BB-D011-AA0D-270F-E6EE3BBA232A"/>
+<colUsage columnID="7E2FD50F-DC60-7893-B769-905DA1A1937B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C19BDB6F-1C63-5545-FF4A-A971C85C87DF" name="FakturaPSPElementeERP_PSPElementERP_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:46:15 UTC</createdTime>
+<generatorID>26CA7896-0DE3-B772-032A-F6113F042D96</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A916B4F1-9813-43AD-A24D-489128E0F884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

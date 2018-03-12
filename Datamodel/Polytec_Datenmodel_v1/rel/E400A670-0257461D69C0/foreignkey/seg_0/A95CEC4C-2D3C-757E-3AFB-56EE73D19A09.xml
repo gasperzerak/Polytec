@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A95CEC4C-2D3C-757E-3AFB-56EE73D19A09" containerWithKeyObject="485AED22-188D-9386-7F66-6A617336022C" localFKIndex="686D8CE7-1E78-1719-88ED-8FDBF7F24E75" name="FakturaPSPElementeERP_Zeit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:17:05 UTC</createdTime>
+<generatorID>21F36B90-690E-7349-ED7A-D288FBAB8A19</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Zeit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07668BD5-2A6A-446B-A6A8-C91251A994D1</referredTableID>
+<keyObject>AF86B28F-75D2-D541-66B8-81B31B6C6D26</keyObject>
+<referredKeyID>AF86B28F-75D2-D541-66B8-81B31B6C6D26</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Zeit_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

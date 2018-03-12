@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E4B5024-13E4-2B0E-1A7B-33AE3BC3BD8A" containerWithKeyObject="485AED22-188D-9386-7F66-6A617336022C" localFKIndex="C19BDB6F-1C63-5545-FF4A-A971C85C87DF" name="FakturaPSPElementeERP_PSPElementERP_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:46:15 UTC</createdTime>
+<generatorID>26CA7896-0DE3-B772-032A-F6113F042D96</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>PSPElementERP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47DE05EE-2C60-30E9-1561-7463478DBBF3</referredTableID>
+<keyObject>147F01CF-9F04-2A12-407B-FF1B78E342AF</keyObject>
+<referredKeyID>147F01CF-9F04-2A12-407B-FF1B78E342AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PSPElement_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

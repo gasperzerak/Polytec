@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95FD2FCA-4BAD-BF09-CAF1-B43CF444C308" containerWithKeyObject="485AED22-188D-9386-7F66-6A617336022C" localFKIndex="A89C20E9-F082-FFDD-3FA9-F38D30F495C2" name="FakturaPSPElementeERP_Belegart_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 14:17:28 UTC</createdTime>
+<generatorID>A4D9EC80-A58F-A213-33FB-EBAA01DF76B2</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Belegart</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A8F0894-6DB9-6F00-E53B-54258A384720</referredTableID>
+<keyObject>722B9681-454F-CB0B-81ED-61BF0A34C726</keyObject>
+<referredKeyID>722B9681-454F-CB0B-81ED-61BF0A34C726</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Belegart_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
