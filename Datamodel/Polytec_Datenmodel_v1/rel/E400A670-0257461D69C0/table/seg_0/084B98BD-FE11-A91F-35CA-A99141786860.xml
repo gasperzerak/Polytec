@@ -167,9 +167,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A8BF7555-1B0E-057D-2E17-FD2011E7AF5A" referredColumn="7DCB509E-A601-AA36-C9BF-9F02DD784A12"/>
-</associations>
 </Column>
 <Column name="KundeMapping_KundeERP_Code" id="1D23CA11-D6ED-1C64-6AFD-07384758375C">
 <createdBy>aschweinberger</createdBy>
@@ -180,12 +177,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A8BF7555-1B0E-057D-2E17-FD2011E7AF5A" referredColumn="3D7000D1-B39F-B216-73B4-BB45F03A276F"/>
-</associations>
 </Column>
 <Column name="KundeERP_Code" id="FEA4A4A2-88FB-EE27-1F08-C3A0C597BCE8">
 <createdBy>aschweinberger</createdBy>
@@ -255,18 +249,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>CEA9B6D7-411D-5049-F8A4-DC839BB2AD36</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="0019DAF9-B19A-A5C2-9B21-91E7F2DE8136"/>
-<colUsage columnID="1D23CA11-D6ED-1C64-6AFD-07384758375C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C77BC511-31C7-40BC-3C47-365157CAF629" name="KonzernKunde_KundeMapping_FK">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:11 UTC</createdTime>
-<generatorID>CEA9B6D7-411D-5049-F8A4-DC839BB2AD36</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0019DAF9-B19A-A5C2-9B21-91E7F2DE8136"/>
 <colUsage columnID="1D23CA11-D6ED-1C64-6AFD-07384758375C"/>
