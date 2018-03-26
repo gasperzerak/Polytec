@@ -151,6 +151,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ProfitCenter_SID" id="CB40FF48-7BBC-1D09-1580-986C2022CBA0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 10:06:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Belegart_SID" id="F7D1973B-032D-BD40-6ECB-FA1AD5A0B51B">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 14:08:33 UTC</createdTime>
@@ -349,6 +358,20 @@
 <colAssociation fkAssociation="9E4B5024-13E4-2B0E-1A7B-33AE3BC3BD8A" referredColumn="7E20E6EB-9D0D-2AED-F74E-F4BD29FD14CD"/>
 </associations>
 </Column>
+<Column name="ProfitCenter_ProfitCenter_SID" id="38ED1CEE-D5B2-A324-7369-479339EB9FAA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 10:06:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EC20FA8-0206-7104-FF53-02C9EA66E7D8" referredColumn="CDE9CB7C-87AA-766B-11C1-5567F927F3BF"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="13F14130-F8DE-1E3A-D260-FB65FAD3A306" name="FakturaPSPElementeERP_KonzernKunde_FKv2">
@@ -449,6 +472,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A916B4F1-9813-43AD-A24D-489128E0F884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08C70D09-95B4-CC72-5C33-379F18DD2E9D" name="FakturaPSPElementeERP_ProfitCenter_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 10:06:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38ED1CEE-D5B2-A324-7369-479339EB9FAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

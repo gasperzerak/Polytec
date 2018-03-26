@@ -303,7 +303,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -380,6 +380,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="C7B506BC-7427-36B3-A8FC-F0AB8CA5C598" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
+</associations>
+</Column>
+<Column name="ProfitCenter_ProfitCenter_SID" id="49DF18A2-6075-053E-3EAD-0373747630AB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 10:41:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="586360A4-C8C9-8B41-9A23-C8980DA1D05D" referredColumn="CDE9CB7C-87AA-766B-11C1-5567F927F3BF"/>
 </associations>
 </Column>
 </columns>
@@ -504,6 +518,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8BC946BD-D1F7-36C1-AB33-3C375ACB0956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EED1E03-EC35-8EF1-11D5-557282B6F861" name="KontenPSPERP_ProfitCenter_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 10:41:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49DF18A2-6075-053E-3EAD-0373747630AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

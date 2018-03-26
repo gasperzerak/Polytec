@@ -42,6 +42,17 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ProfitCenter_SID" id="EFCC7ECD-9117-7C41-8E66-69EAE7E77C06">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 07:58:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Buchungskreis_SID" id="FF280DD5-868A-15D7-6642-BE6C156E8174">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-12 08:38:09 UTC</createdTime>
@@ -443,10 +454,10 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ProfitCenter_SID" id="64D5918E-2460-7AB5-6C28-2156757DD203">
+<Attribute name="ProfitCenter_SID1" id="94C4565A-E5BC-CEF6-2703-26CA0F5B42E2">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-23 17:14:06 UTC</createdTime>
-<generatorID>E99DF01F-3BB3-3F94-9371-39515C1AD8C2</generatorID>
+<createdTime>2018-03-26 07:59:16 UTC</createdTime>
+<generatorID>EBED3146-AB15-FE0F-D32E-D10179627905</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <engineerTo>
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
