@@ -3,6 +3,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 14:13:54 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 11:23:57 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,6 +32,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 15:28:36 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -35,6 +44,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:48:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -43,6 +55,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:49:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -51,6 +66,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:49:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -59,6 +77,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:50:01 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -67,6 +88,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:50:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -75,6 +99,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:50:50 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -85,6 +112,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-28 12:10:16 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6AFD1563-13A0-0D45-0AC0-485247046FA3</attributeRef>

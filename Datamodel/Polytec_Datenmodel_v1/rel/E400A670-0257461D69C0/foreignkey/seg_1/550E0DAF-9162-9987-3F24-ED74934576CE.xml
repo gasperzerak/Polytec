@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="550E0DAF-9162-9987-3F24-ED74934576CE" containerWithKeyObject="EF41BF72-8E08-1E2A-7FBA-A05BF469A766" localFKIndex="75347019-5FAB-62D1-C90E-FA8CE396F35B" name="KalkulationsSoftware_Mengeneinheit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:02:29 UTC</createdTime>
+<generatorID>AC10AF20-B144-AAD5-D7F9-D6ACECE44924</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Mengeneinheit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CE93716-47C4-45F2-35DC-45733ABFE9F3</referredTableID>
+<keyObject>2B87BC08-34B0-7AA3-BD06-683F6275B7BE</keyObject>
+<referredKeyID>2B87BC08-34B0-7AA3-BD06-683F6275B7BE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mengeneinheit_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

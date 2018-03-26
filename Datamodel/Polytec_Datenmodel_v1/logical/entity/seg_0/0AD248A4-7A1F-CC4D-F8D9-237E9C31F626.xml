@@ -3,6 +3,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-17 15:50:54 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 14:21:13 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,6 +32,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-10-24 15:21:28 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -35,6 +44,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:01:42 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -45,6 +57,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:01:54 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,6 +71,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-12 10:18:04 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,6 +87,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:01:37 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8ECBAD93-6715-8965-947E-8F4770DBCCD8</attributeRef>

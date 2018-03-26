@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42487C4A-5FF8-566E-DA13-2DEF55FA25BD" name="Kalkulationssoftware">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:34:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Load_ID" id="3D93D077-9305-4FD9-C988-D3F4B037E216">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:34:44 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_Code" id="C854E251-2205-83AA-394B-14F769687D77">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:34:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produktionswerk" id="CEC2CABA-95CE-CA4D-09C5-4EB30D636AAB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:34:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufspreis" id="0352ED71-93A8-6AB7-C3AB-BEEA7843738B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:34:50 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amortisation" id="8B3B7977-F740-B831-6899-24D8CD680C41">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:34:51 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direktzahlung" id="2E1A9F40-F13E-3284-272D-7519F5C51EF6">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:35:48 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zahlungsart" id="951CF913-7E2A-E040-CD27-7EB54FECA74E">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:35:48 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Eintrittsgeld" id="9C139334-C687-675D-3F91-FAC3E7E7FCCF">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:35:48 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Savings" id="5BF5D73E-9E93-C1DB-FA80-AD41AB31C27D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:35:48 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Savings_ab" id="8DD9A1CF-0645-874B-ACF4-6B9487B02DEF">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:35:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Menge" id="EA36A09A-12D7-CD89-9CFE-6F4AC7BEC0EC">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:36:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jahr" id="C2F44953-53EA-32C7-A606-C918085E9F57">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:36:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Währung_Code" id="E74CEA87-9F14-1E6C-E21D-7C410C2DDAB2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:36:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_Code" id="E45B3DB7-1A00-A617-4F58-C11BAA266343">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:36:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ladedatum" id="A7938006-1C95-3122-A809-B82AC2E61B41">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:36:43 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Verkaufseinheit_SID" id="DD65E823-D3F1-F395-CA2C-95783788BCE2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:39:02 UTC</createdTime>
+<generatorID>5F9380E3-A847-8594-2632-CE1735E23BFB</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<referedAttribute>D91EE000-0A8E-E5C3-1663-E7BDB9D198CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Waehrung_SID" id="E38D65EC-1303-9B74-D6F7-8176F3765CFE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:40:06 UTC</createdTime>
+<generatorID>945D2660-6BC5-8D4E-CC81-0C9664CEA0EA</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<referedAttribute>8ECBAD93-6715-8965-947E-8F4770DBCCD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zeit_SID" id="6B7C41FD-C4FF-5B8A-7134-0A081DCF7A39">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:41:14 UTC</createdTime>
+<generatorID>12CE5912-F2CF-C265-226E-FE66EEDCC53E</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<referedAttribute>6AFD1563-13A0-0D45-0AC0-485247046FA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERPWerk_SID" id="D108D651-6AEE-3454-6D1B-ADACE0D3ED83">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:49:52 UTC</createdTime>
+<generatorID>19083E6F-A1CC-E313-3781-C8FFA2B213E0</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<referedAttribute>4FD2BA3B-7100-C969-D5C2-37C72182FFE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

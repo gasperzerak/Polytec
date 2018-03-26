@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF41BF72-8E08-1E2A-7FBA-A05BF469A766" name="KalkulationsSoftware">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:55:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="138B41F3-CF42-4E28-F255-D59222A8369D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verkaufseinheit_SID" id="0EE0818B-11A7-EA0C-229B-902F46A411E6">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Werk_SID" id="1C22E954-890E-C28B-FCC1-AA03B835CC40">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Währung_SID" id="70950298-AE59-5B50-0D39-963D167BBB88">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mengeneinheit_SID" id="1C9D6F47-88D6-39EA-FF1D-E28C8E9B7AC8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verkaufspreis" id="5FA4D526-340B-A0CB-8408-5CEB4583FD94">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amortisation" id="3BE4E74E-2266-7DA5-A5E1-555F2CDBC3A2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direktzahlung" id="EC222861-BF7B-234A-C4F3-3722B34A4326">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zahlungsart" id="6AEDDDBB-EED4-4348-ED27-0BDEF72A287C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eintrittsgeld" id="880F27B1-51F8-74E0-FB32-997D2EE4CBEB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Savings" id="5AAD0360-93CA-C2D3-DE5D-1867C509F660">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Savings_ab" id="76EE32D3-B1BE-BC22-6A51-FD8C9750EA25">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Menge" id="B86A689C-AE3E-270A-8504-21B81AA07503">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jahr" id="EBAD2198-52F7-4796-9938-3865DAFA5F00">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LadeDatum_SID" id="769DF820-8A71-EC12-F39F-BCBF137E635D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 16:59:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verkaufseinheit_Verkaufseinheit_SID" id="8514E788-FFD0-9644-6CDF-3214A96ADA3A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:00:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84769C2E-7A2C-2E3C-5033-EB8A88363A31" referredColumn="86D2741F-9D5D-69BB-F4DA-BF07124ED7FA"/>
+</associations>
+</Column>
+<Column name="Zeit_Zeit_SID" id="AF5336FD-1F6F-FC21-90C0-A5068FD849ED">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:01:09 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="589D699F-3B22-E5D7-63B5-03F801B3FCB5" referredColumn="B2F9CEE1-6BC8-B464-2225-95C5DA41A8B8"/>
+</associations>
+</Column>
+<Column name="Mengeneinheit_Mengeneinheit_SID" id="E7474503-EC62-FA9D-036F-762CAC199688">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:02:29 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="550E0DAF-9162-9987-3F24-ED74934576CE" referredColumn="0B4C1B5F-D8BD-FE9A-1939-E17A77901A46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC7AC04E-1E4F-00C6-C30E-AFA1D6BEA88B" name="KalkulationsSoftware_Verkaufseinheit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:00:02 UTC</createdTime>
+<generatorID>B6EB6FBC-47BD-D4C2-4436-735B0F934453</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8514E788-FFD0-9644-6CDF-3214A96ADA3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E085F512-EE3D-70E2-8328-0B8DA47882C1" name="KalkulationsSoftware_Zeit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:01:09 UTC</createdTime>
+<generatorID>21F36B90-690E-7349-ED7A-D288FBAB8A19</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5336FD-1F6F-FC21-90C0-A5068FD849ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75347019-5FAB-62D1-C90E-FA8CE396F35B" name="KalkulationsSoftware_Mengeneinheit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:02:29 UTC</createdTime>
+<generatorID>AC10AF20-B144-AAD5-D7F9-D6ACECE44924</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7474503-EC62-FA9D-036F-762CAC199688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

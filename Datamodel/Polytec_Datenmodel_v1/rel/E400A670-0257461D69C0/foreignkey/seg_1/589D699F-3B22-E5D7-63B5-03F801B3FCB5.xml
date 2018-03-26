@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="589D699F-3B22-E5D7-63B5-03F801B3FCB5" containerWithKeyObject="EF41BF72-8E08-1E2A-7FBA-A05BF469A766" localFKIndex="E085F512-EE3D-70E2-8328-0B8DA47882C1" name="KalkulationsSoftware_Zeit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-23 17:01:09 UTC</createdTime>
+<generatorID>21F36B90-690E-7349-ED7A-D288FBAB8A19</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Zeit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07668BD5-2A6A-446B-A6A8-C91251A994D1</referredTableID>
+<keyObject>AF86B28F-75D2-D541-66B8-81B31B6C6D26</keyObject>
+<referredKeyID>AF86B28F-75D2-D541-66B8-81B31B6C6D26</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Zeit_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
