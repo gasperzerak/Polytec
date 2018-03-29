@@ -584,6 +584,60 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Konzern_Motormodell_Code" id="88FC8EAD-2188-47E8-2EDA-1409D056AF77">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:23:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Antriebsart_Code" id="90BBBD78-C91F-BC8F-4FCF-85D7A5EE5B76">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:23:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Platform_Code" id="FDCCFB3D-04AC-1F81-5A14-F273F108984A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:23:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Fahrzeugmodell_Code" id="69D44EAF-2C42-8106-E182-206F1EBAF502">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:23:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_PSP-Elementart_Code" id="D28B57A3-E1A7-77E6-4679-2C3AE460E47E">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:23:02 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Technologie_Code" id="05297052-68E2-DB4A-50D2-1696D40776EB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:26:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="147F01CF-9F04-2A12-407B-FF1B78E342AF" name="PSPElementERP_PK">

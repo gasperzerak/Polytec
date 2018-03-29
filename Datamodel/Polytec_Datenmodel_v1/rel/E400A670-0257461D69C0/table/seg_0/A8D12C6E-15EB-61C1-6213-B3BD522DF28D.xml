@@ -56,6 +56,18 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Konzern_Endkunde_Code" id="3E20E244-B93A-0EC1-7DF4-DCE2F51FEE21">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:04:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="KundenGruppe1_Code" id="55F3A218-21EE-4A2C-B052-DAEF41C349E3">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 13:04:24 UTC</createdTime>

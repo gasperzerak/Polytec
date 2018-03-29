@@ -106,6 +106,18 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Konzern_Land_Code" id="FF61AC5F-8E65-29F9-56DA-53D0C01C7E8B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:10:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Land_Bezeichnung_ENG" id="15FFB73C-51E4-E091-AEE4-4DA6137A6792">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 13:33:52 UTC</createdTime>

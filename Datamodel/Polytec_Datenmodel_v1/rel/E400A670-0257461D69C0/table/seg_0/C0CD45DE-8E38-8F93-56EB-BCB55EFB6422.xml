@@ -727,6 +727,72 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Konzern_Technologie_Code " id="E32A9001-C10E-BC2E-25A0-E126DB223C31">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:14:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Antriebsart_Code" id="6F0C020C-1F78-8BA8-23F5-6EDF4F620E2B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:15:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kozern_Platform_Code" id="7395F748-2B01-2107-A576-E0F86D2CE726">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:19:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Motormodell_Code" id="2162D38C-2BFC-A8C6-4AB5-C1EFC6AFDA9C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:19:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Fahrzeugmodell_Code" id="D6FC9F1E-4FE4-D720-C325-947666647BDC">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:19:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_AufbauOberfläche_Code" id="AEB85AC3-05EE-470B-CD08-4B771E3DDAA3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:19:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konzern_Oberfläche_Code" id="1A9CD668-530E-BC89-1402-341766593449">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:19:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="617AF535-C70F-3695-7CD3-BAA285887C1C" name="Verkaufseinheit_PK">

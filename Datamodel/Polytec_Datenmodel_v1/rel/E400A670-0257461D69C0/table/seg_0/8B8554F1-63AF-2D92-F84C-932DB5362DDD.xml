@@ -161,6 +161,18 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Konzern_Waehrung_Code" id="82EBA525-D823-31E2-7223-50FC1D946D4C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 21:13:18 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="BusinessUnit_Code" id="D2F0A167-9401-063A-F499-CF30DE6EBACA">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 15:10:01 UTC</createdTime>

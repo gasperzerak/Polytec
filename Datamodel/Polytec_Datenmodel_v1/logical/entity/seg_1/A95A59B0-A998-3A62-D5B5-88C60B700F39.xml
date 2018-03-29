@@ -792,7 +792,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ProfitCenter_SID1" id="87CD9A20-EEC2-1570-0A03-FF289110E4C5">
 <createdBy>gzerak</createdBy>

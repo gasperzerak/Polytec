@@ -35,7 +35,6 @@
 <engineerTo>
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -48,6 +47,20 @@
 <engineerTo>
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Konzern_Mengeneinheit_Code" id="29B8BDFC-C7B3-4934-95DB-ED3FBD0F61AE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 20:44:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -112,14 +125,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AC10AF20-B144-AAD5-D7F9-D6ACECE44924" name="Mengeneinheit PK">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2017-11-27 12:02:35 UTC</createdTime>
+<identifier id="B5728B75-95A7-1518-82BD-6E315CE4A65A" name="Mengeneinheit PKv1">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-26 20:45:11 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <engineerTo>
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>FB48578A-DCBB-7F35-2623-AF28FCB70317</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
