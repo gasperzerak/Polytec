@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Endkunde_SID" id="1934A580-75C2-9270-AAC8-E8EE295C145B">
+<Column name="Endkunde_Code" id="1934A580-75C2-9270-AAC8-E8EE295C145B">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>D5C827EB-F197-B277-0654-13AE382C86AB</generatorID>
@@ -43,7 +43,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Projekt_SID" id="59311215-B8E7-20A5-CF94-A53FEB591EC8">
+<Column name="Projekt_Code" id="59311215-B8E7-20A5-CF94-A53FEB591EC8">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>62E99C16-4484-04EC-40D6-6D9749BFE373</generatorID>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="419D7631-74E5-5B80-EA91-C98D72F3C9E1" name="BusinessType_VerkEH_Mapping">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:18:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="EC063F50-2FE8-625C-23D8-1064C0FFFD65">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:20:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verkaufseinheit_SID" id="C4A07FF7-A43A-C6D7-2CF6-408C484281C2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:20:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Businesstype_SID" id="E6D59BEC-1B28-6063-CAAA-0B2EC9003DAA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:20:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidFrom" id="4155DC31-8257-97E6-9882-F6F350C52A8C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:20:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="92FEA1E7-DBF5-4562-524D-561DE3DC371B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:20:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsActive" id="92786789-825A-4803-DD06-C134DC85E41D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:20:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Verkaufseinheit_Verkaufseinheit_SID" id="8B25E630-C7D2-B3D0-01A5-5596F5BF216E">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:21:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEBD5B45-6B5B-3464-270A-319B6ED9AD69" referredColumn="86D2741F-9D5D-69BB-F4DA-BF07124ED7FA"/>
+</associations>
+</Column>
+<Column name="BusinessType_BusinessType_SID" id="C966BC9A-B5A1-1B1F-DDF5-D2D9C41070B4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:21:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD878661-2E45-CA98-7E0D-2A544C92F09B" referredColumn="DA91EE09-0F38-EDE2-08F6-5A6643EF91F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCCD3AC9-C997-072B-C678-33116AA46921" name="BusinessType_VerkEH_Mapping_Verkaufseinheit_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:21:25 UTC</createdTime>
+<generatorID>B6EB6FBC-47BD-D4C2-4436-735B0F934453</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B25E630-C7D2-B3D0-01A5-5596F5BF216E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78669FBB-4F7D-2FD1-D8A3-74F0A2501D86" name="BusinessType_VerkEH_Mapping_BusinessType_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 16:21:49 UTC</createdTime>
+<generatorID>98199FC2-7F4D-3A40-5304-30E2083F65D3</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C966BC9A-B5A1-1B1F-DDF5-D2D9C41070B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

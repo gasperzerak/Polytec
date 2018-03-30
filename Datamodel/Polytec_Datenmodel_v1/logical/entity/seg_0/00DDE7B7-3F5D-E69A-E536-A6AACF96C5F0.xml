@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00DDE7B7-3F5D-E69A-E536-A6AACF96C5F0" name="Kundenrolle">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00DDE7B7-3F5D-E69A-E536-A6AACF96C5F0" name="KundenRolle">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-29 15:07:52 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -24,6 +24,19 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KundenRolle_SID" id="DCADCAE3-6F41-139B-5C8D-FABDDD4984CE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 13:11:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Code" id="D5DA3E70-A300-5969-EE2F-1BDBC9B8460F">

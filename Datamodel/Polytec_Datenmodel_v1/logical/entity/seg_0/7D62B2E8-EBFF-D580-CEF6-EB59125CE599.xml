@@ -27,6 +27,17 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Plastics_Hierarchie_SID" id="CF4BC6B7-847F-F12B-B3BB-65D1261F85BB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 13:01:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Plastics_Hierarchie_Code" id="B0396E0A-F115-AAC4-4E6B-E00CB46CE340">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-29 15:00:00 UTC</createdTime>

@@ -67,6 +67,17 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Gate_SID" id="5575132E-6A0B-F664-BA64-BDF62A1EDBD3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 14:35:56 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Verkaufseinheit_Code " id="97B6E18B-0BA1-79BF-D11D-012BB22F5FFB">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 15:08:55 UTC</createdTime>
@@ -274,20 +285,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Gate_Code " id="BB4449DA-8E46-D8A4-2E58-925E23C7C84F">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-02-09 13:34:50 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Preis" id="02FC3DFE-5546-7593-9826-2208B8CB8709">
 <createdBy>aschweinberger</createdBy>
