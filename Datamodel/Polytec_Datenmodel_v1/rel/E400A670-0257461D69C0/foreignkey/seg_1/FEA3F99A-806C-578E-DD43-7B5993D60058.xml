@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="FEA3F99A-806C-578E-DD43-7B5993D60058" containerWithKeyObject="609D991E-0420-6EC9-1F05-63074EA24381" localFKIndex="604433C2-9763-A27C-7947-1E4C34AEF907" name="Kundengruppe2_Kundengruppe1_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:19:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Kundengruppe1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BAA4553A-6B19-A99D-273E-9DC467812ADC</referredTableID>
+<keyObject>13AB6721-2F1D-B058-0DE9-CC6E48F2B68E</keyObject>
+<referredKeyID>13AB6721-2F1D-B058-0DE9-CC6E48F2B68E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Kundengruppe1_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

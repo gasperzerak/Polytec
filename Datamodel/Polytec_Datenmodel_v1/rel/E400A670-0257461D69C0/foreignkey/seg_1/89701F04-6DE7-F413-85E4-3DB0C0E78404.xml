@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="89701F04-6DE7-F413-85E4-3DB0C0E78404" containerWithKeyObject="A8D12C6E-15EB-61C1-6213-B3BD522DF28D" localFKIndex="92EBDAED-E9E5-EB27-4E31-23D61E59FFE1" name="EndKunde_Composites_Hierarchie_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:28:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Composites_Hierarchie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E707EB45-4E54-7F28-7C28-22762F892901</referredTableID>
+<keyObject>38D1AB32-7D8A-FDAF-1A50-38B2CF4E22EC</keyObject>
+<referredKeyID>38D1AB32-7D8A-FDAF-1A50-38B2CF4E22EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Composites_Hierarchie_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

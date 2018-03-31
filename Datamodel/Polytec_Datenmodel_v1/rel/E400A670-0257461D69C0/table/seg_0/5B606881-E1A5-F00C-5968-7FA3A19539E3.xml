@@ -111,22 +111,6 @@
 <colAssociation fkAssociation="8FA28BB7-F6FC-4967-23B7-0974C993DCA2" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
 </associations>
 </Column>
-<Column name="MasterWerk_MasterWerk_SID" id="524C9BBE-DC6F-0984-4B5B-97A8E70BEF0F">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<comment>Werk1, Werk2</comment>
-<generatorID>91FAFF2D-58A1-0BCA-1702-F72DCD53A3AB</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9E51A585-6ECE-632A-13D9-9D115163D931" referredColumn="C6E0E44A-8174-0111-B41C-5F1A522AA187"/>
-</associations>
-</Column>
 <Column name="KonzernKunde_KonzernKunde_SID" id="5807BEE5-5DC7-B266-F9E8-140E808DD58C">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 13:36:18 UTC</createdTime>
@@ -139,6 +123,18 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D498C692-D75C-0749-659E-D33D858D05F1" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
+</associations>
+</Column>
+<Column name="Werk_Werk_SID" id="5E3220AE-320C-DD97-CD5A-E68E5CB23016">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:57:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E52C2EF-3B38-8D3E-7EC3-0170899222CD" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
 </associations>
 </Column>
 </columns>
@@ -165,17 +161,6 @@
 <colUsage columnID="E1F10A33-34F7-7A54-5982-D5CF39BF62FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7635FA8-BB00-0283-A88C-A669972493CE" name="ICPlanung_MasterWerk_FK">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:11 UTC</createdTime>
-<generatorID>EF4A10C7-192A-C627-4F3D-F50C3EAD33C2</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="524C9BBE-DC6F-0984-4B5B-97A8E70BEF0F"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="307D7ABF-AC7F-A01F-AF72-02069FC39AF3" name="ICPlanung_KonzernKunde_FK">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 13:36:18 UTC</createdTime>
@@ -185,6 +170,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5807BEE5-5DC7-B266-F9E8-140E808DD58C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF11968F-23CC-A24C-FE0F-21A1ADC94C79" name="ICPlanung_Werk_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:57:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3220AE-320C-DD97-CD5A-E68E5CB23016"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

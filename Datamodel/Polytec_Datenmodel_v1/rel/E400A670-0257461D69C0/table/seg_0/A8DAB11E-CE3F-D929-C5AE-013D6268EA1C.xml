@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8DAB11E-CE3F-D929-C5AE-013D6268EA1C" name="ProfitCenterGruppe">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:33:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="C8BB8982-9105-6339-E8E8-47353A90D7E4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:42:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProfitCenterGruppe_SID" id="3749465E-A958-03E4-B91D-FC335A1844D0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:42:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProfitCenterGruppe_Code" id="7107D96E-2B26-F65C-B6B3-3D72DEDE55F0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:42:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProfitCenterGruppe_Bezeichnung_DE" id="04FC6379-FEBB-FEBA-DE03-ABAB44A259C0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:42:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProfitCenterGruppe_Bezeichnung_ENG" id="F91C828D-BA5F-3D26-34D7-63BE2FB10BD0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:42:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masterwerk_MasterWerk_SID" id="0F026D9A-EABE-8254-B948-62D9B7F75035">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:43:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10CDB39C-3060-8C97-3E52-9132338C14E1" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+</associations>
+</Column>
+<Column name="ValidFrom" id="3B0B3D88-C169-BB3B-582A-3F972809650C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:42:29 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="5882D3C9-BEA2-A81C-CF45-90095079B824">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:42:29 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="97698950-C985-86AE-1FFF-C62791313C68">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:42:29 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A99B22EB-69D2-1768-E429-B88CBE268986" name="ProfitCenterGruppe_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:42:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3749465E-A958-03E4-B91D-FC335A1844D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1077AFCE-86B6-C466-BD5F-28BC5C940EB2" name="ProfitCenterGruppe_Masterwerk_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:43:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F026D9A-EABE-8254-B948-62D9B7F75035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D75917FB-0B30-63AF-EE20-58960BFCEAB4" containerWithKeyObject="485AED22-188D-9386-7F66-6A617336022C" localFKIndex="452124C0-1446-8138-72DB-D998B83249AE" name="FakturaPSPElementeERP_ProfitCenter_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:47:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>ProfitCenter</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1B07C0E-065F-F89A-4717-41A0459C8764</referredTableID>
+<keyObject>FAF1E6E1-14DE-6359-B3D7-4DA2D980B29D</keyObject>
+<referredKeyID>FAF1E6E1-14DE-6359-B3D7-4DA2D980B29D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ProfitCenter_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

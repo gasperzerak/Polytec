@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="FCFC1488-AF3F-DDEA-1DE0-F22422133494" containerWithKeyObject="9BD2D89C-A1B0-DF95-B3EB-30624ECBBD7B" localFKIndex="B02E00C4-B937-8940-89A6-76AE17CBB905" name="PSPEinzelpostenIST_ProfitCenter_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:48:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>ProfitCenter</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1B07C0E-065F-F89A-4717-41A0459C8764</referredTableID>
+<keyObject>FAF1E6E1-14DE-6359-B3D7-4DA2D980B29D</keyObject>
+<referredKeyID>FAF1E6E1-14DE-6359-B3D7-4DA2D980B29D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ProfitCenter_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

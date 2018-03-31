@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="911964AE-D314-042E-1D1F-A19F009C0428" name="Werk">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:33:45 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="75108B9E-18EE-CADE-C40E-9D05361316DF">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:41:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Werk_SID" id="34FB9643-814B-0B0C-7167-A88DF02A9388">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:41:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MasterWerk_Code" id="FE68876F-4C3E-7253-442A-55D816CF6D8E">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:41:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MasterWerk_Bezeichnung" id="A882B8B7-1D25-3A4D-5E98-9DF5A74CBD20">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:41:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MasterWerk_Kurzbezeichnung" id="94292FBC-26FD-F2CE-25FD-9BDE8AFBCFDC">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:41:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gesellschaft_Gesellschaft_SID" id="5204C602-B008-A576-A72B-EB1AF09F18A8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:43:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AC41FAD-CDE1-97AE-922F-624AC02B7347" referredColumn="CD3F300D-400C-B291-CEA1-916DB07724BD"/>
+</associations>
+</Column>
+<Column name="ERPWerk_Code" id="98E175E3-BDFC-0AF6-0274-7B9BE6E938A9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:49:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERPWerk_Bezeichnung" id="BC131944-1C94-96EE-86DC-1AB95A71338B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:49:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidFrom" id="A3FE2CF5-ED5C-5033-B8C7-A44497B5B8A4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:44:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="F3B63DFF-F346-6842-5977-50A2BABA2ECC">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:44:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="EF6F062C-3CC7-34CC-C874-DB00C946B43D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:44:57 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49E97AAB-F670-DA36-87E7-09A35A941BC5" name="Masterwerk_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:43:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF5B53F-64FB-3ED1-BE29-A3F68A8ED52A" name="Masterwerk_Gesellschaft_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:43:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5204C602-B008-A576-A72B-EB1AF09F18A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

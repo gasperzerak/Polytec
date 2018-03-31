@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E707EB45-4E54-7F28-7C28-22762F892901" name="Composites_Hierarchie">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="2BA3C8C5-4E1C-CBB4-8DEE-D2B6A8FC27A7">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:24:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Composites_Hierarchie_SID" id="21B556C6-F9D9-5BC9-E4C5-223BF102D8A1">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:24:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Composites_Hierarchie_Code" id="C8443D25-B21F-AFE8-9F87-C6966257D72A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:24:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Composites_Hierarchie_Bezeichnung_DE" id="A7946CB9-4FB0-6DE6-181B-0DBC97431BDB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:24:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Composites_Hierarchie_Bezeichnung_ENG" id="27559D1E-7173-F1D1-6810-A871D0A1ECEA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:24:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidFrom" id="0A5DE4DE-1B31-D74A-0340-0BFEFCD36D18">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:26:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="8BE620BD-79EE-1C17-DD91-A133E598FB65">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:26:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="33D380EE-84B2-515E-1DD1-1EBB3676ED69">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:26:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38D1AB32-7D8A-FDAF-1A50-38B2CF4E22EC" name="Composites_Hierarchie_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:28:27 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B556C6-F9D9-5BC9-E4C5-223BF102D8A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

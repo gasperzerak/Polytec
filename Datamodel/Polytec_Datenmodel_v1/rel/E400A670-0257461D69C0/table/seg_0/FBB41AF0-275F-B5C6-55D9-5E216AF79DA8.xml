@@ -294,37 +294,6 @@
 <colAssociation fkAssociation="9966900F-EF0C-E0CD-A6CC-856AD2769300" referredColumn="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07"/>
 </associations>
 </Column>
-<Column name="Sachkonto_Sachkonto_Code" id="916AE6F3-5FA5-BF1A-0D68-ED9B331BE3EA">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>5F00A6D1-0CE2-2F20-3309-85E48AE1B3F9</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="70FCDDC3-158D-149F-61F9-88778A50D0F5" referredColumn="F74904E5-8866-C19D-7AA0-92634D8F55B5"/>
-</associations>
-</Column>
-<Column name="Sachkonto_SachKonto_SID" id="6DFD80A4-F7FB-0A44-36AC-3AC9FCF5236C">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>94CE6D49-418F-88FB-79A8-ACA5E67FE5A5</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="70FCDDC3-158D-149F-61F9-88778A50D0F5" referredColumn="D62F1492-00DD-052A-753D-941342B0CC50"/>
-</associations>
-</Column>
 <Column name="Belegart_Belegart_SID" id="AEA02923-0D41-3E39-17A7-DC12B8FCA119">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
@@ -338,20 +307,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="1BE7E1D5-AA76-098D-EB2F-61EE1DE9DE3A" referredColumn="67D3890C-F695-1FDC-D11C-E5A0CF9DFA10"/>
-</associations>
-</Column>
-<Column name="MasterWerk_MasterWerk_SID" id="EB3605A6-2001-9F42-9AA0-73ECF3F752D5">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-02 10:32:17 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FD009BA1-4FD9-0BAF-F001-E072D5A3F16A" referredColumn="C6E0E44A-8174-0111-B41C-5F1A522AA187"/>
 </associations>
 </Column>
 <Column name="Mengeneinheit_Mengeneinheit_SID" id="9CEFFAD3-4F87-1BC9-807F-E79BBA05087B">
@@ -382,9 +337,56 @@
 <colAssociation fkAssociation="C7B506BC-7427-36B3-A8FC-F0AB8CA5C598" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
 </associations>
 </Column>
-<Column name="ProfitCenter_ProfitCenter_SID" id="49DF18A2-6075-053E-3EAD-0373747630AB">
+<Column name="ProfitCenter_ProfitCenter_SID" id="28E1D67A-1531-5C39-BEC9-35AE89ECE3B0">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-26 10:41:07 UTC</createdTime>
+<createdTime>2018-03-31 00:46:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31DD0AB0-747D-1FBB-3ABE-725F252C8899" referredColumn="F0F41F52-0DD4-B0FF-C494-902E6D4B5549"/>
+</associations>
+</Column>
+<Column name="Masterwerk_MasterWerk_SID" id="DCC62F9A-9C3D-43FD-A111-5804C0626320">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:56:12 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C368BB1-1DEE-7AEE-E4FA-89B1DF762B7E" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+</associations>
+</Column>
+<Column name="SachKonto_Sachkonto_SID" id="B37938C8-349B-8C67-1F17-E5BE29E96C55">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:09:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5207154-3B64-C639-33D3-48D7BBBE9FE3" referredColumn="D2656B3C-FEAA-5D0A-A037-7732C6104D20"/>
+</associations>
+</Column>
+<Column name="Konten_Sachkonto_Code" id="EE61E32F-89E7-60A9-EEE0-5D013F1AC7CE">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:29:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konten_SachKonto_SID" id="D5A481B4-455F-97B8-6956-0B9982CF43A3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:29:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -392,9 +394,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="586360A4-C8C9-8B41-9A23-C8980DA1D05D" referredColumn="CDE9CB7C-87AA-766B-11C1-5567F927F3BF"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -475,18 +474,6 @@
 <colUsage columnID="23FFFFB6-74A1-BB33-CB43-E541CDD65EAF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="31ACFFB2-A2BC-52A9-38D6-0122328A179E" name="KontenERP_Sachkonto_FK">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:11 UTC</createdTime>
-<generatorID>809FB30E-67D9-294F-2950-BDF97AB995AE</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="916AE6F3-5FA5-BF1A-0D68-ED9B331BE3EA"/>
-<colUsage columnID="6DFD80A4-F7FB-0A44-36AC-3AC9FCF5236C"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="947322AB-0996-92B3-AA80-5C3D1024B27A" name="KontenERP_Belegart_FK">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:11 UTC</createdTime>
@@ -496,17 +483,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AEA02923-0D41-3E39-17A7-DC12B8FCA119"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="8C442FF7-E133-5125-C1D9-A08FE96845C7" name="KontenERP_MasterWerk_FK">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-02 10:32:17 UTC</createdTime>
-<generatorID>C7071FB4-3312-9A09-0770-E1F4C72DBAAE</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="EB3605A6-2001-9F42-9AA0-73ECF3F752D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1081DA79-5921-634F-C90D-F93B3139F19F" name="KontenERP_KonzernKunde_FK">
@@ -520,14 +496,34 @@
 <colUsage columnID="8BC946BD-D1F7-36C1-AB33-3C375ACB0956"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7EED1E03-EC35-8EF1-11D5-557282B6F861" name="KontenPSPERP_ProfitCenter_FK">
+<ind_PK_UK id="8D6A8838-38B1-FD5D-8A93-2025F56579D6" name="KontenPSPERP_ProfitCenter_FK">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-26 10:41:07 UTC</createdTime>
+<createdTime>2018-03-31 00:46:31 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="49DF18A2-6075-053E-3EAD-0373747630AB"/>
+<colUsage columnID="28E1D67A-1531-5C39-BEC9-35AE89ECE3B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21391688-EABD-33E2-5CC3-391848179405" name="KontenPSPERP_Masterwerk_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:56:12 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC62F9A-9C3D-43FD-A111-5804C0626320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0CAF977-0B39-F539-ABA5-9D5D8DE7F177" name="KontenPSPERP_SachKonto_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:09:25 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B37938C8-349B-8C67-1F17-E5BE29E96C55"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

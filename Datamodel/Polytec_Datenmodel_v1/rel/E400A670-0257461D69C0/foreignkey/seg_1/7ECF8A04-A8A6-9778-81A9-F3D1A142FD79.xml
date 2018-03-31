@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7ECF8A04-A8A6-9778-81A9-F3D1A142FD79" containerWithKeyObject="7B967752-3061-AEE8-27F7-059082B8A6E6" localFKIndex="F9B0EA6D-B7AE-A111-220B-74061C87AEB7" name="KontenMaterialERP_SachKonto_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:09:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>SachKonto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC0155A8-8684-5076-5333-8DC8E5776C10</referredTableID>
+<keyObject>ED173567-6876-32D4-C6D8-625F92F503E1</keyObject>
+<referredKeyID>ED173567-6876-32D4-C6D8-625F92F503E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sachkonto_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

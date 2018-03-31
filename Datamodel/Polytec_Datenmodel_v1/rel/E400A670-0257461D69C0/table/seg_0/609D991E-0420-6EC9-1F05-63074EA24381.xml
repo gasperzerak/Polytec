@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="609D991E-0420-6EC9-1F05-63074EA24381" name="Kundengruppe2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:11:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="79A69159-ADA3-CBEC-1833-4A0B70365739">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:12:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KundeGruppe2_SID" id="38121E9E-62A6-1BE2-C783-906ECF4AEE74">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KundenGruppe2_Code" id="4A492A52-9CD1-A57A-2D4E-B9C4ECBFFDF9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidFrom" id="8F9C8FB5-F657-12B4-6A23-971479AA1CCA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="16CF2588-8EB1-14A9-C020-F1B0B21569BA">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="05C5BD0E-A0F7-C04D-5ACD-E57B4236B484">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kundengruppe1_Kundengruppe1_SID" id="63DDA06C-282D-D398-1E2F-738B365280D8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:19:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEA3F99A-806C-578E-DD43-7B5993D60058" referredColumn="DC03DF36-090B-30C6-39FA-55394004F997"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FECC898-516C-FE06-AF7A-CC313982E861" name="Kundengruppe2_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:04 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38121E9E-62A6-1BE2-C783-906ECF4AEE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="604433C2-9763-A27C-7947-1E4C34AEF907" name="Kundengruppe2_Kundengruppe1_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:19:05 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63DDA06C-282D-D398-1E2F-738B365280D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

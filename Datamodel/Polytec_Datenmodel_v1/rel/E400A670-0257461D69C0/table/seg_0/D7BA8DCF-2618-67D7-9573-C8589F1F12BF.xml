@@ -663,6 +663,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ValidFrom" id="30A19C69-92A7-AE97-26DB-BDD4783855D6">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 17:57:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="0A4A822E-CF0E-600C-C60A-371EC49F5661">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 17:57:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="5F28C293-4CF6-5E9E-28D6-577413F0E465">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 17:57:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E9A01D6D-9B45-483B-76FA-3F8DAEB4AF5F" name="MaterialERP_PK">

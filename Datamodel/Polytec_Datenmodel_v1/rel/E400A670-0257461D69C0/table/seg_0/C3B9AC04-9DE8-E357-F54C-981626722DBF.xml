@@ -231,6 +231,33 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ValidFrom" id="73F2EE63-4C36-DF3E-5C66-0F5190659875">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 18:11:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="51D2FCCC-6C03-4C7B-0A5A-E84883BF0155">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 18:11:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="147D2470-3063-39AD-669C-F64106A841C6">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-30 18:11:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DA239A55-5CB7-2661-5A98-1D2D7C843949" name="Projekt_PK">

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="1DD7CA81-3229-426B-E5C1-BC35EEF973CE" containerWithKeyObject="485AED22-188D-9386-7F66-6A617336022C" localFKIndex="A8B3B083-D69C-741F-946F-AE72E04773DA" name="FakturaPSPElementeERP_SachKonto_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:09:03 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>SachKonto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC0155A8-8684-5076-5333-8DC8E5776C10</referredTableID>
+<keyObject>ED173567-6876-32D4-C6D8-625F92F503E1</keyObject>
+<referredKeyID>ED173567-6876-32D4-C6D8-625F92F503E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sachkonto_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

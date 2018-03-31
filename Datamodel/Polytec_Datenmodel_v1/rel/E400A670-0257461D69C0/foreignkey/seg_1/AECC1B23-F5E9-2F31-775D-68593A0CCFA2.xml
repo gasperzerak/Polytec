@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="AECC1B23-F5E9-2F31-775D-68593A0CCFA2" containerWithKeyObject="EC0155A8-8684-5076-5333-8DC8E5776C10" localFKIndex="24D1BDD7-1042-BDB4-A0FE-2B1F567F9E80" name="SachKonto_MasterKonto_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:04:36 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>MasterKonto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F75F7C9-9788-7FA8-D0A9-84EAACD53303</referredTableID>
+<keyObject>9E7A6EC7-052F-82A3-081C-96B14D261841</keyObject>
+<referredKeyID>9E7A6EC7-052F-82A3-081C-96B14D261841</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Masterkonto_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

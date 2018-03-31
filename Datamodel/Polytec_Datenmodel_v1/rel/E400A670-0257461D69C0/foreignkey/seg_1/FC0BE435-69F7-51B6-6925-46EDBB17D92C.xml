@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="FC0BE435-69F7-51B6-6925-46EDBB17D92C" containerWithKeyObject="A8D12C6E-15EB-61C1-6213-B3BD522DF28D" localFKIndex="FADEB6EC-0A25-DCA8-72D0-E695AFFC3F06" name="EndKunde_Carstyling_Hierarchie_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:28:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<referredTableLongName>Carstyling_Hierarchie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F368D6C-0600-85AC-9F39-3EE03138A3BB</referredTableID>
+<keyObject>EB945574-E991-0038-5B02-012E8ECD1A49</keyObject>
+<referredKeyID>EB945574-E991-0038-5B02-012E8ECD1A49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Carstyling_Hierarchie_SID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

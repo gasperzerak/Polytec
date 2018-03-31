@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A35A55B0-E68D-335D-0ACE-DD2C3681D1B0" name="Plastics_Hierarchie">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:10:41 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="A6482E5B-591A-0436-398C-AC2CB3593227">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plastics_Hierarchie_SID" id="970159B5-69F9-713C-6887-A988CD845041">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plastics_Hierarchie_Code" id="B303DE26-C42B-3875-451D-843F2F8BEEF1">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plastics_Hierarchie_Bezeichnung_DE" id="289418C6-C609-977F-2C5E-F891442F9336">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plastics_Hierarchie_Bezeichnung_ENG" id="C0DD179A-C58C-6EF3-6464-F8C2507E608A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidFrom" id="7B365E44-FE4D-DBCE-70F8-66A80E4732E1">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:25:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="D96F009C-431A-3A31-B236-EC3262B047BB">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:25:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="4A6D97F6-C470-2E81-3EA4-91C058479C33">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:25:52 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AC0F388-89A6-6B8D-62ED-F9338A839C56" name="Plastics_Hierarchie_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="970159B5-69F9-713C-6887-A988CD845041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

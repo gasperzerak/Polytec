@@ -56,68 +56,6 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Endkunde_Code" id="3E20E244-B93A-0EC1-7DF4-DCE2F51FEE21">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-26 21:04:40 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="KundenGruppe1_Code" id="55F3A218-21EE-4A2C-B052-DAEF41C349E3">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 13:04:24 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="KundenGruppe1_Bezeichnung" id="1365819C-B3A9-0708-4F36-8B0D6D842C34">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 13:04:24 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="KundenGruppe2_Code" id="C0525BA6-8B1F-BAA8-5A68-29AAAA6BEDD5">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>FC6B8275-F9D4-DEB0-0DF0-2A94FE4DC64B</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="KundenGruppe2_Bezeichnung" id="19DFFCC5-4EFD-2986-63EF-62CF441DF255">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 13:04:24 UTC</createdTime>
-<generatorID>FC6B8275-F9D4-DEB0-0DF0-2A94FE4DC64B</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Sektor_Code" id="60F56542-9C7A-0516-0E6F-9A6CA91458F0">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 13:10:26 UTC</createdTime>
@@ -154,113 +92,84 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Plastics_Hierarchie_Code" id="9625706B-AED8-4D4A-56E8-B2B12762B19F">
+<Column name="ValidFrom" id="DB405C68-B884-7CFE-A4A5-DB04A63BCF32">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-30 17:56:50 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Carstyling_Hierarchie_Code" id="3C52553A-10A8-91F5-2E5B-053E215BCE3E">
+<Column name="ValidTo" id="EDEC1CC5-30C4-3FE1-A475-E48F1FB4552C">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-30 17:56:50 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Composites_Hierarchie_Code" id="AA523AD1-6AC9-43CD-A85C-0762373C6209">
+<Column name="IsCurrent" id="B0946C2B-BB5D-D201-4CB8-A0C41EE44586">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-30 17:57:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Composites_Hierarchie_Bezeichnung_DE" id="BE0C0FDE-7619-E727-0668-9FAE7A2FD6A2">
+<Column name="Kundengruppe2_KundeGruppe2_SID" id="93653396-B16D-B29C-493A-E104F321D0FC">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-31 00:13:26 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11BF992D-47B2-A51E-B10D-071E2A47B7E0" referredColumn="38121E9E-62A6-1BE2-C783-906ECF4AEE74"/>
+</associations>
 </Column>
-<Column name="Composites_Hierarchie_Bezeichnung_ENG" id="7B38AA0F-BC80-A837-62BC-1512241A9F39">
+<Column name="Plastics_Hierarchie_Plastics_Hierarchie_SID" id="F5F83C87-0B34-6EF5-BA2F-4AFF31988282">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-31 00:21:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F266F56-2B5C-F3B3-4EFF-138FD19DA638" referredColumn="970159B5-69F9-713C-6887-A988CD845041"/>
+</associations>
 </Column>
-<Column name="Carstyling_Hierarchie_Bezeichnung_DE" id="5379AAD1-FF0A-6A4F-8D57-E9B8CAAAEF84">
+<Column name="Carstyling_Hierarchie_Carstyling_Hierarchie_SID" id="71EB9D1C-0862-95DA-30C0-ED2A8EBCD081">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-31 00:28:14 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC0BE435-69F7-51B6-6925-46EDBB17D92C" referredColumn="BB127635-BF7B-4E77-4899-CF84A1F91D6E"/>
+</associations>
 </Column>
-<Column name="Carstyling_Hierarchie_Bezeichnung_ENG" id="3505AC24-8E31-E6EC-99BA-F582A45FE540">
+<Column name="Composites_Hierarchie_Composites_Hierarchie_SID" id="7D50C2CB-2CDB-7E44-F243-DC57E4B3260C">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
+<createdTime>2018-03-31 00:28:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Plastics_Hierarchie_Bezeichnung_DE" id="ABEB36C9-9F5C-6D9F-9490-1F0BA4129786">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Plastics_Hierarchie_Bezeichnung_ENG" id="0009C908-58F4-AF1E-51B7-755B33C59B18">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:33:30 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89701F04-6DE7-F413-85E4-3DB0C0E78404" referredColumn="21B556C6-F9D9-5BC9-E4C5-223BF102D8A1"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -274,6 +183,46 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="558F2367-BE61-BF64-CBD1-B274422DACE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2B57421-E774-4FAB-327E-B799427673EF" name="EndKunde_Kundengruppe2_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:13:26 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93653396-B16D-B29C-493A-E104F321D0FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EE8BB1D-CD96-9760-5AB0-C32C6BD56D94" name="EndKunde_Plastics_Hierarchie_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:21:58 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5F83C87-0B34-6EF5-BA2F-4AFF31988282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FADEB6EC-0A25-DCA8-72D0-E695AFFC3F06" name="EndKunde_Carstyling_Hierarchie_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:28:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71EB9D1C-0862-95DA-30C0-ED2A8EBCD081"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92EBDAED-E9E5-EB27-4E31-23D61E59FFE1" name="EndKunde_Composites_Hierarchie_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:28:32 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D50C2CB-2CDB-7E44-F243-DC57E4B3260C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

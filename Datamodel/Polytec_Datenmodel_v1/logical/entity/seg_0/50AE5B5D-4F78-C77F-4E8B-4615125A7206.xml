@@ -3,6 +3,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:04:13 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 14:22:07 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,6 +32,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:05:40 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -35,6 +44,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:05:46 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -45,6 +57,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:07:02 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,6 +73,9 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2017-11-27 12:06:55 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F25919CB-E127-508C-EBC7-5C54B7797A18</attributeRef>

@@ -273,20 +273,6 @@
 <colAssociation fkAssociation="2096042D-2DF4-4420-0735-BED78A6F12F3" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
 </associations>
 </Column>
-<Column name="MasterWerk_MasterWerk_SID" id="C00AAA1F-9FE1-A624-E366-661C427D5608">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-02 10:32:00 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="262202E0-7998-BF18-4762-E88C91E68173" referredColumn="C6E0E44A-8174-0111-B41C-5F1A522AA187"/>
-</associations>
-</Column>
 <Column name="Mengeneinheit_Mengeneinheit_SID" id="71A085F1-2D9E-3AF6-2275-844462A5940E">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-05 13:33:18 UTC</createdTime>
@@ -313,6 +299,18 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5300ABB6-7C57-51FE-C181-F8236B34B6B7" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
+</associations>
+</Column>
+<Column name="Masterwerk_MasterWerk_SID" id="F2D2D6EF-A893-A0E2-72B6-60D47851BCD2">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:56:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C639529-686B-C218-C6A7-DE2C7B670E36" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
 </associations>
 </Column>
 </columns>
@@ -372,17 +370,6 @@
 <colUsage columnID="18710DFE-BCEB-1423-DE6A-0F294D0B84F5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="47B21236-D70B-F971-A5B4-FFFB861C0039" name="Abrufe_MasterWerk_FK">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-02 10:32:00 UTC</createdTime>
-<generatorID>C7071FB4-3312-9A09-0770-E1F4C72DBAAE</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C00AAA1F-9FE1-A624-E366-661C427D5608"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="4965548B-9632-49EC-0F75-FF38717A6FD0" name="Abrufe_KonzernKunde_FK">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 13:00:38 UTC</createdTime>
@@ -392,6 +379,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="750E2468-E458-B83F-8BF7-D857AD246533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="776097B4-49AA-2DA1-5BE2-19CB29CB6253" name="Abrufe_Masterwerk_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:56:35 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2D2D6EF-A893-A0E2-72B6-60D47851BCD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
