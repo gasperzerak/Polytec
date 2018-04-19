@@ -185,6 +185,18 @@
 <colAssociation fkAssociation="550E0DAF-9162-9987-3F24-ED74934576CE" referredColumn="0B4C1B5F-D8BD-FE9A-1939-E17A77901A46"/>
 </associations>
 </Column>
+<Column name="Werk_Werk_SID" id="D176780A-8AF4-F076-D827-978C9821D086">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:45:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6373372E-E22A-47DE-68E1-112358B923E3" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EC7AC04E-1E4F-00C6-C30E-AFA1D6BEA88B" name="KalkulationsSoftware_Verkaufseinheit_FK">
@@ -218,6 +230,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E7474503-EC62-FA9D-036F-762CAC199688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08CD0DA9-EA92-C0E2-A80A-257420E9EB8A" name="KalkulationsSoftware_Werk_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:45:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D176780A-8AF4-F076-D827-978C9821D086"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

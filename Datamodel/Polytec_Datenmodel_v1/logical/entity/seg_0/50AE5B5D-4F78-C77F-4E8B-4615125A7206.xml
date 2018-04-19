@@ -53,6 +53,20 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="KundenGruppe0_Code" id="B7512745-3AE3-A06C-3E07-7B76C6E0B0EC">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-04-08 20:52:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="KundeGruppe1_Bezeichnung" id="EBEA51AE-1B1D-B357-A83A-A1855FAECB22">
 <createdBy>gzerak</createdBy>
 <createdTime>2017-11-20 11:07:02 UTC</createdTime>
