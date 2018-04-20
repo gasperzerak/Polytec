@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KundenRolle_SID" id="06DA19F9-FF5B-864A-AB7E-BDD565E842F4">
+<Attribute name="Rolle_SID" id="06DA19F9-FF5B-864A-AB7E-BDD565E842F4">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-30 14:40:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -188,8 +188,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundeERP_Code1" id="8C38B4EC-17C8-4E0B-1C1E-AB4A39BD8AE5">
 <createdBy>aschweinberger</createdBy>

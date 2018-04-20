@@ -41,40 +41,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ValidFrom" id="4155DC31-8257-97E6-9882-F6F350C52A8C">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:20:25 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ValidTo" id="92FEA1E7-DBF5-4562-524D-561DE3DC371B">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:20:25 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="IsActive" id="92786789-825A-4803-DD06-C134DC85E41D">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 16:20:25 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT034</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Verkaufseinheit_Verkaufseinheit_SID" id="8B25E630-C7D2-B3D0-01A5-5596F5BF216E">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-30 16:21:25 UTC</createdTime>

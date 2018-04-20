@@ -25,6 +25,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Plastics_Hierarchie_SID" id="CF4BC6B7-847F-F12B-B3BB-65D1261F85BB">
@@ -35,7 +36,9 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Plastics_Hierarchie_Code" id="B0396E0A-F115-AAC4-4E6B-E00CB46CE340">

@@ -82,32 +82,6 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ValidFrom" id="375C4682-0818-E401-95AA-11D26601F9DE">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 12:51:35 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ValidTo" id="B79E45CA-29F1-9049-3C72-490E22E7F157">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-30 12:51:40 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<engineerTo>
-<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Verkaufseinheit_SID1" id="C0DBD2F2-AFB1-3209-9ADC-2EF784866A87">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-30 14:37:51 UTC</createdTime>

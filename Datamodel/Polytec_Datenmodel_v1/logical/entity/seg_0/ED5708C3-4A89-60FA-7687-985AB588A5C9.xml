@@ -36,7 +36,9 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Composites_Hierarchie_Code" id="50C5E728-C3AA-E0C5-7D89-69F368306A83">

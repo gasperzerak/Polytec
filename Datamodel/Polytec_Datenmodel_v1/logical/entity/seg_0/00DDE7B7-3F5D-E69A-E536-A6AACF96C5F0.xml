@@ -23,7 +23,9 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KundenRolle_SID" id="DCADCAE3-6F41-139B-5C8D-FABDDD4984CE">
@@ -33,7 +35,6 @@
 <engineerTo>
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -46,9 +47,11 @@
 <engineerTo>
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Konzern_Rolle_Code" id="A2FB55AF-9AFB-979B-F5C4-2F6FD5BE630B">
 <createdBy>gzerak</createdBy>
@@ -58,8 +61,11 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Bezeichnung_DE" id="3CE520ED-C729-63A1-DD18-F1C66D7C947C">
 <createdBy>gzerak</createdBy>
@@ -69,8 +75,11 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rolle_Bezeichnung_ENG" id="2AA3BE51-0254-6042-3B54-67190701086E">
 <createdBy>gzerak</createdBy>
@@ -80,8 +89,11 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
