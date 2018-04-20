@@ -108,6 +108,20 @@
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Projekt_Code" id="465F4993-4028-0222-1C1D-4E42D31A2DBE">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-20 14:25:21 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Planuebermaterial_Code" id="A9827073-857D-78C8-5BE9-34A5499A92C9">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-08 14:22:55 UTC</createdTime>
@@ -344,6 +358,20 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>330 CHAR</dataTypeSize>
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndKunde_Code" id="DEC47D53-C162-9A18-0E18-41F2E66F6733">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-20 14:26:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Verkaufseinheit_SID" id="D2F0D8A2-30ED-6678-EBC1-44F2F84FF272">
 <createdBy>aschweinberger</createdBy>

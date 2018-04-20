@@ -3,6 +3,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-02-15 11:39:07 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-02-15 11:39:31 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -25,6 +31,9 @@
 <createdTime>2018-02-15 11:39:35 UTC</createdTime>
 <comment>kann sowohl Siemens als auch MaterialERP_Code  oder PSP-Element_Code sein</comment>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,6 +44,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-02-15 11:39:36 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,6 +57,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-02-15 11:39:36 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,6 +70,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-02-15 11:39:36 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,10 +83,13 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-02-15 11:41:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PSPElement_SID" id="A6396A15-D81F-EF7B-8A0B-F905C301F25F">
@@ -76,6 +97,9 @@
 <createdTime>2018-02-15 11:42:51 UTC</createdTime>
 <generatorID>2830D949-113E-6DE8-A426-E772DE3B00F5</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <referedAttribute>F6CF2D3B-3578-7EF7-070E-969FC1250F44</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,6 +111,9 @@
 <createdTime>2018-02-15 11:43:00 UTC</createdTime>
 <generatorID>DEACF98E-4CE4-3053-A4F4-AA7B7C14BB4F</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <referedAttribute>538C6EEB-C8F4-FCC6-2FEF-B141774BD8FA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,6 +125,9 @@
 <createdTime>2018-02-15 11:43:00 UTC</createdTime>
 <generatorID>DEACF98E-4CE4-3053-A4F4-AA7B7C14BB4F</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <referedAttribute>F28823BC-9A4E-CCE3-267B-D8109A29C81A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,6 +140,9 @@
 <comment>Werk1, Werk2</comment>
 <generatorID>EF4A10C7-192A-C627-4F3D-F50C3EAD33C2</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <referedAttribute>34C0D74B-08F4-25C6-AEA3-C6721EB56C90</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -122,6 +155,9 @@
 <comment>Werk1, Werk2</comment>
 <generatorID>443B0056-5CC1-5EA6-3AA3-6FC02E667895</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
 <referedAttribute>34C0D74B-08F4-25C6-AEA3-C6721EB56C90</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

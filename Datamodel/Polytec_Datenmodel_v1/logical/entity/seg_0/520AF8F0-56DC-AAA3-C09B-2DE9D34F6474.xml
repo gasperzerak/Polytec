@@ -53,7 +53,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_Mengeneinheit_Code" id="29B8BDFC-C7B3-4934-95DB-ED3FBD0F61AE">
+<Attribute name="KonzernMengeneinheit_Code" id="29B8BDFC-C7B3-4934-95DB-ED3FBD0F61AE">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:44:17 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

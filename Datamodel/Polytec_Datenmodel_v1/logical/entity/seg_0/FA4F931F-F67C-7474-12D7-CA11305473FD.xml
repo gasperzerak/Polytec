@@ -53,7 +53,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_Materialart_Code" id="810CDB97-A508-95C7-7BD1-12F99D80606F">
+<Attribute name="KonzernMaterialart_Code" id="810CDB97-A508-95C7-7BD1-12F99D80606F">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:43:21 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

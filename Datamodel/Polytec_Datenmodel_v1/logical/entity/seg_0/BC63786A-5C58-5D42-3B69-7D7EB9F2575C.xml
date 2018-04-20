@@ -53,7 +53,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_Technologie_Code " id="5E529ABA-80FE-3695-55C8-CE021F25276D">
+<Attribute name="KonzernTechnologie_Code " id="5E529ABA-80FE-3695-55C8-CE021F25276D">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:50:37 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

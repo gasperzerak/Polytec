@@ -53,7 +53,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_Motormodell_Code" id="058F044C-1170-E075-0CFF-D2EF77428083">
+<Attribute name="KonzernMotormodell_Code" id="058F044C-1170-E075-0CFF-D2EF77428083">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:45:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

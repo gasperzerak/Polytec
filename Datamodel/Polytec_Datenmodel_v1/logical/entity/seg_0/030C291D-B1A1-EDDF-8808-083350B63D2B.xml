@@ -53,7 +53,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_Antriebsart_Code" id="4AB6EE75-BB16-D536-AB2C-19FF21F42F77">
+<Attribute name="KonzernAntriebsart_Code" id="4AB6EE75-BB16-D536-AB2C-19FF21F42F77">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:31:52 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

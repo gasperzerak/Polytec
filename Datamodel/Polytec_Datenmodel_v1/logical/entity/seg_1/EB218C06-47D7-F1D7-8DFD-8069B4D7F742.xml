@@ -53,7 +53,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_Plattform_Code" id="6BC9FB6A-1E4F-FE6A-B9AB-4B0ADF72A47D">
+<Attribute name="KonzernPlattform_Code" id="6BC9FB6A-1E4F-FE6A-B9AB-4B0ADF72A47D">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:47:29 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

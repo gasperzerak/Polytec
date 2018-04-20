@@ -49,10 +49,26 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FunktionalWaehrung_SID" id="46CA9494-68B7-4F07-A40A-489A31F86277">
+<Attribute name="ProfitCenter_Code" id="824496B9-981D-03C7-A351-719DDEF404DF">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-20 14:44:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FunktionalWaehrung_Code" id="46CA9494-68B7-4F07-A40A-489A31F86277">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-12 10:56:27 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -79,7 +95,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PSPElement_SID" id="76951F61-64D6-27F4-F07B-09AFF880DA9C">
+<Attribute name="PSPElement_Code" id="76951F61-64D6-27F4-F07B-09AFF880DA9C">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-12 10:49:37 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -133,7 +149,7 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PSPBuchDatum_SID" id="2D90A63A-28DA-92E1-29C4-6B12E638B405">
+<Attribute name="PSPBuchDatum" id="2D90A63A-28DA-92E1-29C4-6B12E638B405">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-02-12 10:51:04 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -297,6 +313,20 @@
 <item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
 </engineerTo>
 <referedAttribute>4C4F0EA2-6BF8-A540-CCC2-30736D861F5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mengeneinheit_SID1" id="3E568245-AF1B-AD3A-D7E1-7B3DF2A20D2E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-20 12:35:18 UTC</createdTime>
+<generatorID>526A862B-C089-A0EF-7712-9EFAC8320080</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<engineerTo>
+<item key="E400A670-F0F2-32F0-F727-0257461D69C0" value="true"/>
+</engineerTo>
+<referedAttribute>FB48578A-DCBB-7F35-2623-AF28FCB70317</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

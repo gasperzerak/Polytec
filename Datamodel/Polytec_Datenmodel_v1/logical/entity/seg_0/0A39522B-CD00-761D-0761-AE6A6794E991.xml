@@ -53,7 +53,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Konzern_AufbauOberfläche_Code" id="FF7E9CD3-D380-2E95-E1B6-9431A1A64D2B">
+<Attribute name="KonzernAufbauOberflaeche_Code" id="FF7E9CD3-D380-2E95-E1B6-9431A1A64D2B">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 20:33:03 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
