@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UserGruppe_SID" id="8969A1ED-2504-1E04-39A7-76CB8B4F74B8">
+<Column name="NULL SET GENERATED_4976" id="8969A1ED-2504-1E04-39A7-76CB8B4F74B8">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>B60E356E-03C9-B654-2FC9-CA3944A5DF00</generatorID>

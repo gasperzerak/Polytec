@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Plastics_Hierarchie_SID" id="970159B5-69F9-713C-6887-A988CD845041">
+<Column name="PlasticsHierarchie_SID" id="970159B5-69F9-713C-6887-A988CD845041">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:21:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -29,7 +29,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Plastics_Hierarchie_Code" id="B303DE26-C42B-3875-451D-843F2F8BEEF1">
+<Column name="PlasticsHierarchie_Code" id="B303DE26-C42B-3875-451D-843F2F8BEEF1">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:21:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Plastics_Hierarchie_Bezeichnung_DE" id="289418C6-C609-977F-2C5E-F891442F9336">
+<Column name="PlasticsHierarchie_Bezeichnung_DE" id="289418C6-C609-977F-2C5E-F891442F9336">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:21:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -53,7 +53,7 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Plastics_Hierarchie_Bezeichnung_ENG" id="C0DD179A-C58C-6EF3-6464-F8C2507E608A">
+<Column name="PlasticsHierarchie_Bezeichnung_ENG" id="C0DD179A-C58C-6EF3-6464-F8C2507E608A">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:21:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

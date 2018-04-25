@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Werk_SID" id="34FB9643-814B-0B0C-7167-A88DF02A9388">
+<Column name="NULL SET GENERATED_5444" id="34FB9643-814B-0B0C-7167-A88DF02A9388">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:41:26 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -69,7 +69,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:43:34 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

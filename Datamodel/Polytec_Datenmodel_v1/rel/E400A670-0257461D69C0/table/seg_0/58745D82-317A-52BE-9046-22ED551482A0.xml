@@ -531,6 +531,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PSPElement_SID" id="7BB4B77E-6F04-C8D8-3A88-0C5AC94B5DCC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 09:24:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FakturaDatum " id="6BDF371A-FA61-41DA-FB56-457E5819CE6D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 09:25:17 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UmsatzCurrSavings " id="0104857C-2BB9-2483-AC3D-FC0988BED6F7">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 09:26:23 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="BusinessType_BusinessType_SID" id="748F9879-8584-721B-4B3F-B7762B533EE3">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
@@ -669,7 +704,8 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:47:31 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -681,7 +717,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:58:12 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -693,7 +731,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 01:09:48 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -701,26 +741,16 @@
 <colAssociation fkAssociation="FBDDF457-1640-2277-AD80-CE7D6E4F38AF" referredColumn="D2656B3C-FEAA-5D0A-A037-7732C6104D20"/>
 </associations>
 </Column>
-<Column name="Konten_Sachkonto_Code" id="620B1908-2AD1-95DE-AB35-E9F6D5CEE812">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 01:17:16 UTC</createdTime>
+<Column name="ERPWerk_Code " id="0AAC5CF3-C744-B9C7-10A4-922DD58A952B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 09:23:08 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Konten_SachKonto_SID" id="E1FA29A5-49A3-2C1B-7383-10591BCD53DE">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 01:17:16 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

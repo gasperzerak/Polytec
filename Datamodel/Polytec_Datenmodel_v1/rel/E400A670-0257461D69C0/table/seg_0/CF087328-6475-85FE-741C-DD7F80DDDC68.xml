@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PSPElement_SID" id="9AA4075F-186C-E06D-8EF9-C75D806ED7F1">
+<Column name="NULL SET GENERATED_4885" id="9AA4075F-186C-E06D-8EF9-C75D806ED7F1">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>BF47AF53-B564-94E3-C78B-D27431C28D7A</generatorID>

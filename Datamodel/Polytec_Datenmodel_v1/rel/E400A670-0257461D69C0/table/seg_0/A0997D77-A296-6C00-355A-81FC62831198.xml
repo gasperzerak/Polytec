@@ -44,7 +44,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Kostenart_Code" id="974A7305-0BAD-A4C2-F138-1DCE4A5D4A38">
+<Column name="KonzernKostenart_Code" id="974A7305-0BAD-A4C2-F138-1DCE4A5D4A38">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:09:43 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

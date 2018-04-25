@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Load_ID" id="396CC7D0-9CCC-49B5-5DDA-61D3CA06247F">
+<Column name="NULL SET GENERATED_5335" id="396CC7D0-9CCC-49B5-5DDA-61D3CA06247F">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>5944C534-CE55-8725-15FF-F01E1CFAD087</generatorID>
@@ -200,18 +200,6 @@
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>8A1F8B05-1CB7-D53F-B52C-13FB912B183E</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Antriebsart_Antriebsart_SID" id="85FB3DC3-9AE8-7C62-3213-3EF9AF01CA5D">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>B607DDFD-E91D-DF9E-ED55-8E50EA9F148F</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -727,7 +715,7 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Technologie_Code " id="E32A9001-C10E-BC2E-25A0-E126DB223C31">
+<Column name="KonzernTechnologie_Code " id="E32A9001-C10E-BC2E-25A0-E126DB223C31">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:14:31 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -739,58 +727,112 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Antriebsart_Code" id="6F0C020C-1F78-8BA8-23F5-6EDF4F620E2B">
+<Column name="KonzernAntriebsart_Code" id="6F0C020C-1F78-8BA8-23F5-6EDF4F620E2B">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:15:17 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kozern_Platform_Code" id="7395F748-2B01-2107-A576-E0F86D2CE726">
+<Column name="KozernPlatform_Code" id="7395F748-2B01-2107-A576-E0F86D2CE726">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:19:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Motormodell_Code" id="2162D38C-2BFC-A8C6-4AB5-C1EFC6AFDA9C">
+<Column name="KonzernMotormodell_Code" id="2162D38C-2BFC-A8C6-4AB5-C1EFC6AFDA9C">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:19:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Fahrzeugmodell_Code" id="D6FC9F1E-4FE4-D720-C325-947666647BDC">
+<Column name="KonzernFahrzeugmodell_Code" id="D6FC9F1E-4FE4-D720-C325-947666647BDC">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:19:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_AufbauOberfläche_Code" id="AEB85AC3-05EE-470B-CD08-4B771E3DDAA3">
+<Column name="KonzernAufbauOberflaeche_Code" id="AEB85AC3-05EE-470B-CD08-4B771E3DDAA3">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:19:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Oberfläche_Code" id="1A9CD668-530E-BC89-1402-341766593449">
+<Column name="KonzernOberflaeche_Code" id="1A9CD668-530E-BC89-1402-341766593449">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:19:58 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produktionswerk " id="3B4C9CDB-2A62-3254-823D-F5648C6658EF">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 11:11:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bezugsart " id="E00821CA-3237-1170-B0CB-1362744300DC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 11:11:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kalkulationssicht_IC/IBU " id="A2766ABC-35A6-B030-010B-C7872047891F">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 11:11:14 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

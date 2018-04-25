@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="ACDC6EE9-D6CF-C445-1928-751066B7350B" name="Relational_Polytec" visible="true"/>
-   <object objectType="sub_view" objectID="0A374DF0-2253-0B2F-2DFF-2BF1FD19D672" name="From_LM_Abrufe" visible="true"/>
-   <object objectType="sub_view" objectID="BFA9DF35-E590-FB23-4160-428080573FE4" name="From_LM_FakturaMaterialElementeERP" visible="true"/>
-   <object objectType="sub_view" objectID="FB2E00E1-42C1-6ECE-5658-5A87516BABCD" name="From_LM_FakturaPSPElementeERP" visible="true"/>
-   <object objectType="sub_view" objectID="9442BDBC-A35A-6DA9-75E4-E2BE216033CE" name="From_LM_ICPlanung" visible="true"/>
-   <object objectType="sub_view" objectID="1BFFA277-1DF6-B7E1-6D29-29695CC23967" name="From_LM_KalkulationsSoftware" visible="true"/>
-   <object objectType="sub_view" objectID="D84A8981-416A-C01F-6FB7-48C406788506" name="From_LM_Konditionen" visible="true"/>
-   <object objectType="sub_view" objectID="0A8BD125-1EB7-2174-DC50-FF1A8BE263D2" name="From_LM_KontenMaterialERP" visible="true"/>
-   <object objectType="sub_view" objectID="1D193BD5-3337-639F-BAA3-7A12E854764D" name="From_LM_KontenPSPERP" visible="true"/>
-   <object objectType="sub_view" objectID="7400569C-B4CB-243D-419E-46A6156C5808" name="From_LM_PSPAnzahlungen" visible="true"/>
-   <object objectType="sub_view" objectID="B1F87EE1-EE1C-BD77-5EBC-EF3204176F65" name="From_LM_PSP-Einzelposten IST" visible="true"/>
-   <object objectType="sub_view" objectID="FA1FF8FF-9E8D-AC09-52F6-6D123626962B" name="From_LM_PSPPlanwerte" visible="true"/>
+   <object objectType="main_view" objectID="ACDC6EE9-D6CF-C445-1928-751066B7350B" name="Relational_Polytec" visible="false"/>
+   <object objectType="sub_view" objectID="0A374DF0-2253-0B2F-2DFF-2BF1FD19D672" name="From_LM_Abrufe" visible="false"/>
+   <object objectType="sub_view" objectID="BFA9DF35-E590-FB23-4160-428080573FE4" name="From_LM_FakturaMaterialElementeERP" visible="false"/>
+   <object objectType="sub_view" objectID="FB2E00E1-42C1-6ECE-5658-5A87516BABCD" name="From_LM_FakturaPSPElementeERP" visible="false"/>
+   <object objectType="sub_view" objectID="9442BDBC-A35A-6DA9-75E4-E2BE216033CE" name="From_LM_ICPlanung" visible="false"/>
+   <object objectType="sub_view" objectID="1BFFA277-1DF6-B7E1-6D29-29695CC23967" name="From_LM_KalkulationsSoftware" visible="false"/>
+   <object objectType="sub_view" objectID="D84A8981-416A-C01F-6FB7-48C406788506" name="From_LM_Konditionen" visible="false"/>
+   <object objectType="sub_view" objectID="0A8BD125-1EB7-2174-DC50-FF1A8BE263D2" name="From_LM_KontenMaterialERP" visible="false"/>
+   <object objectType="sub_view" objectID="1D193BD5-3337-639F-BAA3-7A12E854764D" name="From_LM_KontenPSPERP" visible="false"/>
+   <object objectType="sub_view" objectID="7400569C-B4CB-243D-419E-46A6156C5808" name="From_LM_PSPAnzahlungen" visible="false"/>
+   <object objectType="sub_view" objectID="B1F87EE1-EE1C-BD77-5EBC-EF3204176F65" name="From_LM_PSP-Einzelposten IST" visible="false"/>
+   <object objectType="sub_view" objectID="FA1FF8FF-9E8D-AC09-52F6-6D123626962B" name="From_LM_PSPPlanwerte" visible="false"/>
    <object objectType="sub_view" objectID="0923377E-134C-172F-9979-6B54D16245BA" name="From_LM_Sicherheit" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Waehrung_SID" id="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07">
+<Column name="NULL SET GENERATED_5421" id="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>8ECBAD93-6715-8965-947E-8F4770DBCCD8</generatorID>
@@ -43,7 +43,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Währung_Code" id="7E851520-F705-54CF-33E1-FFDDBE46F3E5">
+<Column name="KonzernWaehrung_Code" id="7E851520-F705-54CF-33E1-FFDDBE46F3E5">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-26 21:07:47 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

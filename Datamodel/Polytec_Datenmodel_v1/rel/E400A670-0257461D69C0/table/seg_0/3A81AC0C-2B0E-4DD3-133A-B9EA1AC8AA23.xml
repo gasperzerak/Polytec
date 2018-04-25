@@ -70,18 +70,6 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BusinessTypeGruppe_BusinessTypeGruppe_SID" id="ECB67BED-FAFB-8E75-99B9-BCD5835821E1">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>5F3A7980-732F-1B13-E5A3-46569A2CEF01</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="BusinessTypeGruppe_Bezeichnung" id="1D835EF1-0984-F235-2AE6-32C242760056">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 13:29:40 UTC</createdTime>

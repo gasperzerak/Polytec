@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KonzernKunde_SID" id="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80">
+<Column name="NULL SET GENERATED_4081" id="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>9502D99A-626E-423D-C53F-4B266D2B130C</generatorID>
@@ -168,31 +168,6 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KundeMapping_KundeMapping_SID" id="0019DAF9-B19A-A5C2-9B21-91E7F2DE8136">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>5A9BE46A-7E36-3B83-E5B7-52F83F07C4BB</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="KundeMapping_KundeERP_Code" id="1D23CA11-D6ED-1C64-6AFD-07384758375C">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>FBB9FF5C-44D4-5977-BCF1-03CA9E4F196F</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="KundeERP_Code" id="FEA4A4A2-88FB-EE27-1F08-C3A0C597BCE8">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-02 09:59:32 UTC</createdTime>
@@ -294,10 +269,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>CEA9B6D7-411D-5049-F8A4-DC839BB2AD36</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="0019DAF9-B19A-A5C2-9B21-91E7F2DE8136"/>
-<colUsage columnID="1D23CA11-D6ED-1C64-6AFD-07384758375C"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

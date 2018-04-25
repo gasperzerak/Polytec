@@ -31,20 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Projekt_Code" id="819EE317-57F0-E992-E4DF-2A27D4739D8E">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<comment>1. Nur Tagetik (Potential NEW)&lt;br/&gt;- ein Projekt wird im Tagetik mit einer TagetikNummer angelegt&lt;br/&gt;- das Projekt wird ans DWH übergeben (nur mit einer TagetikNummer)&lt;br/&gt;- siemens und ERP sind leer (wenn sie im Tagetik befüllt werden, werden wir sie ins DWH übernehmen, falls notwendig)&lt;br/&gt;&lt;br/&gt;2. Nur SIEMENS Projekt&lt;br/&gt;- ein Projekt wird in Tagetik angelegt&lt;br/&gt;- dazu wird eine TagetikNummer erzeugt&lt;br/&gt;- das Projekt wird in die DWH-Tabelle ProjektSiemens importiert&lt;br/&gt;&lt;br/&gt;3. ERP Projekt (Schnittstelle)&lt;br/&gt;- es wird ins DWH (mit der ERP und SiemensNummer) beladen&lt;br/&gt;- das Projekt wird an Tagetik (ProjektTagetik) übergeben, falls es noch nicht vorhanden ist (SiemensNummer ist Schlüssel)&lt;br/&gt;- dazu wird eine TagetikNummer generiert&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Initial werden die ERP und Siemens Projekte vom Quellsystem geliefert (CSV)&lt;br/&gt;Sobald in die Bewegungsdaten ein ERP Projektnummer vorkommt, die noch nicht gemapped wurde (Projektabelle), muss ein Fehler auftreten&lt;br/&gt;</comment>
-<generatorID>E2F03BD3-DBD6-6C85-8DD1-40E6C97FF0A5</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Waehrung_Code" id="F4734042-556A-22F3-A296-E53C2ED88844">
+<Column name="Waehrung_SID" id="F4734042-556A-22F3-A296-E53C2ED88844">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>A90A6912-5811-B117-567D-5D02AE4B1DFB</generatorID>
@@ -52,14 +39,24 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Gate_Code" id="29F4AAF0-5922-8E8D-1854-23406916AA74">
+<Column name="Gate_SID" id="29F4AAF0-5922-8E8D-1854-23406916AA74">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-30 16:36:13 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAD_Code" id="F496FF13-6912-4FDC-FE5E-00ABE90FB942">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:04:33 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,10 +66,69 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="KeyAccountManager_SID" id="DDF0445F-8822-B45A-2F4B-990CDF8A670E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>9EBFD934-9ABB-8DD0-7639-6900799FB9A0</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjektManager_SID" id="306BB88A-CF65-ABBE-6971-140CC62E5E20">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:55:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projektleiter_SID" id="B1ACF3DC-2B06-C76D-5D00-9D9986C49F37">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>E3F7346F-2512-0AC4-F5E6-F12104C30B15</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_SID" id="901B56FE-3F3D-61BC-5523-3A3A3D6BD0C1">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:55:54 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Projekt_Bezeichnung_ENG" id="5CC894F3-DDF9-CD2C-D80F-0AED5D17FBE7">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>FA05B16D-AE0B-ABA9-C995-695097CF4664</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projekt_Bezeichnung_DE" id="11B880FF-A1C1-0B8F-4252-2E87F03188B9">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>A485CADE-38EE-B3AA-9AF2-066D51F95D5E</generatorID>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,19 +151,6 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Projekt_Bezeichnung_DE" id="11B880FF-A1C1-0B8F-4252-2E87F03188B9">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>A485CADE-38EE-B3AA-9AF2-066D51F95D5E</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Projekt_Kurzbezeichnung_DE" id="98E569EC-A2FA-FAB1-20F1-FBD7BA3041B4">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
@@ -119,6 +162,30 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjektManager_Bezeichnung" id="B427D183-239C-F04A-A6F3-E1AC11199CB4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:56:11 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KeyAccountManager_Bezeichnung" id="17820096-DF9E-BA5D-B4E0-1DF8C0F7DC80">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 12:59:46 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>330 CHAR</dataTypeSize>
+<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="SOP" id="8E9BD932-7540-44F6-3E84-3F90B6E720FB">
@@ -145,32 +212,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KeyAccountManager_Code" id="DDF0445F-8822-B45A-2F4B-990CDF8A670E">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>9EBFD934-9ABB-8DD0-7639-6900799FB9A0</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Projektleiter_Code" id="B1ACF3DC-2B06-C76D-5D00-9D9986C49F37">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>E3F7346F-2512-0AC4-F5E6-F12104C30B15</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Datapackage_ID" id="74CBAA27-A610-F4CC-C810-10F6B8386B3D">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
@@ -183,9 +224,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ProjektManager_Code" id="306BB88A-CF65-ABBE-6971-140CC62E5E20">
+<Column name="Projektkalkulator" id="F5C4D47E-5497-F49F-6235-72CE4A87C3BD">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:55:54 UTC</createdTime>
+<createdTime>2018-04-23 08:08:21 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -195,21 +236,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ProjektManager_Bezeichnung" id="B427D183-239C-F04A-A6F3-E1AC11199CB4">
+<Column name="FakturierendeGesellschaft " id="9AA9B5FD-B179-EB7C-309D-DAEC1F570904">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:56:11 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="User_Code" id="901B56FE-3F3D-61BC-5523-3A3A3D6BD0C1">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:55:54 UTC</createdTime>
+<createdTime>2018-04-23 08:08:49 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -219,16 +248,124 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KeyAccountManager_Bezeichnung" id="17820096-DF9E-BA5D-B4E0-1DF8C0F7DC80">
+<Column name="AntragstellendeGesellschaft " id="035FA2D9-0623-3B8F-7961-2E1059563717">
 <createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 12:59:46 UTC</createdTime>
+<createdTime>2018-04-23 08:09:07 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>330 CHAR</dataTypeSize>
-<ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICIBUTeile " id="538FBA55-1183-2E4F-5CBE-0E6CE7BB0622">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:09:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projektphase " id="78EE608E-CCC1-5D1E-F494-5099E93C6E03">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:10:01 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projektstatus " id="7005D5AB-F4DA-0AE5-41F0-B5ED993B8748">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:10:15 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Auftragswahrscheinlichkeit " id="A7BDFCFD-C70F-97A8-398D-B0CB54160BF0">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:10:28 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hauptwettbewerber " id="45082642-9E3E-2278-56E5-73842E6B4FD7">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:10:40 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GrundFuerAuftragsverlust " id="82BCE49B-FB73-0726-9153-3017D2C30D39">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:10:59 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Werk_1 " id="D13641A4-0A5E-8234-4CA0-C02380E1B9E2">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:11:47 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Werk_2" id="BAAB7991-28CF-F1FA-16FD-48CF5FE5DF1D">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:11:53 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Werk_3" id="D5FF23BD-BBB3-948E-40DC-2261888B64F1">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-04-23 08:12:01 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ValidFrom" id="73F2EE63-4C36-DF3E-5C66-0F5190659875">
@@ -236,7 +373,9 @@
 <createdTime>2018-03-30 18:11:21 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -245,7 +384,9 @@
 <createdTime>2018-03-30 18:11:21 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -254,7 +395,9 @@
 <createdTime>2018-03-30 18:11:21 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

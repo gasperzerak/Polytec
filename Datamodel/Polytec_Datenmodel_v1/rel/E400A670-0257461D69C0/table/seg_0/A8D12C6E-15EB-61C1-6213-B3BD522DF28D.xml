@@ -43,7 +43,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konzern_Endkunde_Code " id="26EA9F38-FD2F-B4A7-5F31-1E2FC3446042">
+<Column name="KonzernEndkunde_Code " id="26EA9F38-FD2F-B4A7-5F31-1E2FC3446042">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-20 13:49:10 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -80,7 +80,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Carstyling_Hierarchie_Code " id="F8526330-9937-94F5-087C-2B49AC197F25">
+<Column name="CarstylingHierarchie_Code " id="F8526330-9937-94F5-087C-2B49AC197F25">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-20 13:50:25 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -92,7 +92,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Plastics_Hierarchie_Code " id="C48063C5-65AF-EBEC-E462-1500F72BF045">
+<Column name="PlasticsHierarchie_Code " id="C48063C5-65AF-EBEC-E462-1500F72BF045">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-20 13:50:44 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -104,7 +104,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Composites_Hierarchie_Code " id="BD54C810-0731-B5B9-9033-C62602FEA087">
+<Column name="CompositesHierarchie_Code " id="BD54C810-0731-B5B9-9033-C62602FEA087">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-20 13:50:59 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -116,7 +116,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Sektor_Code" id="60F56542-9C7A-0516-0E6F-9A6CA91458F0">
+<Column name="SektorCode" id="60F56542-9C7A-0516-0E6F-9A6CA91458F0">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 13:10:26 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -159,7 +159,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -170,7 +170,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -179,7 +179,9 @@
 <createdTime>2018-03-30 17:57:51 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -187,6 +189,7 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:13:26 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -228,7 +231,9 @@
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:28:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
