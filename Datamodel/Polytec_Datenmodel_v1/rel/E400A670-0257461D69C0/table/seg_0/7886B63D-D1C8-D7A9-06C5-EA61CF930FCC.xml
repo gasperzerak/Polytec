@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kundenrolle_SID" id="483114FB-B5BB-577A-DE9F-9FE00207B1E7">
+<createdBy>dstuessi</createdBy>
+<createdTime>2018-05-02 11:57:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Load_ID" id="879B5ECF-3382-B84D-08B9-DEE6BE3EEC20">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-20 13:31:51 UTC</createdTime>

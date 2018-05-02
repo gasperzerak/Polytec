@@ -83,7 +83,7 @@
 <ownDataTypeParameters>,18,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PSPElementERP_PSPElement_SID" id="4A183F3B-B611-7063-433D-0EB9FE9BEC41">
+<Column name="PSPElement_SID" id="4A183F3B-B611-7063-433D-0EB9FE9BEC41">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>A6396A15-D81F-EF7B-8A0B-F905C301F25F</generatorID>
@@ -98,7 +98,7 @@
 <colAssociation fkAssociation="786E90AA-39CF-9957-8082-DBCAFBEE1B0D" referredColumn="7E20E6EB-9D0D-2AED-F74E-F4BD29FD14CD"/>
 </associations>
 </Column>
-<Column name="MaterialERP_MaterialERP_SID" id="E1F10A33-34F7-7A54-5982-D5CF39BF62FD">
+<Column name="MaterialERP_SID" id="E1F10A33-34F7-7A54-5982-D5CF39BF62FD">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>F4F71B17-C98E-0ACD-9C51-332ED010B8BB</generatorID>
@@ -113,7 +113,7 @@
 <colAssociation fkAssociation="8FA28BB7-F6FC-4967-23B7-0974C993DCA2" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
 </associations>
 </Column>
-<Column name="KonzernKunde_KonzernKunde_SID" id="5807BEE5-5DC7-B266-F9E8-140E808DD58C">
+<Column name="KonzernKunde_SID" id="5807BEE5-5DC7-B266-F9E8-140E808DD58C">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 13:36:18 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
@@ -127,7 +127,7 @@
 <colAssociation fkAssociation="D498C692-D75C-0749-659E-D33D858D05F1" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
 </associations>
 </Column>
-<Column name="Werk_Werk_SID" id="5E3220AE-320C-DD97-CD5A-E68E5CB23016">
+<Column name="Werk_SID" id="5E3220AE-320C-DD97-CD5A-E68E5CB23016">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-31 00:57:41 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>

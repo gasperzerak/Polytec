@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="ACDC6EE9-D6CF-C445-1928-751066B7350B" name="Relational_Polytec" visible="false"/>
+   <object objectType="main_view" objectID="ACDC6EE9-D6CF-C445-1928-751066B7350B" name="Relational_Polytec" visible="true"/>
    <object objectType="sub_view" objectID="0A374DF0-2253-0B2F-2DFF-2BF1FD19D672" name="From_LM_Abrufe" visible="false"/>
    <object objectType="sub_view" objectID="BFA9DF35-E590-FB23-4160-428080573FE4" name="From_LM_FakturaMaterialElementeERP" visible="false"/>
    <object objectType="sub_view" objectID="FB2E00E1-42C1-6ECE-5658-5A87516BABCD" name="From_LM_FakturaPSPElementeERP" visible="false"/>

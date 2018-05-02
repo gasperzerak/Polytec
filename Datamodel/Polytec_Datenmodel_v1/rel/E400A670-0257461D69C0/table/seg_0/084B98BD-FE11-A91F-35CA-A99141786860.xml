@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NULL SET GENERATED_4081" id="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80">
+<Column name="KonzernKunde_SID" id="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>9502D99A-626E-423D-C53F-4B266D2B130C</generatorID>
@@ -261,14 +261,6 @@
 <indexColumnUsage>
 <colUsage columnID="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
 </indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7C50F717-995E-8AE4-CA32-D5B2354C10EC" name="KonzernKunde__IDX">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:11 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>CEA9B6D7-411D-5049-F8A4-DC839BB2AD36</relationGeneratorID>
 </ind_PK_UK>
 </indexes>
 </Table>

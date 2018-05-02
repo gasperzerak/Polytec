@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NULL SET GENERATED_5421" id="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07">
+<Column name="Waehrung_SID" id="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
 <generatorID>8ECBAD93-6715-8965-947E-8F4770DBCCD8</generatorID>

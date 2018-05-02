@@ -32,6 +32,182 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Buchungskreis_SID" id="3C8E9E80-B146-F716-264F-1CBB90B0242B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>3457CDE1-C827-D577-2346-968FFFBC45D3</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="890FE7F6-2C6F-2C1E-513A-9BE2C77C6EF8" referredColumn="BDF033E3-B521-F738-41C6-DEBE4CF754B8"/>
+</associations>
+</Column>
+<Column name="MaterialERP_SID" id="C20D954D-F16B-2054-1698-8CB58129C0EC">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>00836656-0880-D728-E8F7-D43F0C5C7719</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4EBED4D-2CC2-609F-14AB-69348A929D07" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
+</associations>
+</Column>
+<Column name="PSPElement_SID" id="57AE0BFA-27DC-A326-4EF8-FC1D3B8911C5">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>166A95E8-98AD-A6F1-8505-D37171CA283A</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAC8EA02-02BC-6BCA-C684-CCEFA892B100" referredColumn="7E20E6EB-9D0D-2AED-F74E-F4BD29FD14CD"/>
+</associations>
+</Column>
+<Column name="Waehrung_SID" id="C179B044-860A-ECC6-B223-65BD6E174FC4">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>A6DC3F04-C07A-0F95-971F-57A2421F3083</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C37DF0D8-5D8B-D982-344C-ED51289B91C6" referredColumn="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07"/>
+</associations>
+</Column>
+<Column name="Belegart_SID" id="BFA2C055-FFBE-ACAB-A0D4-D8E464448F1B">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>871A4544-DF7C-76DB-9030-9BC06382F149</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0732A5A-529C-A59D-86AD-7565D1E5C199" referredColumn="67D3890C-F695-1FDC-D11C-E5A0CF9DFA10"/>
+</associations>
+</Column>
+<Column name="Mengeneinheit_SID" id="CCEC6381-8A53-3AF3-E2E5-D13336085990">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-05 13:33:18 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5397781A-E205-D9D1-A60D-12ED38CAB83D" referredColumn="0B4C1B5F-D8BD-FE9A-1939-E17A77901A46"/>
+</associations>
+</Column>
+<Column name="KonzernKunde_SID" id="E3416828-5FED-952D-26CA-9806739A2BC9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-12 13:34:39 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75B5EC1E-A462-13EC-0110-F146A456247D" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
+</associations>
+</Column>
+<Column name="ProfitCenter_SID" id="EFD097D2-A08B-DC53-2BBC-199C1DC0125C">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:47:31 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E60EB2C5-1987-56BE-320A-9C2345E59441" referredColumn="F0F41F52-0DD4-B0FF-C494-902E6D4B5549"/>
+</associations>
+</Column>
+<Column name="Werk_SID" id="FACB9A06-C191-DA17-E519-C918A3B50FC8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 00:58:12 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D53FE63-399E-9C83-9294-CE019A19A383" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+</associations>
+</Column>
+<Column name="Sachkonto_SID" id="B39ADB99-CE55-3622-E96C-B4B397BCB130">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-03-31 01:09:48 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBDDF457-1640-2277-AD80-CE7D6E4F38AF" referredColumn="D2656B3C-FEAA-5D0A-A037-7732C6104D20"/>
+</associations>
+</Column>
+<Column name="BusinessType_SID" id="748F9879-8584-721B-4B3F-B7762B533EE3">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<comment>Booked, Potential, ...</comment>
+<generatorID>B82E7A69-D327-EA5C-601D-74BFC7BE2486</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8C390E-FF77-6AB0-7D59-A7E1C738CDE8" referredColumn="DA91EE09-0F38-EDE2-08F6-5A6643EF91F9"/>
+</associations>
+</Column>
+<Column name="Zeit_SID" id="BED1833D-20F4-151C-624C-4A6FD9F0CE2E">
+<createdBy>aschweinberger</createdBy>
+<createdTime>2018-03-01 11:30:10 UTC</createdTime>
+<generatorID>A900795C-F4A4-2247-0DB4-25EE48D656C0</generatorID>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADDD61FB-7E9A-FF11-F731-38AC23D8863F" referredColumn="B2F9CEE1-6BC8-B464-2225-95C5DA41A8B8"/>
+</associations>
+</Column>
 <Column name="Kunde_SID" id="ECEEA9D0-6255-F4B2-54AD-CB888094B9F3">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
@@ -106,40 +282,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Buchungskreis_SID" id="0682EACF-27C4-B45A-6818-345924E6861E">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>C3EE6AC3-970D-DC19-D39B-812607B44C40</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Waehrung_SID" id="78DF144D-7B86-E79A-75FB-080C39C49878">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>07FD988B-A19E-3F20-B6CF-B719E72C8216</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BusinessType_SID" id="A503DACF-0EEF-2A94-C569-BB2AC593FECE">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-12 14:12:37 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="MatierialERP_SID" id="799F107C-75BB-1CE0-3022-5ECAEC2E6077">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
@@ -151,30 +293,6 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Mengeneinheit_SID" id="2C3FBCCB-FE5E-A26A-34B5-538634BD3C2A">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>B9D3D8B1-77F4-1647-8ED6-9C53BFD07A01</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Belegart_SID" id="40DEBC46-6326-AEB7-8EC5-442C88232E41">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>9EF74C61-9983-C783-06F9-C71D0BAA4265</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Belegnummer" id="E9AFF0AD-2532-5E7E-DB0C-3D6284B0B458">
@@ -212,18 +330,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Sachkonto_Code" id="1D90C074-E6FE-BBBD-6E0A-6AC578A8B8CD">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>85D12D06-A8A2-B09B-BACA-FE0951876B04</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="UmsatzFakturiert" id="94D2C4AF-84E5-2A1F-856B-465A52F35338">
@@ -531,17 +637,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PSPElement_SID" id="7BB4B77E-6F04-C8D8-3A88-0C5AC94B5DCC">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-04-23 09:24:17 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="FakturaDatum " id="6BDF371A-FA61-41DA-FB56-457E5819CE6D">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-23 09:25:17 UTC</createdTime>
@@ -564,193 +659,6 @@
 <dataTypePrecision>18</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,18,2</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BusinessType_BusinessType_SID" id="748F9879-8584-721B-4B3F-B7762B533EE3">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<comment>Booked, Potential, ...</comment>
-<generatorID>B82E7A69-D327-EA5C-601D-74BFC7BE2486</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1C8C390E-FF77-6AB0-7D59-A7E1C738CDE8" referredColumn="DA91EE09-0F38-EDE2-08F6-5A6643EF91F9"/>
-</associations>
-</Column>
-<Column name="Zeit_Zeit_SID" id="BED1833D-20F4-151C-624C-4A6FD9F0CE2E">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>A900795C-F4A4-2247-0DB4-25EE48D656C0</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="ADDD61FB-7E9A-FF11-F731-38AC23D8863F" referredColumn="B2F9CEE1-6BC8-B464-2225-95C5DA41A8B8"/>
-</associations>
-</Column>
-<Column name="Buchungskreis_Buchungskreis_SID" id="3C8E9E80-B146-F716-264F-1CBB90B0242B">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>3457CDE1-C827-D577-2346-968FFFBC45D3</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="890FE7F6-2C6F-2C1E-513A-9BE2C77C6EF8" referredColumn="BDF033E3-B521-F738-41C6-DEBE4CF754B8"/>
-</associations>
-</Column>
-<Column name="MaterialERP_MaterialERP_SID" id="C20D954D-F16B-2054-1698-8CB58129C0EC">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>00836656-0880-D728-E8F7-D43F0C5C7719</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C4EBED4D-2CC2-609F-14AB-69348A929D07" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
-</associations>
-</Column>
-<Column name="PSPElementERP_PSPElement_SID" id="57AE0BFA-27DC-A326-4EF8-FC1D3B8911C5">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>166A95E8-98AD-A6F1-8505-D37171CA283A</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BAC8EA02-02BC-6BCA-C684-CCEFA892B100" referredColumn="7E20E6EB-9D0D-2AED-F74E-F4BD29FD14CD"/>
-</associations>
-</Column>
-<Column name="Waehrung_Waehrung_SID" id="C179B044-860A-ECC6-B223-65BD6E174FC4">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>A6DC3F04-C07A-0F95-971F-57A2421F3083</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C37DF0D8-5D8B-D982-344C-ED51289B91C6" referredColumn="BE2D4C01-DC5E-1304-561B-31CAAD7D8B07"/>
-</associations>
-</Column>
-<Column name="Belegart_Belegart_SID" id="BFA2C055-FFBE-ACAB-A0D4-D8E464448F1B">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-01 11:30:10 UTC</createdTime>
-<generatorID>871A4544-DF7C-76DB-9030-9BC06382F149</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D0732A5A-529C-A59D-86AD-7565D1E5C199" referredColumn="67D3890C-F695-1FDC-D11C-E5A0CF9DFA10"/>
-</associations>
-</Column>
-<Column name="Mengeneinheit_Mengeneinheit_SID" id="CCEC6381-8A53-3AF3-E2E5-D13336085990">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-03-05 13:33:18 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5397781A-E205-D9D1-A60D-12ED38CAB83D" referredColumn="0B4C1B5F-D8BD-FE9A-1939-E17A77901A46"/>
-</associations>
-</Column>
-<Column name="KonzernKunde_KonzernKunde_SID" id="E3416828-5FED-952D-26CA-9806739A2BC9">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-12 13:34:39 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="75B5EC1E-A462-13EC-0110-F146A456247D" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
-</associations>
-</Column>
-<Column name="ProfitCenter_ProfitCenter_SID" id="EFD097D2-A08B-DC53-2BBC-199C1DC0125C">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 00:47:31 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E60EB2C5-1987-56BE-320A-9C2345E59441" referredColumn="F0F41F52-0DD4-B0FF-C494-902E6D4B5549"/>
-</associations>
-</Column>
-<Column name="Werk_Werk_SID" id="FACB9A06-C191-DA17-E519-C918A3B50FC8">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 00:58:12 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4D53FE63-399E-9C83-9294-CE019A19A383" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
-</associations>
-</Column>
-<Column name="SachKonto_Sachkonto_SID" id="B39ADB99-CE55-3622-E96C-B4B397BCB130">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 01:09:48 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FBDDF457-1640-2277-AD80-CE7D6E4F38AF" referredColumn="D2656B3C-FEAA-5D0A-A037-7732C6104D20"/>
-</associations>
-</Column>
-<Column name="ERPWerk_Code " id="0AAC5CF3-C744-B9C7-10A4-922DD58A952B">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-04-23 09:23:08 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
