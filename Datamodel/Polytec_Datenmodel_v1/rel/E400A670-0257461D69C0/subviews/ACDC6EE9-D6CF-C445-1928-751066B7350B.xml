@@ -204,7 +204,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3F75F7C9-9788-7FA8-D0A9-84EAACD53303" otype="Table" vid="740B4B69-C4E6-17DA-5B89-BCA12EB45ED6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2123" y="41" width="203" height="237"/>
+<bounds x="2047" y="51" width="203" height="237"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="419D7631-74E5-5B80-EA91-C98D72F3C9E1" otype="Table" vid="02CC9C0F-17B4-DD91-EE0F-7D4B72D30560">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -1886,7 +1886,7 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2326" y="147"/>
+<point x="2250" y="147"/>
 <point x="2464" y="147"/>
 </points>
 </Connector>
