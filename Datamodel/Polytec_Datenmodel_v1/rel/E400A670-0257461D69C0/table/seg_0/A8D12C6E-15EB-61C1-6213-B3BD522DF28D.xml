@@ -124,54 +124,6 @@
 <ownDataTypeParameters>330 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KundenGruppe2_Code " id="AA09EC9B-5124-0445-1D60-7C12CCC442FC">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-04-20 13:50:12 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CarstylingHierarchie_Code " id="F8526330-9937-94F5-087C-2B49AC197F25">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-04-20 13:50:25 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PlasticsHierarchie_Code " id="C48063C5-65AF-EBEC-E462-1500F72BF045">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-04-20 13:50:44 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CompositesHierarchie_Code " id="BD54C810-0731-B5B9-9033-C62602FEA087">
-<createdBy>aschweinberger</createdBy>
-<createdTime>2018-04-20 13:50:59 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="SektorCode" id="60F56542-9C7A-0516-0E6F-9A6CA91458F0">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 13:10:26 UTC</createdTime>
