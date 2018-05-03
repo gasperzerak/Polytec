@@ -151,6 +151,15 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Planuebermaterial_Bezeichnung" id="364EB821-9A52-F007-16EA-BCD466A1C58A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-03 12:00:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Verkaufseinheit_Code" id="3B64425D-A9E5-AA02-254E-472763C9399F">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-03-01 11:30:10 UTC</createdTime>
