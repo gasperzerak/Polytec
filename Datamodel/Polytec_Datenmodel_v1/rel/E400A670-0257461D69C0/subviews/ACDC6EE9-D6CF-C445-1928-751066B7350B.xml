@@ -778,10 +778,6 @@
 </FontObject>
 </fonts>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9C44818A-7CBC-E8B8-57B5-8F512C1160EB" otype="Table" vid="9B9028BC-BA2B-7F04-113A-B3853223413A">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="3719" y="468" width="215" height="120"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A0997D77-A296-6C00-355A-81FC62831198" otype="Table" vid="5B66A3AE-0177-04F3-5762-7CED6F3B44F4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="2129" y="1687" width="288" height="173"/>
