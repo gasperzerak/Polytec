@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9E5097E-18EA-27A8-10B1-68410F695E5A" name="ERPWerk">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:45:34 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="C2E8497A-D3A7-4D93-4899-4B7E55EBB892">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:47:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERPWerk_SID" id="1FBBC128-3404-FABD-D52B-ACECB06F4A20">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:47:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERPWerk_Bezeichnung" id="AD5C8B44-D1DA-F092-B1F5-C92AFEC145C8">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:47:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidFrom" id="4E8B43AA-D249-1506-BB2D-B21E97BBE93B">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:48:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValidTo" id="A3A05B29-54DA-E212-09CD-8B0B4C4D90C9">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:48:07 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsCurrent" id="F966BDBE-AA72-40BA-AFD5-43E03CBBE727">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:48:08 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MasterWerk_Werk_SID" id="8400CC36-72F6-82BC-54E0-97818600A5C0">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:49:18 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2B47401-3BBD-BBB9-8296-3B004BFDD629" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D5594BB-40D8-58DA-DEA1-D8E9C81AE7F9" name="ERPWerk_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:48:33 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FBBC128-3404-FABD-D52B-ACECB06F4A20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A0246AF-C7EE-F6F2-F396-7B5249D87A5B" name="ERPWerk_MasterWerk_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:49:18 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8400CC36-72F6-82BC-54E0-97818600A5C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

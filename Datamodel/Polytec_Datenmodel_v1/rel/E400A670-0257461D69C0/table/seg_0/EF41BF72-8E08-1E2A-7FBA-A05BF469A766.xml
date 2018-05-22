@@ -83,20 +83,6 @@
 <colAssociation fkAssociation="550E0DAF-9162-9987-3F24-ED74934576CE" referredColumn="0B4C1B5F-D8BD-FE9A-1939-E17A77901A46"/>
 </associations>
 </Column>
-<Column name="Werk_SID" id="D176780A-8AF4-F076-D827-978C9821D086">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 01:45:08 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6373372E-E22A-47DE-68E1-112358B923E3" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
-</associations>
-</Column>
 <Column name="Produktionswerk " id="24A5EC99-BD86-2739-AAC0-9D1BB91CB757">
 <createdBy>aschweinberger</createdBy>
 <createdTime>2018-04-23 10:05:27 UTC</createdTime>
@@ -222,6 +208,18 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ERPWerk_ERPWerk_SID" id="29E451CB-50CA-D3D9-D96F-97870C938153">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 07:54:38 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="347B0A4F-0744-F207-FE8F-954A9DEA2426" referredColumn="1FBBC128-3404-FABD-D52B-ACECB06F4A20"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EC7AC04E-1E4F-00C6-C30E-AFA1D6BEA88B" name="KalkulationsSoftware_Verkaufseinheit_FK">
@@ -257,14 +255,14 @@
 <colUsage columnID="E7474503-EC62-FA9D-036F-762CAC199688"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="08CD0DA9-EA92-C0E2-A80A-257420E9EB8A" name="KalkulationsSoftware_Werk_FK">
+<ind_PK_UK id="D87B17FB-C731-DFE5-906E-6F26B62FBF8E" name="KalkulationsSoftware_ERPWerk_FK">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 01:45:08 UTC</createdTime>
+<createdTime>2018-05-16 07:54:38 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D176780A-8AF4-F076-D827-978C9821D086"/>
+<colUsage columnID="29E451CB-50CA-D3D9-D96F-97870C938153"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

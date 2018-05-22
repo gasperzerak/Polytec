@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58FCBFA2-D9A9-A175-EF30-2DA9668B2059" name="KundeERP">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 10:59:49 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Load_ID" id="67A2F436-0CFC-B52C-FB3F-13FA9B6B9E1A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KundeERP_SID" id="1D1C000F-C5BD-BE0E-169F-300196396245">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KundeERP_Code" id="BD4D94D5-7AD9-469A-4C1C-5118F3219996">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KundeERP_Bezeichnung" id="AD49EF8E-858F-0F0E-871A-BBDD0ABC37E4">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Land_Code" id="E1C1ADC6-B682-E1CC-3F31-185A4E92639D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Straße" id="EF9F52F4-C287-0AD8-8750-3A79E030DCD3">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLZ" id="3BA30377-AF6A-C6C8-AB77-1D99955AF126">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UID_Nr" id="8DB114B7-A184-875A-963E-8B82009F7F5D">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rolle_Code" id="4EDE9A24-4582-C8A9-CE19-BED29726040A">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datapackage_ID" id="F0B1A97C-C33A-F87D-2D1F-83F356E61FF6">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D836A8B-2FF0-B5C7-3657-45856084F71A" name="KundeERP_PK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:22:06 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1C000F-C5BD-BE0E-169F-300196396245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

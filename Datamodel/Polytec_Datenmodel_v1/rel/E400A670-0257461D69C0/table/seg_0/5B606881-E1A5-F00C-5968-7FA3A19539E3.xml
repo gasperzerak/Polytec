@@ -113,32 +113,28 @@
 <colAssociation fkAssociation="8FA28BB7-F6FC-4967-23B7-0974C993DCA2" referredColumn="463F8795-D017-125D-1A5F-0D5F078D437A"/>
 </associations>
 </Column>
-<Column name="KonzernKunde_SID" id="5807BEE5-5DC7-B266-F9E8-140E808DD58C">
+<Column name="ERPWerk_ERPWerk_SID" id="90981EA9-2FC3-3321-2F12-52017AF42FB3">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-12 13:36:18 UTC</createdTime>
+<createdTime>2018-05-16 07:51:57 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D498C692-D75C-0749-659E-D33D858D05F1" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
+<colAssociation fkAssociation="CF6BEB24-D409-F7CC-438A-D449AD2FC569" referredColumn="1FBBC128-3404-FABD-D52B-ACECB06F4A20"/>
 </associations>
 </Column>
-<Column name="Werk_SID" id="5E3220AE-320C-DD97-CD5A-E68E5CB23016">
+<Column name="KundeERP_KundeERP_SID" id="BAECF817-8CC8-FB48-1379-48AB9FB5DC37">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 00:57:41 UTC</createdTime>
+<createdTime>2018-05-16 11:28:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6E52C2EF-3B38-8D3E-7EC3-0170899222CD" referredColumn="34FB9643-814B-0B0C-7167-A88DF02A9388"/>
+<colAssociation fkAssociation="8A2524CD-C856-E1B8-F0BB-3E8C498D74D3" referredColumn="1D1C000F-C5BD-BE0E-169F-300196396245"/>
 </associations>
 </Column>
 </columns>
@@ -165,25 +161,24 @@
 <colUsage columnID="E1F10A33-34F7-7A54-5982-D5CF39BF62FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="307D7ABF-AC7F-A01F-AF72-02069FC39AF3" name="ICPlanung_KonzernKunde_FK">
+<ind_PK_UK id="E13587E0-9697-8DB8-8E55-46A36DE8DCF2" name="ICPlanung_ERPWerk_FK">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-12 13:36:18 UTC</createdTime>
-<generatorID>53FD4407-22BF-1B83-C8E9-F011EFC8E480</generatorID>
+<createdTime>2018-05-16 07:51:57 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5807BEE5-5DC7-B266-F9E8-140E808DD58C"/>
+<colUsage columnID="90981EA9-2FC3-3321-2F12-52017AF42FB3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FF11968F-23CC-A24C-FE0F-21A1ADC94C79" name="ICPlanung_Werk_FK">
+<ind_PK_UK id="492517A1-DD27-BB4F-8E72-C4F7A11E1F75" name="ICPlanung_KundeERP_FK">
 <createdBy>gzerak</createdBy>
-<createdTime>2018-03-31 00:57:41 UTC</createdTime>
+<createdTime>2018-05-16 11:28:32 UTC</createdTime>
 <ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E3220AE-320C-DD97-CD5A-E68E5CB23016"/>
+<colUsage columnID="BAECF817-8CC8-FB48-1379-48AB9FB5DC37"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

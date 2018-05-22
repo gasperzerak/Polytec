@@ -118,16 +118,9 @@
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6E52C2EF-3B38-8D3E-7EC3-0170899222CD" otype="FKIndexAssociation" vid_source="CD66C703-670F-19BF-DEDB-C94189F4F404" vid_target="6A501F3A-4A43-212D-9432-A5CD03E73937">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
-<points>
-<point x="637" y="669"/>
-<point x="637" y="259"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="786E90AA-39CF-9957-8082-DBCAFBEE1B0D" otype="FKIndexAssociation" vid_source="00F528DF-6E97-A31F-5A32-F659BE70C47D" vid_target="6A501F3A-4A43-212D-9432-A5CD03E73937">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
 <point x="1144" y="183"/>
@@ -136,6 +129,7 @@
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8AC41FAD-CDE1-97AE-922F-624AC02B7347" otype="FKIndexAssociation" vid_source="FB5AE66E-D06D-5247-4701-5A521CD39CD7" vid_target="CD66C703-670F-19BF-DEDB-C94189F4F404">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
 <point x="775" y="765"/>
@@ -144,18 +138,11 @@
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8FA28BB7-F6FC-4967-23B7-0974C993DCA2" otype="FKIndexAssociation" vid_source="A1F2F975-9432-EBFA-4274-AFEA02C90922" vid_target="6A501F3A-4A43-212D-9432-A5CD03E73937">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
 <point x="427" y="158"/>
 <point x="591" y="158"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D498C692-D75C-0749-659E-D33D858D05F1" otype="FKIndexAssociation" vid_source="27D9740D-00D6-31AE-A776-CFDAAD1EC358" vid_target="6A501F3A-4A43-212D-9432-A5CD03E73937">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
-<points>
-<point x="777" y="305"/>
-<point x="777" y="259"/>
 </points>
 </Connector>
 </connectors>

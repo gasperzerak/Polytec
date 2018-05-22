@@ -74,20 +74,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KonzernKunde_SID" id="CE3B673C-CDAB-62DD-910F-AAB4AD803D3A">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-12 14:15:04 UTC</createdTime>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="90A71FF6-35A9-B05E-849C-2911B717A8FA" referredColumn="9EF969C2-341D-CA0C-E8CC-7CE2E55BCD80"/>
-</associations>
-</Column>
 <Column name="BusinessType_SID" id="C8F0C727-D1B1-4437-F7D0-CD0C65B41656">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 14:15:30 UTC</createdTime>
@@ -282,19 +268,20 @@
 <ownDataTypeParameters>,18,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="KundeERP_KundeERP_SID" id="41513187-FADA-94CA-D25C-9C3FF2C5F736">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:31:18 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3898CE63-DD4D-496B-D24A-64D3497EAB9C" referredColumn="1D1C000F-C5BD-BE0E-169F-300196396245"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="13F14130-F8DE-1E3A-D260-FB65FAD3A306" name="FakturaPSPElementeERP_KonzernKunde_FKv2">
-<createdBy>gzerak</createdBy>
-<createdTime>2018-03-12 14:15:04 UTC</createdTime>
-<generatorID>53FD4407-22BF-1B83-C8E9-F011EFC8E480</generatorID>
-<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CE3B673C-CDAB-62DD-910F-AAB4AD803D3A"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="0A012BE7-38A9-DB2F-6675-FC8F85F0E7E9" name="FakturaPSPElementeERP_BusinessType_FK">
 <createdBy>gzerak</createdBy>
 <createdTime>2018-03-12 14:15:30 UTC</createdTime>
@@ -390,6 +377,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="78B7F357-852B-60DB-8A27-8CE5B0FD9FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="660C06C5-5A12-B1B7-2C0B-6C22181FF576" name="FakturaPSPElementeERP_KundeERP_FK">
+<createdBy>gzerak</createdBy>
+<createdTime>2018-05-16 11:31:18 UTC</createdTime>
+<ownerDesignName>Polytec_Datenmodel_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41513187-FADA-94CA-D25C-9C3FF2C5F736"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
